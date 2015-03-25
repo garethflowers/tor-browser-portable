@@ -1,0 +1,13 @@
+mozalloc.dll
+mozglue.dll
+gkmedias.dll
+nspr4.dll
+mozjs.dll
+mozsqlite3.dll
+plds4.dll
+plc4.dll
+nssutil3.dll
+nss3.dll
+ssl3.dll
+smime3.dll
+xul.dll

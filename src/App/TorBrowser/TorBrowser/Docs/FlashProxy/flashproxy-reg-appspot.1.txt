@@ -1,0 +1,64 @@
+// This file is asciidoc source code.
+// To generate manpages, use the a2x command.
+// This one has a long name, if you don't change the
+// default length parameter it will be truncated, use:
+// a2x --no-xmllint --xsltproc-opts "--stringparam man.th.title.max.length 24" -d manpage -f manpage flashproxy-reg-appspot.1.txt
+FLASHPROXY-REG-APPSPOT(1)
+=========================
+
+NAME
+----
+flashproxy-reg-appspot - Register with a facilitator through Google App Engine.
+
+SYNOPSIS
+--------
+**flashproxy-reg-appspot** [__OPTIONS__] [__REMOTE__][:__PORT__]
+
+DESCRIPTION
+-----------
+Register with a flash proxy facilitator through a Google App Engine app.
+By default the remote address registered is ":9000" (the
+external IP address is guessed). It requires https://www.google.com/ not
+to be blocked.
+
+This program uses a trick to talk to App Engine, even though appspot.com
+may be blocked. The IP address and Server Name Indication of the request
+are for www.google.com, but the Host header inside the request is for an
+appspot.com subdomain.
+
+Requires the **flashproxy-reg-url** program.
+
+OPTIONS
+-------
+**-4**::
+    Name lookups use only IPv4.
+
+**-6**::
+    Name lookups use only IPv6.
+
+**--disable-pin**::
+    Don't check the server's public key against a list of known pins.
+    You can use this if the server's public key has changed and this
+    program hasn't been updated yet.
+
+**--facilitator-pubkey**=__FILENAME__::
+    Encrypt registrations to the given PEM-formatted public key (default built-in).
+
+**-h**, **--help**::
+    Display help message and exit.
+
+**--transport**=__TRANSPORT__::
+    Registrations include the fact that you intend to use the given __TRANSPORT__ (default "websocket").
+
+**--unsafe-logging**::
+    Don't scrub IP addresses from logs.
+
+SEE ALSO
+--------
+**http://crypto.stanford.edu/flashproxy/**
+
+**https://www.torproject.org/docs/pluggable-transports.html.en**
+
+BUGS
+----
+Please report using **https://trac.torproject.org/projects/tor**.

@@ -1,0 +1,75 @@
+// This file is asciidoc source code.
+// To generate manpages, use the a2x command.
+// This one has a long name, if you don't change the
+// default length parameter it will be truncated, use:
+// a2x --no-xmllint --xsltproc-opts "--stringparam man.th.title.max.length 23" -d manpage -f manpage flashproxy-reg-email.1.txt
+FLASHPROXY-REG-EMAIL(1)
+=======================
+
+NAME
+----
+flashproxy-reg-email - Register with a facilitator using the email method
+
+SYNOPSIS
+--------
+**flashproxy-reg-email** [__OPTIONS__] [__REMOTE__][:__PORT__]
+
+DESCRIPTION
+-----------
+Register with a flash proxy facilitator through email. Makes a STARTTLS
+connection to an SMTP server and sends mail with a client IP address to a
+designated address. By default the remote address registered is
+":9000" (the external IP address is guessed based on the SMTP server's
+response).
+
+Using an SMTP server or email address other than the defaults will not work
+unless you have made special arrangements to connect them to a facilitator.
+
+The email address is not polled continually. After running the program,
+it may take up to a minute for the registration to be recognized.
+
+This program requires the M2Crypto library for Python.
+
+OPTIONS
+-------
+**-4**::
+    Name lookups use only IPv4.
+
+**-6**::
+    Name lookups use only IPv6.
+
+**-d**, **--debug**::
+    Enable debugging output (Python smtplib messages).
+
+**--disable-pin**::
+    Don't check the server's public key against a list of known pins.
+    You can use this if the server's public key has changed and this
+    program hasn't been updated yet.
+
+**-e**, **--email**=__ADDRESS__::
+    Send mail to __ADDRESS__ (default is "flashproxyreg.a@gmail.com").
+
+**--facilitator-pubkey**=__FILENAME__::
+    Encrypt registrations to the given PEM-formatted public key (default built-in).
+
+**-h**, **--help**::
+    Display help message and exit.
+
+**-s**, **--smtp**=__HOST__[:__PORT__]::
+    Use the given SMTP server (default is "gmail-smtp-in.l.google.com:25").
+
+**--transport**=__TRANSPORT__::
+    Registrations include the fact that you intend to use the given __TRANSPORT__ (default "websocket").
+
+**--unsafe-logging**::
+    Don't scrub IP addresses from logs.
+
+SEE ALSO
+--------
+**http://crypto.stanford.edu/flashproxy/**
+
+**https://www.torproject.org/docs/pluggable-transports.html.en**
+
+BUGS
+----
+Please report using **https://trac.torproject.org/projects/tor**.

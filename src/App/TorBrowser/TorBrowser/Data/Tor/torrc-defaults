@@ -1,0 +1,25 @@
+# If non-zero, try to write to disk less frequently than we would otherwise.
+AvoidDiskWrites 1
+# Where to send logging messages.  Format is minSeverity[-maxSeverity]
+# (stderr|stdout|syslog|file FILENAME).
+Log notice stdout
+# Bind to this address to listen to connections from SOCKS-speaking
+# applications.
+SocksPort 9150
+ControlPort 9151
+CookieAuthentication 1
+## fteproxy configuration
+ClientTransportPlugin fte exec TorBrowser\Tor\PluggableTransports\fteproxy --managed
+
+## obfsproxy configuration
+ClientTransportPlugin obfs2,obfs3,scramblesuit exec TorBrowser\Tor\PluggableTransports\obfsproxy managed
+
+## flash proxy configuration
+#
+# Change the second number here (9000) to the number of a port that can
+# receive connections from the Internet (the port for which you
+# configured port forwarding).
+ClientTransportPlugin flashproxy exec TorBrowser\Tor\PluggableTransports\flashproxy-client --register :0 :9000
+
+## meek configuration
+ClientTransportPlugin meek exec TorBrowser\Tor\PluggableTransports\terminateprocess-buffer TorBrowser\Tor\PluggableTransports\meek-client-torbrowser --exit-on-stdin-eof -- TorBrowser\Tor\PluggableTransports\meek-client
