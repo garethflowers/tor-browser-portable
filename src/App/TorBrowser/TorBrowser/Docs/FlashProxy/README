@@ -1,0 +1,102 @@
+== Quick start for users
+
+You must have a version of Tor that supports pluggable transports. This
+means version 0.2.3.2-alpha or later.
+
+All the flashproxy programs and source code can be downloaded this way:
+	git clone https://git.torproject.org/flashproxy.git
+But as a user you only need these files:
+	https://gitweb.torproject.org/flashproxy.git/blob_plain/HEAD:/flashproxy-client
+	https://gitweb.torproject.org/flashproxy.git/blob_plain/HEAD:/torrc
+
+You must be able to receive TCP connections; unfortunately means that
+you cannot be behind NAT. See the section "Using a public client
+transport plugin" below to try out the system even behind NAT.
+
+Run Tor using the included torrc file:
+	$ tor -f torrc
+By default the transport plugin listens on Internet-facing TCP port
+9000. If you have to use a different port (to get through a firewall,
+for example), edit the ClientTransportPlugin line of the torrc to give a
+different port number:
+	ClientTransportPlugin flashproxy exec ./flashproxy-client --register :0 :8888
+If the flashproxy-client program is in a different directoy (after being
+installed, for example), use the full path in the ClientTransportPlugin
+line:
+	ClientTransportPlugin flashproxy exec /usr/local/bin/flashproxy-client --register
+
+You should receive a flash proxy connection within about 60 seconds. See
+"Troubleshooting" below if it doesn't work.
+
+
+== Overview
+
+This is a set of tools that make it possible to connect Tor through an
+browser-based proxy running on another computer. The flash proxy can be
+run just by opening a web page in a browser. Flash proxies are one of
+several pluggable transports for Tor.
+
+There are five main parts.
+1. The Tor client, running on someone's localhost.
+2. A client transport plugin, which is a program that waits for
+   connections from a flash proxy and connects them to the Tor client.
+3. A flash proxy, which is a JavaScript program running in someone's web
+   browser.
+4. A facilitator, which is a server that keeps a list of clients that
+   want a connection and assigns those addresses to proxies.
+5. A Tor relay running a server transport plugin capable of receiving
+   WebSocket connections.
+
+The purpose of this project is to create many ephemeral bridge IP
+addresses, with the goal of outpacing a censor's ability to block them.
+Rather than increasing the number of bridges at static addresses, we aim
+to make existing bridges reachable by a larger and changing pool of
+addresses.
+
+
+== Demonstration page
+
+This page has a description of the project; viewing it also turns your
+computer into a flash proxy as long as the page is open.
+
+http://crypto.stanford.edu/flashproxy/
+
+
+== Troubleshooting
+
+Make sure someone is viewing http://crypto.stanford.edu/flashproxy/, or
+another web page with a flash proxy badge on it.
+
+You can add the --log option to the ClientTransportPlugin command line
+in order to save debugging log messages.
+
+If tor hangs at 10% with these messages:
+	[notice] Bootstrapped 10%: Finishing handshake with directory server.
+	[notice] no known bridge descriptors running yet; stalling
+as a last resort you can try deleting the files in ~/.tor and
+/var/lib/tor, and then restarting tor.
+
+If tor apparently hangs here:
+	[notice] Bootstrapped 50%: Loading relay descriptors.
+	[notice] new bridge descriptor '...' (fresh)
+wait a few minutes. It can take a while to download relay descriptors.
+
+If you suspect that the facilitator has lost your client registration, you can
+re-register:
+	$ flashproxy-reg-email
+	$ flashproxy-reg-http
+
+
+== How to run a relay
+
+Proxies talk to a relay running the websocket pluggable transport.
+Source code and documentation for the server transport plugin are in the
+Git repository at
+https://git.torproject.org/pluggable-transports/websocket.git.
+
+
+== How to put a flash proxy badge on a web page
+
+Paste in this HTML where you want the badge to appear:
+
+<iframe src="//crypto.stanford.edu/flashproxy/embed.html" width="80" height="15" frameborder="0" scrolling="no"></iframe>

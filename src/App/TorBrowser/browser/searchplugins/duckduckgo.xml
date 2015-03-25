@@ -1,0 +1,29 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
+<ShortName>DuckDuckGo</ShortName>
+<Description>Duck Duck Go</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="16" height="16">data:image/png;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAANcNAADXDQAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAJyDsJmlk8pf6+v3s/v7+++zr/fcnIOyzJyDsgCcg7CYAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAnIOwBJyDscCcg7PZttJ7/7Pfs//////++xO7/S5GA/ycg7P8n
+IOz2JyDscCcg7AEAAAAAAAAAAAAAAAAnIOwBJyDstScg7P8nIOz/Y8p5/2fHZf9Yv0z/YcF2/1rB
+Uv8nIOz/JyDs/ycg7P8nIOy1JyDsAQAAAAAAAAAAJyDscCcg7P8nIOz/JyDs/4jQoP/p9+n/////
+/05X3v9LkYD/JyDs/ycg7P8nIOz/JyDs/ycg7HAAAAAAJyDsJicg7PYnIOz/JyDs/zUu7f/+/v//
+//////////89N+7/JyDs/yUo7f8nIOz/JyDs/ycg7P8nIOz2JyDsJicg7IAnIOz/JyDs/ycg7P9h
+XPH////////////t/P//GIr2/wfD+/8Gyfz/DKv5/yM57/8nIOz/JyDs/ycg7H8nIOyzJyDs/ycg
+7P8nIOz/jov1////////////Otz9/w3G/P8cWfH/JSvt/ycg7P8nIOz/JyDs/ycg7P8nIOyzJyDs
+5icg7P8nIOz/JyDs/7u5+f///////////27l/v8E0v3/BNL9/wTQ/f8Oofn/IT7v/ycg7P8nIOz/
+JyDs5icg7OYnIOz/JyDs/ycg7P/p6P3/uWsC////////////5fr//6Po/f8Thfb/DKv5/w6f+f8n IOz/JyDs/ycg7OYnIOyzJyDs/ycg7P8nIOz/9/b+/////////////////7lrAv/V1Pv/JyDs/ycg
+7P8nIOz/JyDs/ycg7P8nIOyzJyDsgCcg7P8nIOz/JyDs/8/N+///////////////////////iIX1
+/ycg7P8nIOz/JyDs/ycg7P8nIOz/JyDsfycg7CYnIOz2JyDs/ycg7P9FP+7/q6n4/+7u/f/n5v3/
+fXn0/yoj7P8nIOz/JyDs/ycg7P8nIOz/JyDs9icg7CYAAAAAJyDscCcg7P8nIOz/wsD6/+no/f/Y
+1/z/eHTz/ycg7P8nIOz/JyDs/ycg7P8nIOz/JyDs/ycg7HAAAAAAAAAAACcg7AEnIOy1JyDs/ycg
+7P8nIOz/JyDs/ycg7P8nIOz/JyDs/ycg7P8nIOz/JyDs/ycg7LUnIOwBAAAAAAAAAAAAAAAAJyDs
+AScg7HAnIOz2JyDs/ycg7P8nIOz/JyDs/ycg7P8nIOz/JyDs9icg7HAnIOwBAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAJyDsJicg7IAnIOyzJyDs5icg7OYnIOyzJyDsgCcg7CYAAAAAAAAAAAAAAAAA
+AAAA+B8AAPAPAADAAwAAwAMAAIABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAACAAQAAwAMAAMAD
+AADwDwAA+B8AAA==</Image>
+<Url type="text/html" method="POST" template="https://duckduckgo.com/html/">
+  <Param name="q" value="{searchTerms}"/>
+</Url>
+<SearchForm>https://duckduckgo.com/html/</SearchForm>
+</SearchPlugin>

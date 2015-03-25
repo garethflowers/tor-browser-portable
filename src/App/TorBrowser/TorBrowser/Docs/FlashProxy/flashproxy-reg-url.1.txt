@@ -1,0 +1,60 @@
+// This file is asciidoc source code.
+// To generate manpages, use the a2x command.
+// This one has a long name, if you don't change the
+// default length parameter it will be truncated, use:
+// a2x --no-xmllint --xsltproc-opts "--stringparam man.th.title.max.length 23" -d manpage -f manpage flashproxy-reg-url.1.txt
+FLASHPROXY-REG-URL(1)
+=====================
+
+NAME
+----
+flashproxy-reg-url - Register with a facilitator using an indirect URL
+
+SYNOPSIS
+--------
+**flashproxy-reg-url** [__OPTIONS__] __REMOTE__[:__PORT__]
+
+DESCRIPTION
+-----------
+Print a URL, which, when retrieved, will cause the client address
+__REMOTE__[:__PORT__] to be registered with the flash proxy facilitator. The
+default __PORT__ is 9000.
+
+OPTIONS
+-------
+**-f**, **--facilitator**=__URL__::
+    Register with the given facilitator (default "https://fp-facilitator.org/").
+
+**--facilitator-pubkey**=__FILENAME__::
+    Encrypt registrations to the given PEM-formatted public key (default built-in).
+
+**-h**, **--help**::
+    Display help message and exit.
+
+**--transport**=__TRANSPORT__::
+    Registrations include the fact that you intend to use the given __TRANSPORT__ (default "websocket").
+
+EXAMPLE
+-------
+Say you wish to register 192.0.2.1:9000. Run
+
+...................................
+./flashproxy-reg-url 192.0.2.1:9000
+...................................
+
+The program should output a long string looking something like
+
+https://fp-facilitator.org/reg/0labtDob545HeKpLZ8LqGeOi-OK7HXoQvfQzj0P2pjh1NrCKNDaPe91zo\...
+
+Copy this string and paste it into any URL fetching website or program.
+Once the URL is retrieved your address will be registered with the facilitator.
+
+SEE ALSO
+--------
+**http://crypto.stanford.edu/flashproxy/**
+
+**https://www.torproject.org/docs/pluggable-transports.html.en**
+
+BUGS
+----
+Please report using **https://trac.torproject.org/projects/tor**.

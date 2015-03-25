@@ -1,0 +1,504 @@
+Tor Browser 4.0 -- Oct 15 2014
+ * All Platforms
+   * Update Firefox to 31.2.0esr
+   * Update Torbutton to 1.7.0.1
+      * Bug 13378: Prevent addon reordering in toolbars on first-run.
+      * Bug 10751: Adapt Torbutton to ESR31's Australis UI.
+      * Bug 13138: ESR31-about:tor shows "Tor is not working"
+      * Bug 12947: Adapt session storage blocker to ESR 31.
+      * Bug 10716: Take care of drag/drop events in ESR 31.
+      * Bug 13366: Fix cert exemption dialog when disk storage is enabled.
+   * Update Tor Launcher to 0.2.7.0.1
+     * Translation updates only
+   * Udate fteproxy to 0.2.19
+   * Update NoScript to 2.6.9.1
+   * Bug 13416: Defend against new SSLv3 attack (poodle).
+   * Bug 13027: Spoof window.navigator useragent values in JS WebWorker threads
+   * Bug 13016: Hide CSS -moz-osx-font-smoothing values.
+   * Bug 13356: Meek and other symlinks missing after complete update.
+   * Bug 13025: Spoof screen orientation to landscape-primary.
+   * Bug 13346: Disable Firefox "slow to start" warnings and recordkeeping.
+   * Bug 13318: Minimize number of buttons on the browser toolbar.
+   * Bug 10715: Enable WebGL on Windows (still click-to-play via NoScript)
+   * Bug 13023: Disable the gamepad API.
+   * Bug 13021: Prompt before allowing Canvas isPointIn*() calls.
+   * Bug 12460: Several cross-compilation and gitian fixes (see child tickets)
+   * Bug 13186: Disable DOM Performance timers
+   * Bug 13028: Defense-in-depth checks for OCSP/Cert validation proxy usage
+
+
+Tor Browser 4.0-alpha-3 -- Sep 24 2014
+ * All Platforms
+   * Update Tor to 0.2.5.8-rc
+   * Update Firefox to 24.8.1esr
+   * Update meek to 0.11
+   * Update NoScript to 2.6.8.42
+   * Update Torbutton to 1.6.12.3
+     * Bug 13091: Use "Tor Browser" everywhere
+     * Bug 10804: Workaround fix for some cases of startup hang
+   * Bug 13091: Use "Tor Browser" everywhere
+   * Bug 13049: Browser update failure (self.update is undefined)
+   * Bug 13047: Updater should not send Kernel and GTK version
+   * Bug 12998: Prevent intermediate certs from being written to disk
+   * Bug 13245: Prevent non-english TBBs from upgrading to english version.
+ * Linux:
+   * Bug 9150: Make RPATH unavailable on Tor binary.
+   * Bug 13031: Add full RELRO protection.
+
+Tor Browser Bundle 3.6.6 -- Sep 24 2014
+ * All Platforms
+   * Update Tor to tor-0.2.4.24
+   * Update Firefox to 24.8.1esr
+   * Update NoScript to 2.6.8.42
+   * Update HTTPS Everywhere to 4.0.1
+   * Bug 12998: Prevent intermediate certs from being written to disk
+   * Update Torbutton to 1.6.12.3
+     * Bug 13091: Use "Tor Browser" everywhere
+     * Bug 10804: Workaround fix for some cases of startup hang
+ * Linux
+   * Bug 9150: Make RPATH unavailable on Tor binary.
+
+Tor Browser Bundle 4.0-alpha-2 -- Sep 2 2014
+ * All Platforms
+   * Update Firefox to 24.8.0esr
+   * Update NoScript to 2.6.8.39
+   * Update Tor Launcher to 0.2.7.0
+     * Bug 11405: Remove firewall prompt from wizard.
+     * Bug 12895: Mention @riseup.net as a valid bridge request email address
+     * Bug 12444: Provide feedback when “Copy Tor Log” is clicked.
+     * Bug 11199: Improve error messages if Tor exits unexpectedly
+   * Update Torbutton to 1.6.12.1
+     * Bug 12684: New strings for canvas image extraction message
+     * Bug 8940: Move RecommendedTBBVersions file to www.torproject.org
+   * Bug 12684: Improve Canvas image extraction permissions prompt
+   * Bug 7265: Only prompt for first party canvas access. Log all scripts
+               that attempt to extract canvas images to Browser console.
+   * Bug 12974: Disable NTLM and Negotiate HTTP Auth
+   * Bug 2874: Remove Components.* from content access (regression)
+   * Bug 4234: Automatic Update support (off by default)
+   * Bug 9881: Open popups in new tabs by default
+   * Meek Pluggable Transport:
+     * Bug 12766: Use TLSv1.0 in meek-http-helper to blend in with Firefox 24
+ * Windows:
+   * Bug 10065: Enable DEP, ASLR, and SSP hardening options
+ * Linux:
+   * Bug 12103: Adding RELRO hardening back to browser binaries.
+
+Tor Browser Bundle 3.6.5 -- Sep 2 2014
+ * All Platforms
+   * Update Firefox to 24.8.0esr
+   * Update NoScript to 2.6.8.39
+   * Update HTTPS Everywhere to 4.0.0
+   * Update Torbutton to 1.6.12.1
+     * Bug 12684: New strings for canvas image extraction message
+     * Bug 8940: Move RecommendedTBBVersions file to www.torproject.org
+     * Bug 9531: Workaround to avoid rare hangs during New Identity
+   * Bug 12684: Improve Canvas image extraction permissions prompt
+   * Bug 7265: Only prompt for first party canvas access. Log all scripts
+               that attempt to extract canvas images to Browser console.
+   * Bug 12974: Disable NTLM and Negotiate HTTP Auth
+   * Bug 2874: Remove Components.* from content access (regression)
+   * Bug 9881: Open popups in new tabs by default
+ * Linux:
+   * Bug 12103: Adding RELRO hardening back to browser binaries.
+
+Tor Browser Bundle 4.0-alpha-1 -- Aug 8 2014
+ * All Platforms
+   * Ticket 10935: Include the Meek Pluggable Transport (version 0.10)
+     * Two modes of Meek are provided: Meek over Google and Meek over Amazon
+   * Update Firefox to 24.7.0esr
+   * Update Tor to 0.2.5.6-alpha
+   * Update OpenSSL to 1.0.1i
+   * Update NoScript to 2.6.8.36
+     * Script permissions now apply based on URL bar
+   * Update HTTPS Everywhere to 5.0development.0
+   * Update Torbutton to 1.6.12.0
+     * Bug 12221: Remove obsolete Javascript components from the toggle era
+     * Bug 10819: Bind new third party isolation pref to Torbutton security UI
+     * Bug 9268: Fix some window resizing corner cases with DPI and taskbar size.
+     * Bug 12680: Change Torbutton URL in about dialog.
+     * Bug 11472: Adjust about:tor font and logo positioning to avoid overlap
+     * Bug 9531: Workaround to avoid rare hangs during New Identity
+   * Update Tor Launcher to 0.2.6.2
+     * Bug 11199: Improve behavior if tor exits
+     * Bug 12451: Add option to hide TBB's logo
+     * Bug 11193: Change "Tor Browser Bundle" to "Tor Browser"
+     * Bug 11471: Ensure text fits the initial configuration dialog
+     * Bug 9516: Send Tor Launcher log messages to Browser Console
+   * Bug 11641: Reorganize bundle directory structure to mimic Firefox
+   * Bug 10819: Create a preference to enable/disable third party isolation
+   * Backported Tor Patches:
+     * Bug 11200: Fix a hang during bootstrap introduced in the initial
+                  bug11200 patch.
+ * Linux:
+   * Bug 10178: Make it easier to set an alternate Tor control port and password
+   * Bug 11102: Set Window Class to "Tor Browser" to aid in Desktop navigation
+   * Bug 12249: Don't create PT debug files anymore
+
+Tor Browser Bundle 3.6.4 -- Aug 8 2014
+ * All Platforms
+   * Update Tor to 0.2.4.23
+   * Update Tor launcher to 0.2.5.6
+     * Bug 9516: Show Tor log in TorBrowser's Browser Console
+   * Update OpenSSL to 1.0.1i
+   * Backported Tor Patches:
+     * Bug 11654: Properly apply the fix for malformed bug11156 log message
+     * Bug 11200: Fix a hang during bootstrap introduced in the initial
+                  bug11200 patch.
+   * Update NoScript to 2.6.8.36
+   * Update Torbutton to 1.6.11.1
+     * Bug 11472: Adjust about:tor font and logo positioning to avoid overlap
+     * Bug 12680: Fix Torbutton about url.
+
+Tor Browser Bundle 3.6.3 -- Jul 24 2014
+ * All Platforms
+   * Update Firefox to 24.7.0esr
+   * Update obfsproxy to 0.2.12
+   * Update FTE to 0.2.17
+   * Update NoScript to 2.6.8.33
+   * Update HTTPS Everywhere to 3.5.3
+   * Bug 12673: Update FTE bridges
+   * Update Torbutton to 1.6.11.0
+     * Bug 12221: Remove obsolete Javascript components from the toggle era
+     * Bug 10819: Bind new third party isolation pref to Torbutton security UI
+     * Bug 9268: Fix some window resizing corner cases with DPI and taskbar size.
+ * Linux:
+   * Bug 11102: Set Window Class to "Tor Browser" to aid in Desktop navigation
+   * Bug 12249: Don't create PT debug files anymore
+
+Tor Browser Bundle 3.6.2 -- Jun 9 2014
+ * All Platforms
+   * Update Firefox to 24.6.0esr
+   * Update OpenSSL to 1.0.1h
+   * Update NoScript to 2.6.8.28
+   * Update Tor to 0.2.4.22
+   * Update Tor Launcher to 0.2.5.5
+     * Bug 10425: Provide geoip6 file location to Tor process
+     * Bug 11754: Remove untranslated locales that were dropped from Transifex
+     * Bug 11772: Set Proxy Type menu correctly after restart
+     * Bug 11699: Change &amp;#160 to &#160; in UI elements
+   * Update Torbutton to 1.6.10.0
+     * Bug 11510: about:tor should not report success if tor proxy is unreachable
+     * Bug 11783: Avoid b.webProgress error when double-clicking on New Identity
+     * Bug 11722: Add hidden pref to force remote Tor check
+     * Bug 11763: Fix pref dialog double-click race that caused settings to be reset
+   * Bug 11629: Support proxies with Pluggable Transports
+     * Updates FTEProxy to 0.2.15
+     * Updates obfsproxy to 0.2.9
+   * Backported Tor Patches:
+     * Bug 11654: Fix malformed log message in bug11156 patch.
+   * Bug 10425: Add in Tor's geoip6 files to the bundle distribution
+   * Bugs 11834 and 11835: Include Pluggable Transport documentation
+   * Bug 9701: Prevent ClipBoardCache from writing to disk.
+   * Bug 12146: Make the CONNECT Host header the same as the Request-URI.
+   * Bug 12212: Disable deprecated webaudio API
+   * Bug 11253: Turn on TLS 1.1 and 1.2.
+   * Bug 11817: Don't send startup time information to Mozilla.
+
+Tor Browser Bundle 3.6.1 -- May 6 2014
+ * All Platforms
+   * Update HTTPS-Everywhere to 3.5.1
+   * Update NoScript to 2.6.8.22
+   * Bug 11658: Fix proxy configuration for non-Pluggable Transports users
+   * Backport Pending Tor Patches:
+     * Bug 8402: Allow Tor proxy configuration while PTs are present
+   * Note: The Pluggable Transports themselves have not been updated to
+           support proxy configuration yet.
+
+Tor Browser Bundle 3.6 -- Apr 29 2014
+ * All Platforms
+   * Update Firefox to 24.5.0esr
+   * Update Tor Launcher to 0.2.5.4
+     * Bug #11482: Hide bridge settings prompt if no default bridges.
+     * Bug #11484: Show help button even if no default bridges.
+   * Update Torbutton to 1.6.9.0
+     * Bug 7439: Improve download warning dialog text.
+     * Bug 11384: Completely remove hidden toggle menu item.
+   * Update NoScript to 2.6.8.20
+   * Update fte transport to 0.2.13
+   * Backport Pending Tor Patches:
+     * Bug 11156: Additional obfsproxy startup error message fixes
+   * Bug 11586: Include license files for component software in Docs directory.
+ * Windows and Mac:
+   * Bug 9308: Prevent install path from leaking in some JS exceptions
+               on Mac and Windows builds
+
+Tor Browser Bundle 3.6-beta-2 -- Apr 8 2014
+ * All Platforms
+   * Update OpenSSL to 1.0.1g
+   * Bug 9010: Add Turkish language support.
+   * Bug 9387 testing: Disable JS JIT, type inference, asmjs, and ion. 
+   * Update fte transport to 0.2.12
+   * Update NoScript to 2.6.8.19
+   * Update Torbutton to 1.6.8.1
+     * Bug 11242: Fix improper "update needed" message after in-place upgrade.
+     * Bug 10398: Ease translation of about:tor page elements
+   * Update Tor Launcher to 0.2.5.3
+     * Bug 9665: Localize Tor's unreachable bridges bootstrap error
+   * Backport Pending Tor Patches:
+     * Bug 9665: Report a bootstrap error if all bridges are unreachable
+     * Bug 11200: Prevent spurious error message prior to enabling network.
+ * Linux:
+   * Bug 11190: Switch linux PT build process to python2
+   * Bug 10383: Enable NIST P224 and P256 accel support for 64bit builds.
+ * Windows:
+   * Bug 11286: Fix fte transport launch error
+
+Tor Browser Bundle 3.5.4 -- Apr 7 2014
+ * All Platforms
+   * Update OpenSSL to 1.0.1g
+
+Tor Browser Bundle 3.5.3 -- Mar 19 2014
+ * All Platforms
+   * Update Firefox to 24.4.0esr
+   * Update Torbutton to 1.6.7.0:
+     * Bug 9901: Fix browser freeze due to content type sniffing
+     * Bug 10611: Add Swedish (sv) to extra locales to update
+   * Update NoScript to 2.6.8.17
+   * Update Tor to 0.2.4.21
+   * Bug 10237: Disable the media cache to prevent disk leaks for videos
+   * Bug 10703: Force the default charset to avoid locale fingerprinting
+   * Bug 10104: Update gitian to fix LXC build issues (for non-KVM/VT builders)
+ * Linux:
+   * Bug 9353: Fix keyboard input on Ubuntu 13.10
+   * Bug 9896: Provide debug symbols for Tor Browser binary
+   * Bug 10472: Pass arguments to the browser from Linux startup script
+
+Tor Browser Bundle 3.6-beta-1 -- Mar 17 2014
+ * All Platforms
+   * Update Firefox to 24.4.0esr
+   * Include Pluggable Transports by default:
+     * Obfsproxy3 0.2.4, Flashproxy 1.6, and FTE 0.2.6 are now included
+   * Update Tor Launcher to 0.2.5.1
+     * Bug 10418: Provide UI configuration for Pluggable Transports
+     * Bug 10604: Allow Tor status & error messages to be translated
+     * Bug 10894: Make bridge UI clear that helpdesk is a last resort for
+                  bridges
+     * Bug 10610: Clarify wizard UI text describing obstacles/blocking
+     * Bug 11074: Support Tails use case (XULRunner and optional
+                  customizations)
+   * Update Torbutton to 1.6.7.0:
+     * Bug 9901: Fix browser freeze due to content type sniffing
+     * Bug 10611: Add Swedish (sv) to extra locales to update
+   * Update NoScript to 2.6.8.17
+   * Update Tor to 0.2.4.21
+   * Backport Pending Tor Patches:
+     * Bug 5018: Don't launch Pluggable Transport helpers if not in use
+     * Bug 9229: Eliminate 60 second stall during bootstrap with some PTs
+     * Bug 11069: Detect and report Pluggable Transport bootstrap failures
+     * Bug 11156: Prevent spurious warning about missing pluggable transports 
+   * Bug 10237: Disable the media cache to prevent disk leaks for videos
+   * Bug 10703: Force the default charset to avoid locale fingerprinting
+   * Bug 10104: Update gitian to fix LXC build issues (for non-KVM/VT builders)
+ * Mac:
+   * Bug 4261: Use DMG instead of ZIP for Mac packages
+ * Linux:
+   * Bug 9353: Fix keyboard input on Ubuntu 13.10
+   * Bug 9896: Provide debug symbols for Tor Browser binary
+   * Bug 10472: Pass arguments to the browser from Linux startup script
+
+Tor Browser Bundle 3.5.2.1 -- Feb 14 2014
+ * All Platforms
+   * Bug 10895: Fix broken localized bundles
+ * Windows:
+   * Bug 10323: Remove unneeded gcc/libstdc++ libraries from dist
+
+Tor Browser Bundle 3.5.2 -- Feb 8 2014
+ * All Platforms
+   * Rebase Tor Browser to Firefox 24.3.0ESR
+   * Bug 10419: Block content window connections to localhost
+   * Update Torbutton to 1.6.6.0
+     * Bug 10800: Prevent findbox exception and popup in New Identity
+     * Bug 10640: Fix about:tor's update pointer position for RTL languages.
+     * Bug 10095: Fix some cases where resolution is not a multiple of 200x100
+     * Bug 10374: Clear site permissions on New Identity
+     * Bug 9738: Fix for auto-maximizing on browser start
+     * Bug 10682: Workaround to really disable updates for Torbutton
+     * Bug 10419: Don't allow connections to localhost if Torbutton is toggled
+     * Bug 10140: Move Japanese to extra locales (not part of TBB dist)
+     * Bug 10687: Add Basque (eu) to extra locales (not part of TBB dist)
+   * Update Tor Launcher to 0.2.4.4
+     * Bug 10682: Workaround to really disable updates for Tor Launcher
+   * Update NoScript to 2.6.8.13
+
+Tor Browser Bundle 3.5.1 -- Jan 22 2014
+ * All Platforms
+   * Bug 10447: Remove SocksListenAddress to allow multiple socks ports.
+   * Bug 10464: Remove addons.mozilla.org from NoScript whitelist
+   * Bug 10537: Build an Arabic version of TBB 3.5
+   * Update Torbutton to 1.6.5.5
+     * Bug 9486: Clear NoScript Temporary Permissions on New Identity
+     * Include Arabic translations
+   * Update Tor Launcher to 0.2.4.3
+     * Include Arabic translations
+   * Update Tor to 0.2.4.20
+   * Update OpenSSL to 1.0.1f
+   * Update NoScript to 2.6.8.12
+   * Update HTTPS-Everywhere to 3.4.5
+ * Windows
+   * Bug 9259: Enable Accessibility (screen reader) support
+ * Mac
+   * misc: Update bundle version field in Info.plist (for MacUpdates service)
+
+Tor Browser Bundle 3.5 -- Dec 17 2013
+ * All Platforms
+   * Update Tor to 0.2.4.19
+   * Update Tor Launcher to 0.2.4.2
+     * Bug 10382: Fix a Tor Launcher hang on TBB exit
+   * Update Torbutton to 1.6.5.2
+     * Misc: Switch update download URL back to download-easy
+
+Tor Browser Bundle 3.5rc1 -- Dec 12 2013
+ * All Platforms
+   * Update Firefox to 24.2.0esr
+   * Update NoScript to 2.6.8.7
+   * Update HTTPS-Everywhere to 3.4.4tbb (special TBB tag)
+     * Tag includes a patch to handle enabling/disabling Mixed Content Blocking
+   * Bug 5060: Disable health report service
+   * Bug 10367: Disable prompting about health report and Mozilla Sync
+   * Misc Prefs: Disable HTTPS-Everywhere first-run tooltips
+   * Misc Prefs: Disable layer acceleration to avoid crashes on Windows
+   * Misc Prefs: Disable Mixed Content Blocker pending backport of Mozilla Bug 878890
+   * Update Tor Launcher to 0.2.4.1
+     * Bug 10147: Adblock Plus interferes w/Tor Launcher dialog
+     * Bug 10201: FF ESR 24 hangs during exit on Mac OS
+     * Bug 9984: Support running Tor Launcher from InstantBird
+     * Misc: Support browser directory location API changes in Firefox 24
+   * Update Torbutton to 1.6.5.1
+     * Bug 10352: Clear FF24 Private Browsing Mode data during New Identity
+     * Bug 8167: Update cache isolation for FF24 API changes
+     * Bug 10201: FF ESR 24 hangs during exit on Mac OS
+     * Bug 10078: Properly clear crypto tokens during New Identity on FF24
+     * Bug 9454: Support changes to Private Browsing Mode and plugin APIs in FF24
+ * Linux
+   * Bug 10213; Use LD_LIBRARY_PATH (fixes launch issues on old Linux distros)
+
+Tor Browser Bundle 3.0rc1 -- Nov 21 2013
+ * All Platforms:
+   * Update Firefox to 17.0.11esr
+   * Update Tor to 0.2.4.18-rc
+   * Remove unsupported PDF.JS addon from the bundle 
+   * Bug #7277: TBB's Tor client will now omit its timestamp in the TLS handshake.
+   * Update Torbutton to 1.6.4.1
+     * Bug #10002: Make the TBB3.0 blog tag our update download URL for now
+ * Windows
+   * Bug #10102: Patch binutils to remove nondeterministic bytes in compiled binaries
+ * Linux
+   * Bug #10049: Fix architecture check to work from outside TBB's directory
+   * Bug #10126: Remove libz and firefox-bin, and strip unstripped binaries
+   * Misc: Disable Firefox updater during compile time (in addition to pref)
+
+Tor Browser Bundle 3.0beta1 -- Oct 31 2013
+ * All Platforms:
+   * Update Firefox to 17.0.10esr
+   * Update NoScript to 2.6.8.2
+   * Update HTTPS-Everywhere to 3.4.2
+   * Bug #9114: Reorganize the bundle directory structure to ease future
+                autoupdates
+   * Bug #9173: Patch Tor Browser to auto-detect profile directory if
+                launched without the wrapper script.
+   * Bug #9012: Hide Tor Browser infobar for missing plugins.
+   * Bug #8364: Change the default entry page for the addons tab to the 
+                installed addons page.
+   * Bug #9867: Make flash objects really be click-to-play if flash is enabled.
+   * Bug #8292: Make getFirstPartyURI log+handle errors internally to simplify
+                caller usage of the API
+   * Bug #3661: Remove polipo and privoxy from the banned ports list.
+   * misc: Fix a potential memory leak in the Image Cache isolation
+   * misc: Fix a potential crash if OS theme information is ever absent
+   * Update Tor-Launcher to 0.2.3.1-beta
+     * Bug #9114: Handle new directory structure
+     * misc: Tor Launcher now supports Thunderbird
+   * Update Torbutton to 1.6.4
+     * Bug #9224: Support multiple Tor socks ports for about:tor status check
+     * Bug #9587: Add TBB version number to about:tor
+     * Bug #9144: Workaround to handle missing translation properties
+ * Windows:
+   * Bug #9084: Fix startup crash on Windows XP.
+ * Linux:
+   * Bug #9487: Create detached debuginfo files for Linux Tor and Tor
+                Browser binaries.
+
+Tor Browser Bundle 3.0alpha4 -- Sep 24 2013
+ * All Platforms:
+   * Bug #8751: Randomize TLS HELLO timestamp in HTTPS connections
+   * Bug #9790 (workaround): Temporarily re-enable JS-Ctypes for cache
+                             isolation and SSL Observatory
+   * Update Firefox to 17.0.9esr
+   * Update Tor to 0.2.4.17-rc
+   * Update NoScript to 2.6.7.1
+   * Update Tor-Launcher to 0.2.2-alpha
+     * Bug #9675: Provide feedback mechanism for clock-skew and other early 
+                  startup issues
+     * Bug #9445: Allow user to enter bridges with or without 'bridge' keyword
+     * Bug #9593: Use UTF16 for Tor process launch to handle unicode paths.
+     * misc: Detect when Tor exits and display appropriate notification
+   * Update Torbutton to 1.6.2.1
+     * Bug 9492: Fix Torbutton logo on OSX and Windows (and related
+                 initialization code)
+     * Bug 8839: Disable Google/Startpage search filters using Tor-specific urls
+
+
+Tor Browser Bundle 3.0alpha3 -- Aug 01 2013
+ * All Platforms:
+   * Update Firefox to 17.0.8esr
+   * Update Tor to 0.2.4.15-rc
+   * Update HTTPS-Everywhere to 3.3.1
+   * Update NoScript to 2.6.6.9
+   * Improve build input fetching and authentication
+   * Bug #9283: Update NoScript prefs for usability.
+   * Bug #6152 (partial): Disable JSCtypes support at compile time
+   * Update Torbutton to 1.6.1
+     * Bug 8478: Change when window resize code fires to avoid rounding errors
+     * Bug 9331: Hack an update URL for the next TBB release
+     * Bug 9144: Change an aboutTor.dtd string so transifex will accept it
+   * Update Tor-Launcher to 0.2.1-alpha
+     * Bug #9128: Remove dependency on JSCtypes
+ * Windows
+   * Bug #9195: Disable download manager AV scanning (to prevent cloud
+     reporting+scanning of downloaded files)
+ * Mac:
+   * Bug #9173 (partial): Launch firefox-bin on MacOS instead of TorBrowser.app
+     (improves dock behavior).
+
+
+Tor Browser Bundle 3.0alpha2 -- June 27 2013
+ * All Platforms:
+   * Update Firefox to 17.0.7esr
+   * Update Tor to 0.2.4.14-alpha
+   * Include Tor's GeoIP file
+     * This should fix custom torrc issues with country-based node
+       restrictions
+   * Fix several build determinism issues
+   * Include ChangeLog in bundles.
+ * Linux:
+   * Use Ubuntu's 'hardening-wrapper' to build our Linux binaries
+ * Windows:
+   * Fix many crash issues by disabling Direct2D support for now.
+ * Mac:
+   * Bug 8987: Disable TBB's 'Saved Application State' disk records on OSX 10.7+
+
+Tor Browser Bundle 3.0alpha1 -- June 17 2013
+ * All Platforms:
+   * Remove Vidalia; Use the new Tor Launcher Firefox Addon instead
+   * Update Torbutton to 1.6.0
+     * bug 7494: Create a local home page for TBB as about:tor
+     * misc: Perform a control port test of proper Tor configuration by default.
+             Only use https://check.torproject.org if the control port is
+             unavailable.
+     * misc: Add an icon menu option for Tor Launcher's Network Settings
+     * misc: Add branding string overrides (primarily controls browser name and
+             homepage)
+   * Update HTTPS-Everywhere to 3.2.2
+   * Update NoScript to 2.6.6.6
+   * Update PDF.JS to 0.8.1
+ * Windows:
+   * Use MinGW-w64 (via Gitian) to cross-compile the bundles from Ubuntu
+   * Use TBB-Windows-Installer to guide Windows users through TBB extraction
+   * Temporarily disable WebGL and Accessibility support due to minor MinGW
+     issues
+ * Mac:
+   * Use 'Toolchain4' fork by Ray Donnelley to cross-compile the bundles from
+     Ubuntu
+
+

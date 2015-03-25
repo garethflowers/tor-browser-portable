@@ -1,0 +1,50 @@
+// This file is asciidoc source code.
+// To generate manpages, use the a2x command.
+// This one has a long name, if you don't change the 
+// default length parameter it will be truncated, use:
+// a2x --no-xmllint --xsltproc-opts "--stringparam man.th.title.max.length 22" -d manpage -f manpage flashproxy-reg-http.1.txt
+FLASHPROXY-REG-HTTP(1)
+======================
+
+NAME
+----
+flashproxy-reg-http - Register with a facilitator using the HTTP method
+
+SYNOPSIS
+--------
+**flashproxy-reg-http** [__OPTIONS__] [__REMOTE__][:__PORT__]
+
+DESCRIPTION
+-----------
+Register with a flash proxy facilitator using an HTTP POST. By default the
+remote address registered is ":9000".
+
+OPTIONS
+-------
+**-4**::
+    Name lookups use only IPv4.
+
+**-6**::
+    Name lookups use only IPv6.
+
+**-f**, **--facilitator**=__URL__::
+    Register with the given facilitator (default "https://fp-facilitator.org/").
+
+**-h**, **--help**::
+    Display help message and exit.
+
+**--transport**=__TRANSPORT__::
+    Registrations include the fact that you intend to use the given __TRANSPORT__ (default "websocket").
+
+**--unsafe-logging**::
+    Don't scrub IP addresses from logs.
+
+SEE ALSO
+--------
+**http://crypto.stanford.edu/flashproxy/**
+
+**https://www.torproject.org/docs/pluggable-transports.html.en**
+
+BUGS
+----
+Please report using **https://trac.torproject.org/projects/tor**.
