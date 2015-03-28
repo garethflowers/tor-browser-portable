@@ -1,3 +1,20 @@
+Tor Browser 4.0.2 -- Dec 2 2014
+ * All Platforms
+   * Update Firefox to 31.3.0esr
+   * Update NoScript to 2.6.9.5
+   * Update HTTPS Everywhere to 4.0.2
+   * Update Torbutton to 1.7.0.2
+     * Bug 13019: Synchronize locale spoofing pref with our Firefox patch
+     * Bug 13746: Properly link Torbutton UI to thirdparty pref.
+   * Bug 13742: Fix domain isolation for content cache and disk-enabled browsing mode
+   * Bug 5926: Prevent JS engine locale leaks (by setting the C library locale)
+   * Bug 13504: Remove unreliable/unreachable non-public bridges
+   * Bug 13435: Remove our custom POODLE fix
+ * Windows
+   * Bug 13443: Re-enable DirectShow; fix crash with mingw patch.
+   * Bug 13558: Fix crash on Windows XP during download folder changing
+   * Bug 13594: Fix update failure for Windows XP users
+
 Tor Browser 4.0.1 -- Oct 30 2014
  * All Platforms
    * Update Tor to 0.2.5.10

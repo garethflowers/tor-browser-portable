@@ -7,8 +7,9 @@ NOTE=4;
 WARN=5;
 
 // PREFERENCE BRANCHES
-PREFBRANCH_ROOT=0;
-PREFBRANCH_RULE_TOGGLE=1;
+let PREFBRANCH_ROOT=0;
+let PREFBRANCH_RULE_TOGGLE=1;
+let PREFBRANCH_NONE=2;
 
 //---------------
 
@@ -191,8 +192,14 @@ function HTTPSEverywhere() {
   this.prefs = this.get_prefs();
   this.rule_toggle_prefs = this.get_prefs(PREFBRANCH_RULE_TOGGLE);
 
+  this.httpNowhereEnabled = this.prefs.getBoolPref("http_nowhere.enabled");
   this.isMobile = this.doMobileCheck();
 
+  // Disable SSLv3 to prevent POODLE attack.
+  // https://www.imperialviolet.org/2014/10/14/poodle.html
+  var root_prefs = this.get_prefs(PREFBRANCH_NONE);
+  root_prefs.setIntPref("security.tls.version.min", 1);
+  
   // We need to use observers instead of categories for FF3.0 for these:
   // https://developer.mozilla.org/en/Observer_Notifications
   // https://developer.mozilla.org/en/nsIObserverService.
@@ -456,7 +463,7 @@ HTTPSEverywhere.prototype = {
         else        this.log(NOTE,"Failed to indicate breakage in content menu");
         return;
       }
-      HTTPS.replaceChannel(lst, channel);
+      HTTPS.replaceChannel(lst, channel, this.httpNowhereEnabled);
     } else if (topic == "http-on-examine-response") {
          this.log(DBUG, "Got http-on-examine-response @ "+ (channel.URI ? channel.URI.spec : '') );
          HTTPS.handleSecureCookies(channel);
@@ -624,7 +631,7 @@ HTTPSEverywhere.prototype = {
       return;
     }
     var alist = this.juggleApplicableListsDuringRedirection(oldChannel, newChannel);
-    HTTPS.replaceChannel(alist,newChannel);
+    HTTPS.replaceChannel(alist,newChannel, this.httpNowhereEnabled);
   },
 
   juggleApplicableListsDuringRedirection: function(oldChannel, newChannel) {
@@ -659,8 +666,10 @@ HTTPSEverywhere.prototype = {
     // get our preferences branch object
     // FIXME: Ugly hack stolen from https
     var branch_name;
-    if(prefBranch == PREFBRANCH_RULE_TOGGLE)
+    if(prefBranch === PREFBRANCH_RULE_TOGGLE)
       branch_name = "extensions.https_everywhere.rule_toggle.";
+    else if (prefBranch === PREFBRANCH_NONE)
+      branch_name = "";
     else
       branch_name = "extensions.https_everywhere.";
     var o_prefs = false;
@@ -783,6 +792,40 @@ HTTPSEverywhere.prototype = {
         catch(e){
             this.log(WARN, "Couldn't add observers: " + e);         
         }
+    }
+  },
+
+  toggleHttpNowhere: function() {
+    let prefService = Services.prefs;
+    let thisBranch =
+      prefService.getBranch("extensions.https_everywhere.http_nowhere.");
+    let securityBranch = prefService.getBranch("security.");
+
+    // Whether cert is treated as invalid when OCSP connection fails
+    let OCSP_REQUIRED = "OCSP.require";
+
+    // Branch to save original settings
+    let ORIG_OCSP_REQUIRED = "orig.ocsp.required";
+
+
+    if (thisBranch.getBoolPref("enabled")) {
+      // Restore original OCSP settings. TODO: What if user manually edits
+      // these while HTTP Nowhere is enabled?
+      let origOcspRequired = thisBranch.getBoolPref(ORIG_OCSP_REQUIRED);
+      securityBranch.setBoolPref(OCSP_REQUIRED, origOcspRequired);
+
+      thisBranch.setBoolPref("enabled", false);
+      this.httpNowhereEnabled = false;
+    } else {
+      // Save original OCSP settings in HTTP Nowhere preferences branch.
+      let origOcspRequired = securityBranch.getBoolPref(OCSP_REQUIRED);
+      thisBranch.setBoolPref(ORIG_OCSP_REQUIRED, origOcspRequired);
+
+      // Disable OCSP enforcement
+      securityBranch.setBoolPref(OCSP_REQUIRED, false);
+
+      thisBranch.setBoolPref("enabled", true);
+      this.httpNowhereEnabled = true;
     }
   }
 };
