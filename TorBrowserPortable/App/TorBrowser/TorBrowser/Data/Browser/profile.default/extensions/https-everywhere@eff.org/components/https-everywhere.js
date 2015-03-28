@@ -125,17 +125,6 @@ var ABE = {
   }
 };
 
-function xpcom_generateQI(iids) {
-  var checks = [];
-  for each (var iid in iids) {
-    checks.push("CI." + iid.name + ".equals(iid)");
-  }
-  var src = checks.length
-    ? "if (" + checks.join(" || ") + ") return this;\n"
-    : "";
-  return new Function("iid", src + "throw Components.results.NS_ERROR_NO_INTERFACE;");
-}
-
 function xpcom_checkInterfaces(iid,iids,ex) {
   for (var j = iids.length; j-- >0;) {
     if (iid.equals(iids[j])) return true;
@@ -195,11 +184,6 @@ function HTTPSEverywhere() {
   this.httpNowhereEnabled = this.prefs.getBoolPref("http_nowhere.enabled");
   this.isMobile = this.doMobileCheck();
 
-  // Disable SSLv3 to prevent POODLE attack.
-  // https://www.imperialviolet.org/2014/10/14/poodle.html
-  var root_prefs = this.get_prefs(PREFBRANCH_NONE);
-  root_prefs.setIntPref("security.tls.version.min", 1);
-  
   // We need to use observers instead of categories for FF3.0 for these:
   // https://developer.mozilla.org/en/Observer_Notifications
   // https://developer.mozilla.org/en/nsIObserverService.
