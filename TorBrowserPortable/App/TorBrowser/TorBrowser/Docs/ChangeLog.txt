@@ -1,3 +1,13 @@
+Tor Browser 4.0.1 -- Oct 30 2014
+ * All Platforms
+   * Update Tor to 0.2.5.10
+   * Update NoScript to 2.6.9.3
+   * Bug 13301: Prevent extensions incompatibility error after upgrades
+   * Bug 13460: Fix MSVC compilation issue
+ * Windows
+   * Bug 13443: Disable DirectShow to prevent crashes on many sites
+   * Bug 13091: Make app name "Tor Browser" instead of "Tor"
+
 Tor Browser 4.0 -- Oct 15 2014
  * All Platforms
    * Update Firefox to 31.2.0esr
@@ -25,7 +35,6 @@ Tor Browser 4.0 -- Oct 15 2014
    * Bug 12460: Several cross-compilation and gitian fixes (see child tickets)
    * Bug 13186: Disable DOM Performance timers
    * Bug 13028: Defense-in-depth checks for OCSP/Cert validation proxy usage
-
 
 Tor Browser 4.0-alpha-3 -- Sep 24 2014
  * All Platforms
