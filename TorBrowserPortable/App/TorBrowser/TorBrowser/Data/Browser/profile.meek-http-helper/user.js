@@ -6,8 +6,8 @@ user_pref("browser.dom.window.dump.enabled", true);
 
 // Enable TLS session tickets (disabled by default in Tor Browser). Otherwise
 // there is a missing TLS extension.
-// https://trac.torproject.org/projects/tor/ticket/11183#comment:9
-user_pref("security.enable_tls_session_tickets", true);
+// https://trac.torproject.org/projects/tor/ticket/13442#comment:1
+user_pref("security.ssl.disable_session_identifiers", false);
 
 // Disable safe mode. In case of a crash, we don't want to prompt for a
 // safe-mode browser that has extensions disabled and no proxy.

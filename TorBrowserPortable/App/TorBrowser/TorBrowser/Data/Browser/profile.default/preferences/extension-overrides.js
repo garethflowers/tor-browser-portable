@@ -66,10 +66,8 @@ pref("extensions.torlauncher.default_bridge_recommended_type", "obfs3");
 pref("extensions.torlauncher.default_bridge.obfs3.1", "obfs3 83.212.101.3:80 A09D536DD1752D542E1FBB3C9CE4449D51298239");
 pref("extensions.torlauncher.default_bridge.obfs3.2", "obfs3 169.229.59.74:31493 AF9F66B7B04F8FF6F32D455F05135250A16543C9");
 pref("extensions.torlauncher.default_bridge.obfs3.3", "obfs3 169.229.59.75:46328 AF9F66B7B04F8FF6F32D455F05135250A16543C9");
-pref("extensions.torlauncher.default_bridge.obfs3.4", "obfs3 209.141.36.236:45496 58D91C3A631F910F32E18A55441D5A0463BA66E2");
-pref("extensions.torlauncher.default_bridge.obfs3.5", "obfs3 208.79.90.242:35658 BA61757846841D64A83EA2514C766CB92F1FB41F");
-pref("extensions.torlauncher.default_bridge.obfs3.6", "obfs3 109.105.109.163:38980 1E05F577A0EC0213F971D81BF4D86A9E4E8229ED");
-pref("extensions.torlauncher.default_bridge.obfs3.7", "obfs3 109.105.109.163:47779 4C331FA9B3D1D6D8FB0D8FBBF0C259C360D97E6A");
+pref("extensions.torlauncher.default_bridge.obfs3.4", "obfs3 109.105.109.163:38980 1E05F577A0EC0213F971D81BF4D86A9E4E8229ED");
+pref("extensions.torlauncher.default_bridge.obfs3.5", "obfs3 109.105.109.163:47779 4C331FA9B3D1D6D8FB0D8FBBF0C259C360D97E6A");
 
 pref("extensions.torlauncher.default_bridge.flashproxy.1", "flashproxy 0.0.1.0:1");
 pref("extensions.torlauncher.default_bridge.flashproxy.2", "flashproxy 0.0.1.0:2");
@@ -87,9 +85,8 @@ pref("extensions.torlauncher.default_bridge.fte.6", "fte 128.105.214.163:8080 A1
 pref("extensions.torlauncher.default_bridge.fte-ipv6.1", "fte [2001:49f0:d002:1::2]:80 B629B0B607C8AC9349B5646C24E9D242184F5B6E");
 pref("extensions.torlauncher.default_bridge.fte-ipv6.2", "fte [2001:49f0:d00a:1::c]:80 2BD466989944867075E872310EBAD65BC88C8AEF");
 
-pref("extensions.torlauncher.default_bridge.scramblesuit.1", "scramblesuit 188.40.121.112:39707 5DE8D363D8F150C99E1A2D7237368D614838132C password=L5POGQONBPS2HZUR6GXBIDS4CMIYYOTI");
-pref("extensions.torlauncher.default_bridge.scramblesuit.2", "scramblesuit 188.226.213.208:54278 AA5A86C1490296EF4FACA946CC5A182FCD1C5B1E password=MD2VRP7WXAMSG7MKIGMHI4CB4BMSNO7T");
-pref("extensions.torlauncher.default_bridge.scramblesuit.3", "scramblesuit 83.212.101.3:443 A09D536DD1752D542E1FBB3C9CE4449D51298239 password=XTCXLG2JAMJKZW2POLBAOWOQETQSMASH");
+pref("extensions.torlauncher.default_bridge.scramblesuit.1", "scramblesuit 188.226.213.208:54278 AA5A86C1490296EF4FACA946CC5A182FCD1C5B1E password=MD2VRP7WXAMSG7MKIGMHI4CB4BMSNO7T");
+pref("extensions.torlauncher.default_bridge.scramblesuit.2", "scramblesuit 83.212.101.3:443 A09D536DD1752D542E1FBB3C9CE4449D51298239 password=XTCXLG2JAMJKZW2POLBAOWOQETQSMASH");
 
 pref("extensions.torlauncher.default_bridge.meek-google.1", "meek 0.0.2.0:1 url=https://meek-reflect.appspot.com/ front=www.google.com");
 pref("extensions.torlauncher.default_bridge.meek-amazon.1", "meek 0.0.2.0:2 url=https://d2zfqthxsdq309.cloudfront.net/ front=a0.awsstatic.com");

@@ -1,4 +1,5 @@
 distribution/extensions/testpilot@labs.mozilla.com.xpi
+chrome.manifest
 chrome/
 chrome/overlayinfo/
 components/
