@@ -10,7 +10,7 @@ user_pref("browser.dom.window.dump.enabled", true);
 user_pref("security.ssl.disable_session_identifiers", false);
 
 // Disable safe mode. In case of a crash, we don't want to prompt for a
-// safe-mode browser that has extensions disabled and no proxy.
+// safe-mode browser that has extensions disabled.
 // https://support.mozilla.org/en-US/questions/951221#answer-410562
 user_pref("toolkit.startup.max_resumed_crashes", -1);
 

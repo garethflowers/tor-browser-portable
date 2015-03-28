@@ -1,3 +1,11 @@
+Tor Browser 4.0.3 -- Jan 13 2014
+ * All Platforms
+   * Update Firefox to 31.4.0esr
+   * Update NoScript to 2.6.9.10
+   * Update meek to 0.15
+   * Update Tor Launcher to 0.2.7.0.2
+     * Translation updates only
+
 Tor Browser 4.0.2 -- Dec 2 2014
  * All Platforms
    * Update Firefox to 31.3.0esr
