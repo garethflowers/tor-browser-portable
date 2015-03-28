@@ -19,6 +19,15 @@ appspot.com while appearing to communicate with www.google.com can run
 the client plugin program like this:
 	meek-client --url=https://meek-reflect.appspot.com/ --front=www.google.com
 
+meek can use a number of web services as a transport backend. Some of
+these, like CDNs, are very easy to set up for domain fronting: you just
+point the CDN at an instance of meek-server. Others, like App Engine,
+require you to run a small "reflector" app on the service that forwards
+requests to meek-server. A description of how to set up various services
+is at https://trac.torproject.org/projects/tor/wiki/doc/meek#Webservices.
+Reflector apps are found in the appengine, nginx, php, and wsgi
+directories.
+
 The meek-client program by itself has a fingerprintable TLS handshake.
 To disguise the TLS part of HTTPS connections, meek-client should be run
 with the --helper option pointing at a browser extension that has been
@@ -30,13 +39,6 @@ Firefox are in the chrome and firefox directories.
 
 Here is a summary of the programs that appear in subdirectories.
 
-meek-client:
-The client transport plugin, run by a censored client.
-
-meek-server:
-The server transport plugin, run on a Tor relay. A public instance of
-meek-server runs at meek.bamsoftware.com:7002.
-
 appengine:
 Reflector web app that runs on Google App Engine. The reflector simply
 copies requests and responses to an instance of meek-server somewhere. A
@@ -46,18 +48,31 @@ https://meek-reflect.appspot.com/.
 chrome, firefox:
 Browser extensions for TLS camouflage.
 
+meek-client:
+The client transport plugin, run by a censored client.
+
 meek-client-torbrowser:
-An auxiliary program for the Tor Browser Bundle that runs a copy of
+An auxiliary program for within Tor Browser that runs a second copy of
 Firefox with the browser extension and then configures meek-client to
 use it as a helper.
+
+meek-server:
+The server transport plugin, run on a Tor relay.
+
+nginx:
+A reflector configuration for Nginx.
+
+php:
+A PHP reflector. It can be run on any platform that supports PHP with
+the cURL library. A public instance is at
+https://meek-reflect.herokuapp.com/.
 
 terminateprocess-buffer:
 An auxiliary program used on Windows to assist with cleanup of
 subprocesses.
 
-latencytest:
-A test program for App Engine that measures roundtrip times to different
-destinations.
+wsgi:
+A WSGI Python reflector.
 
 To the extent possible under law, the authors have dedicated all
 copyright and related and neighboring rights to this software to the

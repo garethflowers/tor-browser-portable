@@ -11,7 +11,7 @@ meek-client - The meek client transport plugin
 
 SYNOPSIS
 --------
-**meek-client** **--url**=__URL__ **--front**=__DOMAIN__ [__OPTIONS__]
+**meek-client** [__OPTIONS__]
 
 DESCRIPTION
 -----------
@@ -53,8 +53,7 @@ HTTPSProxy localhost:8080
 Socks4Proxy localhost:1080
 Socks5Proxy localhost:1080
 ----
-or, equivalently, using the **--proxy** command-line option or **proxy**
-SOCKS arg.
+or, equivalently, using the **--proxy** command-line option.
 
 When the **--helper** option is used, you can use any type of proxy:
 HTTP or SOCKS. Without **--helper**, you can only use an HTTP proxy.
@@ -73,8 +72,8 @@ OPTIONS
     URL of upstream proxy. For example,
     **--proxy=http://localhost:8080/**,
     **--proxy=socks4a://localhost:1080**, or
-    **--proxy=socks5://localhost:1080**. The **proxy** SOCKS arg
-    overrides the command line. You would normally control the proxy
+    **--proxy=socks5://localhost:1080**.
+    You would normally control the proxy
     using the **HTTPSProxy**, **Socks4Proxy**, or **Socks5Proxy**
     configuration options in a torrc file, instead of using this option.
 
