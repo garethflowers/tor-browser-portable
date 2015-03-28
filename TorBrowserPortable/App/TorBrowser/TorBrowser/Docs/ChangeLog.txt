@@ -1,3 +1,9 @@
+Tor Browser 4.0.5 -- Mar 23 2015
+ * All Platforms
+   * Update Firefox to 31.5.3esr
+   * Update Tor to 0.2.5.11
+   * Update NoScript to 2.6.9.19
+
 Tor Browser 4.0.4 -- Feb 24 2015
  * All Platforms
    * Update Firefox to 31.5.0esr
