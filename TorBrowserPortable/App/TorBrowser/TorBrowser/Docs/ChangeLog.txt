@@ -1,4 +1,14 @@
-Tor Browser 4.0.3 -- Jan 13 2014
+Tor Browser 4.0.4 -- Feb 24 2015
+ * All Platforms
+   * Update Firefox to 31.5.0esr
+   * Update OpenSSL to 1.0.1l
+   * Update NoScript to 2.6.9.15
+   * Update HTTPS-Everywhere to 4.0.3
+   * Bug 14203: Prevent meek from displaying an extra update notification
+   * Bug 14849: Remove new NoScript menu option to make permissions permanent
+   * Bug 14851: Set NoScript pref to disable permanent permissions
+
+Tor Browser 4.0.3 -- Jan 13 2015
  * All Platforms
    * Update Firefox to 31.4.0esr
    * Update NoScript to 2.6.9.10
