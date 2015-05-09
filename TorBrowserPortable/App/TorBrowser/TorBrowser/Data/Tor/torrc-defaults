@@ -11,8 +11,8 @@ CookieAuthentication 1
 ## fteproxy configuration
 ClientTransportPlugin fte exec TorBrowser\Tor\PluggableTransports\fteproxy --managed
 
-## obfsproxy configuration
-ClientTransportPlugin obfs2,obfs3,scramblesuit exec TorBrowser\Tor\PluggableTransports\obfsproxy managed
+## obfs4proxy configuration
+ClientTransportPlugin obfs2,obfs3,obfs4,scramblesuit exec TorBrowser\Tor\PluggableTransports\obfs4proxy
 
 ## flash proxy configuration
 #
@@ -22,4 +22,4 @@ ClientTransportPlugin obfs2,obfs3,scramblesuit exec TorBrowser\Tor\PluggableTran
 ClientTransportPlugin flashproxy exec TorBrowser\Tor\PluggableTransports\flashproxy-client --register :0 :9000
 
 ## meek configuration
-ClientTransportPlugin meek exec TorBrowser\Tor\PluggableTransports\terminateprocess-buffer TorBrowser\Tor\PluggableTransports\meek-client-torbrowser --exit-on-stdin-eof -- TorBrowser\Tor\PluggableTransports\meek-client
+ClientTransportPlugin meek exec TorBrowser\Tor\PluggableTransports\terminateprocess-buffer TorBrowser\Tor\PluggableTransports\meek-client-torbrowser -- TorBrowser\Tor\PluggableTransports\meek-client

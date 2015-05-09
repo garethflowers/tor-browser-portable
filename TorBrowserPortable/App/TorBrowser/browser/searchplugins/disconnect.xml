@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>Search</ShortName>
+	<LongName>Disconnect Private Search</LongName>
+	<Description>Private searches using disconnect.me</Description>
+	<Url type="text/html" method="POST" template="https://search.disconnect.me/searchTerms/search?ses=Google&amp;location_option=US">
+		<Param name="query" value="{searchTerms}"/>
+	</Url>
+	<Image height="16" width="16" type="image/icon">data:image/x-icon;base64, AAABAAEAEBAAAAAAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAD///8B////Af///xP///9H////ff///43///+B////af///0X///8f////B////xP///9H////ff///4////9r////Af///wH///8Zd3d3r0NDQ/9BQUH/Tk5O925ubuGxsbGt////X////yX///8fd3d3rzs7O/8qKir/IiIi/////xP///8Z////LXp6erNERET/RERE/0NDQ/8+Pj7/MjIy/3BwcNX///9b////MXR0dK06Ojr/Kioq/yIiIv////9H////X////2d4eHi5Pj4+/0JCQv9ERET/Q0ND/zs7O/8wMDD/eXl5x////01iYmKjMjIy/ycnJ/8iIiL/fn5+v4eHh9N/f3/PUFBQ1UFBQc9BQUHlQ0ND/0RERP9AQED/NTU1/yoqKv/Jycl9WVlZey8vL8csLCzJKioqx0JCQv83Nzf/KCgo/0BAQN3///8l////A3Nzc1dISEj1Q0ND/zk5Of8pKSn/VVVVz////yn///8B////Af///wFCQkL/Nzc3/ygoKP9AQEDd////Jf///wH///8Nb29vpURERP87Ozv/Kioq/zIyMvH///8v////Af///wH///8BQkJC/zc3N/8oKCj/QEBA3f///yX///8B////Da2trWtDQ0P/Ozs7/yoqKv8iIiL/////L////wH///8B////AUJCQv83Nzf/KCgo/0FBQd3///8l////Bf///yW9vb2FQkJC/zg4OP8pKSn/IiIi/////yf///8B////Af///wFCQkL/Ojo6/y4uLv9LS0vh////Rf///zf///9jioqKzUBAQP8zMzP/JiYm/zMzM+H///8Z////Af///wH///8BQ0ND/z8/P/87Ozv/Xl5e6f///4v///+PmpqazUNDQ/86Ojr/LS0t/yQkJP9ERESp////C////wH///8B////AURERP9DQ0P/Q0ND/0xMTPtoaGjtRERE/0NDQ/89PT3/MTEx/yYmJv8iIiL/e3t7Nf///wH///8B////Af///wFERET/RERE/0RERP9DQ0P/QkJC/0BAQP87Ozv/MTEx/ycnJ/8jIyP/RkZGc////wX///8B////Af///wH///8BOzs7/zs7O/87Ozv/Ojo6/zc3N/8zMzP/LS0t/yYmJv8jIyP/Ozs7ff///wX///8B////Af///wH///8B////ASoqKv8qKir/Kioq/yoqKv8pKSn/JiYm/y0tLckyMjKbU1NTKf///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BAAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//w==</Image>
+</OpenSearchDescription>
