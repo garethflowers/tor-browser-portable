@@ -1,23 +1,150 @@
-Tor Browser 4.0.8 -- Apr 10 2015
+Tor Browser 4.5 -- Apr 28 2015
  * All Platforms
-   * Bug 15637: Fix update loop
+   * Update Tor to 0.2.6.7 with additional patches:
+     * Bug 15482: Reset timestamp_dirty each time a SOCKSAuth circuit is used
+   * Update NoScript to 2.6.9.22
+   * Update HTTPS-Everywhere to 5.0.3
+     * Bug 15689: Resume building HTTPS-Everywhere from git tags
+   * Update meek to 0.17
+   * Update obfs4proxy to 0.0.5
+   * Update Tor Launcher to 0.2.7.4
+     * Bug 15704: Do not enable network if wizard is opened
+     * Bug 11879: Stop bootstrap if Cancel or Open Settings is clicked
+     * Bug 13576: Don't strip "bridge" from the middle of bridge lines
+     * Bug 15657: Display the host:port of any connection faiures in bootstrap
+   * Update Torbutton to 1.9.2.2
+     * Bug 15562: Bind SharedWorkers to thirdparty pref
+     * Bug 15533: Restore default security level when restoring defaults
+     * Bug 15510: Close Tor Circuit UI control port connections on New Identity
+     * Bug 15472: Make node text black in circuit status UI
+     * Bug 15502: Wipe blob URIs on New Identity
+     * Bug 15795: Some security slider prefs do not trigger custom checkbox
+     * Bug 14429: Disable automatic window resizing for now
+   * Bug 4100: Raise HTTP Keep-Alive back to 115 second default
+   * Bug 13875: Spoof window.devicePixelRatio to avoid DPI fingerprinting
+   * Bug 15411: Remove old (and unused) cacheDomain cache isolation mechanism
+   * Bugs 14716+13254: Fix issues with HTTP Auth usage and TLS connection info display
+   * Bug 15502: Isolate blob URI scope to URL domain; block WebWorker access
+   * Bug 15794: Crash on some pages with SVG images if SVG is disabled
+   * Bug 15562: Disable Javascript SharedWorkers due to third party tracking
+   * Bug 15757: Disable Mozilla video statistics API extensions
+   * Bug 15758: Disable Device Sensor APIs
+ * Linux
+   * Bug 15747: Improve start-tor-browser argument handling
+   * Bug 15672: Provide desktop app registration+unregistration for Linux
+ * Windows
+   * Bug 15539: Make installer exe signatures reproducibly removable
+   * Bug 10761: Fix instances of shutdown crashes
 
-Tor Browser 4.0.7 -- Apr 9 2015
+Tor Browser 4.5a5 -- Mar 31 2015
  * All Platforms
-   * Update Tor to 0.2.5.12
-   * Update NoScript to 2.6.9.21
+   * Update Firefox to 31.6.0esr
+   * Update OpenSSL to 1.0.1m
+   * Update Tor to 0.2.6.6
+   * Update NoScript to 2.6.9.19
+   * Update HTTPS-Everywhere to 5.0
+   * Update meek to 0.16
+   * Update Tor Launcher to 0.2.7.3
+     * Bug 13983: Directory search path fix for Tor Messanger+TorBirdy
+   * Update Torbutton to 1.9.1.0
+     * Bug 9387: "Security Slider 1.0"
+       * Include descriptions and tooltip hints for security levels
+       * Notify users that the security slider exists
+       * Flip slider so that "low" is on the bottom
+       * Make use of new SVG and MathML prefs
+     * Bug 13766: Set a 10 minute circuit lifespan for non-content requests
+     * Bug 15460: Ensure FTP urls use content-window circuit isolation
+     * Bug 13650: Clip initial window height to 1000px
+     * Bug 14429: Ensure windows can only be resized to 200x100px multiples
+     * Bug 15334: Display Cookie Protections menu if disk records are enabled
+     * Bug 14324: Show HS circuit in Tor circuit display
+     * Bug 15086: Handle RTL text in Tor circuit display
+     * Bug 15085: Fix about:tor RTL text alignment problems
+     * Bug 10216: Add a pref to disable the local tor control port test
+     * Bug 14937: Show meek and flashproxy bridges in tor circuit display
+     * Bugs 13891+15207: Fix exceptions/errors in circuit display with bridges
+     * Bug 13019: Change locale hiding pref to boolean
+     * Bug 7255: Warn users about maximizing windows
+     * Bug 14631: Improve profile access error msgs (strings).
+   * Pluggable Transport Dependency Updates:
+     * Bug 15448: Use golang 1.4.2 for meek and obs4proxy
+     * Bug 15265: Switch go.net repo to golang.org/x/net
+   * Bug 14937: Hard-code meek and flashproxy node fingerprints
+   * Bug 13019: Prevent Javascript from leaking system locale
+   * Bug 10280: Improved fix to prevent loading plugins into address space
+   * Bug 15406: Only include addons in incremental updates if they actually update
+   * Bug 15029: Don't prompt to include missing plugins
+   * Bug 12827: Create preference to disable SVG images (for security slider)
+   * Bug 13548: Create preference to disable MathML (for security slider)
+   * Bug 14631: Improve startup error messages for filesystem permissions issues
+   * Bug 15482: Don't allow circuits to change while a site is in use
+ * Linux
+   * Bug 13375: Create a hybrid GUI/desktop/shell launcher wrapper
+   * Bug 12468: Only print/write log messages if launched with --debug
+ * Windows
+   * Bug 3861: Begin signing Tor Browser for Windows the Windows way
+   * Bug 15201: Disable 'runas Administrator' codepaths in updater
+   * Bug 14688: Create shortcuts to desktop and start menu by default (optional)
 
 Tor Browser 4.0.6 -- Mar 31 2015
  * All Platforms
    * Update Firefox to 31.6.0esr
-   * Update OpenSSL to 1.0.1m
    * Update meek to 0.16
+   * Update OpenSSL to 1.0.1m
 
 Tor Browser 4.0.5 -- Mar 23 2015
  * All Platforms
    * Update Firefox to 31.5.3esr
    * Update Tor to 0.2.5.11
    * Update NoScript to 2.6.9.19
+
+Tor Browser 4.5a4 -- Feb 24 2015
+ * All Platforms
+   * Update Firefox to 31.5.0esr
+   * Update Tor to 0.2.6.3-alpha
+   * Update OpenSSL to 1.0.1l
+   * Update NoScript to 2.6.9.15
+   * Update obfs4proxy to 0.0.4
+     * Use obfs4proxy for ScrambleSuit bridges
+   * Update Torbutton to 1.9.0.0
+     * Bug 13882: Fix display of bridges after bridge settings have been changed
+     * Bug 5698: Use "Tor Browser" branding in "About Tor Browser" dialog
+     * Bug 10280: Strings and pref for preventing plugin initialization.
+     * Bug 14866: Show correct circuit when more than one exists for a given domain
+     * Bug 9442: Add New Circuit button to Torbutton menu
+     * Bug 9906: Warn users before closing all windows and performing new identity.
+     * Bug 8400: Prompt for restart if disk records are enabled/disabled.
+     * Bug 14630: Hide Torbutton's proxy settings tab.
+     * Bug 14632: Disable Cookie Manager until we get it working.
+     * Bug 11175: Remove "About Torbutton" from onion menu.
+     * Bug 13900: Remove remaining SafeCache code in favor of C++ patch
+     * Bug 14490: Use Disconnect search in about:tor search box
+     * Bug 14392: Don't steal input focus in about:tor search box
+     * Bug 11236: Don't set omnibox order in Torbutton (to prevent translation)
+     * Bug 13406: Stop directing users to download-easy.html.en on update
+     * Bug 9387: Handle "custom" mode better in Security Slider
+     * Bug 12430: Bind jar: pref to Security Slider
+     * Bug 14448: Restore Torbutton menu operation on non-English localizations
+     * Translation updates
+   * Update Tor Launcher to 0.2.7.2
+     * Bug 13271: Display Bridge Configuration wizard pane before Proxy pane
+     * Bug 14336: Fix navigation button display issues on some wizard panes
+     * Translation updates
+   * Bug 14203: Prevent meek from displaying an extra update notification
+   * Bug 14849: Remove new NoScript menu option to make permissions permanent
+   * Bug 14851: Set NoScript pref to disable permanent permissions
+   * Bug 14490: Make Disconnect the default omnibox search engine
+   * Bug 11236: Fix omnibox order for non-English builds
+     * Also remove Amazon, eBay and bing; add Youtube and Twitter
+   * Bug 10280: Don't load any plugins into the address space.
+   * Bug 14392: Make about:tor hide itself from the URL bar
+   * Bug 12430: Provide a preference to disable remote jar: urls
+   * Bug 13900: Remove 3rd party HTTP auth tokens via Firefox patch
+   * Bug 5698: Fix branding in "About Torbrowser" window
+ * Windows:
+   * Bug 13169: Don't use /dev/random on Windows for SSP
+ * Linux:
+   * Bug 13717: Make sure we use the bash shell on Linux
 
 Tor Browser 4.0.4 -- Feb 24 2015
  * All Platforms
@@ -29,6 +156,30 @@ Tor Browser 4.0.4 -- Feb 24 2015
    * Bug 14849: Remove new NoScript menu option to make permissions permanent
    * Bug 14851: Set NoScript pref to disable permanent permissions
 
+Tor Browser 4.5a3 -- Jan 19 2015
+ * All Platforms
+   * Update Firefox to 31.4.0esr
+   * Update Tor to 0.2.6.2-alpha
+   * Update NoScript to 2.6.9.10
+   * Update HTTPS Everywhere to 5.0development.2
+   * Update meek to 0.15
+   * Update Torbutton to 1.8.1.3
+     * Bug 13998: Handle changes in NoScript 2.6.9.8+
+     * Bug 14100: Option to hide NetworkSettings menuitem
+     * Bug 13079: Option to skip control port verification
+     * Bug 13835: Option to change default Tor Browser homepage
+     * Bug 11449: Fix new identity error if NoScript is not enabled
+     * Bug 13881: Localize strings for tor circuit display
+     * Bug 9387: Incorporate user feedback
+     * Bug 13671: Fixup for circuit display if bridges are used
+     * Translation updates
+   * Update Tor Launcher to 0.2.7.1
+     * Bug 14122: Hide logo if TOR_HIDE_BROWSER_LOGO set
+     * Translation updates
+   * Bug 13379: Sign our MAR files
+   * Bug 13788: Fix broken meek in 4.5-alpha series
+   * Bug 13439: No canvas prompt for content callers
+
 Tor Browser 4.0.3 -- Jan 13 2015
  * All Platforms
    * Update Firefox to 31.4.0esr
@@ -36,6 +187,18 @@ Tor Browser 4.0.3 -- Jan 13 2015
    * Update meek to 0.15
    * Update Tor Launcher to 0.2.7.0.2
      * Translation updates only
+
+Tor Browser 4.5-alpha-2 -- Dec 5 2014
+ * All Platforms
+   * Update Firefox to 31.3.0esr
+   * Update NoScript to 2.6.9.5
+   * Update HTTPS Everywhere to 5.0development.1
+   * Update Torbutton to 1.8.1.2
+     * Bug 13672: Make circuit display optional
+     * Bug 13671: Make bridges visible on circuit display
+     * Bug 9387: Incorporate user feedback
+     * Bug 13784: Remove third party authentication tokens
+   * Bug 13435: Remove our custom POODLE fix (fixed by Mozilla in ESR 31.3.0)
 
 Tor Browser 4.0.2 -- Dec 2 2014
  * All Platforms
@@ -53,6 +216,37 @@ Tor Browser 4.0.2 -- Dec 2 2014
    * Bug 13443: Re-enable DirectShow; fix crash with mingw patch.
    * Bug 13558: Fix crash on Windows XP during download folder changing
    * Bug 13594: Fix update failure for Windows XP users
+
+Tor Browser 4.5-alpha-1 -- Nov 14 2014
+ * All Platforms
+   * Bug 3455: Patch Firefox SOCKS and proxy filters to allow user+pass isolation
+   * Bug 11955: Backport HTTPS Certificate Pinning patches from Firefox 32
+   * Bug 13684: Backport Mozilla bug #1066190 (pinning issue fixed in Firefox 33)
+   * Bug 13019: Make JS engine use English locale if a pref is set by Torbutton
+   * Bug 13301: Prevent extensions incompatibility error after upgrades
+   * Bug 13460: Fix MSVC compilation issue
+   * Bug 13504: Remove stale bridges from default bridge set
+   * Bug 13742: Fix domain isolation for content cache and disk-enabled browsing mode
+   * Update Tor to 0.2.6.1-alpha
+   * Update NoScript to 2.6.9.3
+   * Update Torbutton to 1.8.1.1
+     * Bug 9387: Provide a "Security Slider" for vulnerability surface reduction
+     * Bug 13019: Synchronize locale spoofing pref with our Firefox patch
+     * Bug 3455: Use SOCKS user+pass to isolate all requests from the same url domain
+     * Bug 8641: Create browser UI to indicate current tab's Tor circuit IPs
+     * Bug 13651: Prevent circuit-status related UI hang.
+     * Bug 13666: Various circuit status UI fixes
+     * Bugs 13742+13751: Remove cache isolation code in favor of direct C++ patch
+     * Bug 13746: Properly update third party isolation pref if disabled from UI
+   * Bug 13586: Make meek use TLS session tickets (to look like stock Firefox).
+   * Bug 12903: Include obfs4proxy pluggable transport
+ * Windows
+   * Bug 13443: Re-enable DirectShow; fix crash with mingw patch.
+   * Bug 13558: Fix crash on Windows XP during download folder changing
+   * Bug 13091: Make app name "Tor Browser" instead of "Tor"
+   * Bug 13594: Fix update failure for Windows XP users
+ * Mac
+   * Bug 10138: Switch to 64bit builds for MacOS
 
 Tor Browser 4.0.1 -- Oct 30 2014
  * All Platforms

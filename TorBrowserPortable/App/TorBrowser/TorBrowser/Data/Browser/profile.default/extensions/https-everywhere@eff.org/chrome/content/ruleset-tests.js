@@ -25,7 +25,6 @@ function openStatus() {
   gBrowser.selectedTab = statusTab;
 }
 
-
 // FIXME use a class rather than global state
 var left_star = new RegExp(/^\*\./); // *.example.com
 var accepted_test_targets = {}
