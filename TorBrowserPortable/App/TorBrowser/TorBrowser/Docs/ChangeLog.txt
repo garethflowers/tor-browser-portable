@@ -1,3 +1,24 @@
+Tor Browser 4.5.1 -- May 12 2015
+ * All Platforms
+   * Update Firefox to 31.7.0esr
+   * Update meek to 0.18
+   * Update Tor Launcher to 0.2.7.5
+     * Translation updates only
+   * Update Torbutton to 1.9.2.3
+     * Bug 15837: Show descriptions if unchecking custom mode
+     * Bug 15927: Force update of the NoScript UI when changing security level
+     * Bug 15915: Hide circuit display if it is disabled.
+     * Translation updates
+   * Bug 15945: Disable NoScript's ClearClick protection for now
+   * Bug 15933: Isolate by base (top-level) domain name instead of FQDN
+   * Bug 15857: Fix file descriptor leak in updater that caused update failures
+   * Bug 15899: Fix errors with downloading and displaying PDFs
+ * Windows
+   * Bug 15872: Fix meek pluggable transport startup issue with Windows 7
+ * Build System
+   * Bug 15947: Support Ubuntu 14.04 LXC hosts via LXC_EXECUTE=lxc-execute env var
+   * Bugs 15921+15922: Fix build errors during Mozilla Tryserver builds
+
 Tor Browser 4.5 -- Apr 28 2015
  * All Platforms
    * Update Tor to 0.2.6.7 with additional patches:
