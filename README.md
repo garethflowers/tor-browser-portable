@@ -13,4 +13,5 @@ Tor Browser Portable is the Tor Browser packaged with a PortableApps.com launche
 
 ## License
 
-Portable application code released under [the MIT license](LICENSE). The Tor Browser Bundle is released under [its various licenses](TorBrowserPortable/App/TorBrowser/TorBrowser/Docs/Licenses).
+* Portable application code released under [the MIT license](LICENSE).
+* The Tor Browser Bundle is released under [its various licenses](TorBrowserPortable/App/TorBrowser/TorBrowser/Docs/Licenses).
