@@ -4,14 +4,14 @@ BUILD_PT_BUNDLES=1
 
 VERIFY_TAGS=1
 
-FIREFOX_VERSION=31.7.0esr
+FIREFOX_VERSION=31.8.0esr
 
 TORBROWSER_UPDATE_CHANNEL=release
 
-TORBROWSER_TAG=tor-browser-${FIREFOX_VERSION}-4.5-2-build1
+TORBROWSER_TAG=tor-browser-${FIREFOX_VERSION}-4.5-1-build1
 TOR_TAG=tor-0.2.6.9
 TORLAUNCHER_TAG=0.2.7.5
-TORBUTTON_TAG=1.9.2.6
+TORBUTTON_TAG=1.9.2.8
 HTTPSE_TAG=5.0.5
 NSIS_TAG=v0.3
 ZLIB_TAG=v1.2.8
@@ -35,10 +35,10 @@ OBFS4_TAG=obfs4proxy-0.0.5
 
 GITIAN_TAG=tor-browser-builder-3.x-8
 
-OPENSSL_VER=1.0.1n
+OPENSSL_VER=1.0.1o
 GMP_VER=5.1.3
 FIREFOX_LANG_VER=$FIREFOX_VERSION
-FIREFOX_LANG_BUILD=build2
+FIREFOX_LANG_BUILD=build1
 BINUTILS_VER=2.24
 GCC_VER=4.9.1
 PYTHON_VER=2.7.5
@@ -57,7 +57,7 @@ GO_VER=1.4.2
 ## File names for the source packages
 OPENSSL_PACKAGE=openssl-${OPENSSL_VER}.tar.gz
 GMP_PACKAGE=gmp-${GMP_VER}.tar.bz2
-NOSCRIPT_PACKAGE=noscript_security_suite-2.6.9.26-sm+fn+fx.xpi
+NOSCRIPT_PACKAGE=noscript_security_suite-2.6.9.27-sm+fn+fx.xpi
 TOOLCHAIN4_PACKAGE=x86_64-apple-darwin10.tar.xz
 TOOLCHAIN4_OLD_PACKAGE=multiarch-darwin11-cctools127.2-gcc42-5666.3-llvmgcc42-2336.1-Linux-120724.tar.xz
 OSXSDK_PACKAGE=apple-uni-sdk-10.6_20110407-0.flosoft1_i386.deb
@@ -79,12 +79,12 @@ PARSLEY_PACKAGE=Parsley-${PARSLEY_VER}.tar.gz
 GO_PACKAGE=go${GO_VER}.src.tar.gz
 
 # Hashes for packages with weak sigs or no sigs
-OPENSSL_HASH=3581a405ccbe0fd1f6f17ea41773f77cdd51db55c01e1b4d8549e519882c6caf
+OPENSSL_HASH=16e678c6a05f2502811e075f2c4059ac01c878d091c9c585afc49ebc541f7b13
 GMP_HASH=752079520b4690531171d0f4532e40f08600215feefede70b24fabdc6f1ab160
 OSXSDK_HASH=6602d8d5ddb371fbc02e2a5967d9bd0cd7358d46f9417753c8234b923f2ea6fc
 TOOLCHAIN4_HASH=7b71bfe02820409b994c5c33a7eab81a81c72550f5da85ff7af70da3da244645
 TOOLCHAIN4_OLD_HASH=65c1b2d302358a6b95a26c6828a66908a199276193bb0b268f2dcc1a997731e9
-NOSCRIPT_HASH=06d9fa6093378682a7fabfc0b2d156dfafcfda749ddd802970ce14d1860e6a3e
+NOSCRIPT_HASH=a59a2150a4fa03091afd670d86333b60b6516ccd104bcef918afe99460fb436a
 MSVCR100_HASH=1221a09484964a6f38af5e34ee292b9afefccb3dc6e55435fd3aaf7c235d9067
 PYCRYPTO_HASH=f2ce1e989b272cfcb677616763e0a2e7ec659effa67a88aa92b3a65528f60a3c
 ARGPARSE_HASH=ddaf4b0a618335a32b6664d4ae038a1de8fbada3b25033f9021510ed2b3941a4
@@ -116,9 +116,9 @@ ZOPEINTERFACE_URL=https://pypi.python.org/packages/source/z/zope.interface/${ZOP
 TWISTED_URL=https://pypi.python.org/packages/source/T/Twisted/${TWISTED_PACKAGE}
 # TWISTED_URL=https://twistedmatrix.com/Releases/Twisted/$(echo ${TWISTED_VER} | awk -F. '{print $1"."$2}')/${TWISTED_PACKAGE}
 M2CRYPTO_URL=https://pypi.python.org/packages/source/M/M2Crypto/${M2CRYPTO_PACKAGE}
-PY2EXE_URL=http://softlayer-dal.dl.sourceforge.net/project/py2exe/py2exe/${PY2EXE_VER}/${PY2EXE_PACKAGE}
+PY2EXE_URL=http://liquidtelecom.dl.sourceforge.net/project/py2exe/py2exe/${PY2EXE_VER}/${PY2EXE_PACKAGE}
 SETUPTOOLS_URL=https://pypi.python.org/packages/source/s/setuptools/${SETUPTOOLS_PACKAGE}
 LXML_URL=https://pypi.python.org/packages/source/l/lxml/${LXML_PACKAGE}
 PARSLEY_URL=https://pypi.python.org/packages/source/P/Parsley/${PARSLEY_PACKAGE}
 GO_URL=https://golang.org/dl/${GO_PACKAGE}
-TORBROWSER_VERSION=4.5.2
+TORBROWSER_VERSION=4.5.3
