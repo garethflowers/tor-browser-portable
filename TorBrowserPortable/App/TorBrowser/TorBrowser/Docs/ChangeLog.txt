@@ -1,3 +1,18 @@
+Tor Browser 4.5.3 -- June 30 2015
+ * All Platforms
+   * Update Firefox to 31.8.0esr
+   * Update OpenSSL to 1.0.1o
+   * Update NoScript to 2.6.9.27
+   * Update Torbutton to 1.9.2.8
+     * Bug 16403: Set search parameters for Disconnect
+     * Bug 14429: Make sure the automatic resizing is disabled
+     * Translation updates
+   * Bug 16397: Fix crash related to disabling SVG
+   * Bug 16403: Set search parameters for Disconnect
+   * Bug 16446: Update FTE bridge #1 fingerprint
+   * Tor patch backport
+     * Bug 16430: Allow DNS names with _ characters in them (fixes nytimes.com)
+
 Tor Browser 5.0a2 -- June 15 2015
  * All Platforms
    * Update Tor to 0.2.7.1-alpha
