@@ -9,6 +9,14 @@ user_pref("browser.dom.window.dump.enabled", true);
 // https://trac.torproject.org/projects/tor/ticket/13442#comment:1
 user_pref("security.ssl.disable_session_identifiers", false);
 
+// Enable SPDY and HTTP/2 as they are in Firefox 38, for a matching ALPN
+// extension.
+// https://trac.torproject.org/projects/tor/ticket/15512
+user_pref("network.http.spdy.enabled", true);
+user_pref("network.http.spdy.enabled.http2", true);
+user_pref("network.http.spdy.enabled.http2draft", true);
+user_pref("network.http.spdy.enabled.v3-1", true);
+
 // Disable safe mode. In case of a crash, we don't want to prompt for a
 // safe-mode browser that has extensions disabled.
 // https://support.mozilla.org/en-US/questions/951221#answer-410562

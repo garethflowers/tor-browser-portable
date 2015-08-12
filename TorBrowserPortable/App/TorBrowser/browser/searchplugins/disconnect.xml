@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-	<ShortName>Search</ShortName>
+	<ShortName>Disconnect</ShortName>
 	<LongName>Disconnect Private Search</LongName>
 	<Description>Private searches using disconnect.me</Description>
 	<Url type="text/html" method="POST" template="https://search.disconnect.me/searchTerms/search?ses=Google&amp;location_option=US&amp;source=tor">

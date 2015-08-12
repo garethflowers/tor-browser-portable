@@ -1,3 +1,175 @@
+Tor Browser 5.5a1 -- August 11 2015
+ * All Platforms
+   * Update Firefox to 38.2.0esr
+   * Update NoScript to 2.6.9.34
+   * Update Torbutton to 1.9.3.3
+     * Bug 16731: TBB 5.0 a3/a4 fails to download a file on right click
+     * Bug 16730: Reset NoScript whitelist on upgrade
+     * Bug 16722: Prevent "Tiles" feature from being enabled after upgrade
+     * Bug 16488: Remove "Sign in to Sync" from the browser menu (fixup)
+     * Bug 14429: Make sure the automatic resizing is enabled
+     * Translation updates
+   * Update Tor Launcher to 0.2.7.7
+     * Translation updates
+   * Bug 16730: Prevent NoScript from updating the default whitelist
+   * Bug 16715: Use ThreadsafeIsCallerChrome() instead of IsCallerChrome()
+   * Bug 16572: Verify cache isolation for XMLHttpRequests in Web Workers
+   * Bug 16311: Fix navigation timing in ESR 38
+   * Bug 15646: Prevent keyboard layout fingerprinting in KeyboardEvent (fixup)
+
+Tor Browser 5.0 -- August 11 2015
+ * All Platforms
+   * Update Firefox to 38.2.0esr
+   * Update OpenSSL to 1.0.1p
+   * Update HTTPS-Everywhere to 5.0.7
+   * Update NoScript to 2.6.9.34
+   * Update meek to 0.20
+   * Update Tor to 0.2.6.10 with patches:
+     * Bug 16674: Allow FQDNs ending with a single '.' in our SOCKS host name checks.
+     * Bug 16430: Allow DNS names with _ characters in them (fixes nytimes.com)
+     * Bug 15482: Don't allow circuits to change while a site is in use
+   * Update Torbutton to 1.9.3.2
+     * Bug 16731: TBB 5.0 a3/a4 fails to download a file on right click
+     * Bug 16730: Reset NoScript whitelist on upgrade
+     * Bug 16722: Prevent "Tiles" feature from being enabled after upgrade
+     * Bug 16488: Remove "Sign in to Sync" from the browser menu (fixup)
+     * Bug 16268: Show Tor Browser logo on About page
+     * Bug 16639: Check for Updates menu item can cause update download failure
+     * Bug 15781: Remove the sessionstore filter
+     * Bug 15656: Sync privacy.resistFingerprinting with Torbutton pref
+     * Bug 16427: Use internal update URL to block updates (instead of 127.0.0.1)
+     * Bug 16200: Update Cache API usage and prefs for FF38
+     * Bug 16357: Use Mozilla API to wipe permissions db
+     * Bug 14429: Make sure the automatic resizing is disabled
+     * Translation updates
+   * Update Tor Launcher to 0.2.7.7
+     * Bug 16428: Use internal update URL to block updates (instead of 127.0.0.1)
+     * Bug 15145: Visually distinguish "proxy" and "bridge" screens.
+     * Translation updates
+   * Bug 16730: Prevent NoScript from updating the default whitelist
+   * Bug 16715: Use ThreadsafeIsCallerChrome() instead of IsCallerChrome()
+   * Bug 16572: Verify cache isolation for XMLHttpRequests in Web Workers
+   * Bug 16884: Prefer IPv6 when supported by the current Tor exit
+   * Bug 16488: Remove "Sign in to Sync" from the browser menu
+   * Bug 16662: Enable network.http.spdy.* prefs in meek-http-helper
+   * Bug 15703: Isolate mediasource URIs and media streams to first party
+   * Bug 16429+16416: Isolate blob URIs to first party
+   * Bug 16632: Turn on the background updater and restart prompting
+   * Bug 16528: Prevent indexedDB Modernizr site breakage on Twitter and elsewhere
+   * Bug 16523: Fix in-browser JavaScript debugger
+   * Bug 16236: Windows updater: avoid writing to the registry
+   * Bug 16625: Fully disable network connection prediction
+   * Bug 16495: Fix SVG crash when security level is set to "High"
+   * Bug 13247: Fix meek profile error after bowser restarts
+   * Bug 16005: Relax WebGL minimal mode
+   * Bug 16300: Isolate Broadcast Channels to first party
+   * Bug 16439: Remove Roku screencasting code
+   * Bug 16285: Disabling EME bits
+   * Bug 16206: Enforce certificate pinning
+   * Bug 15910: Disable Gecko Media Plugins for now
+   * Bug 13670: Isolate OCSP requests by first party domain
+   * Bug 16448: Isolate favicon requests by first party
+   * Bug 7561: Disable FTP request caching
+   * Bug 6503: Fix single-word URL bar searching
+   * Bug 15526: ES6 page crashes Tor Browser
+   * Bug 16254: Disable GeoIP-based search results.
+   * Bug 16222: Disable WebIDE to prevent remote debugging and addon downloads.
+   * Bug 13024: Disable DOM Resource Timing API
+   * Bug 16340: Disable User Timing API
+   * Bug 14952: Disable HTTP/2
+   * Bug 1517: Reduce precision of time for Javascript
+   * Bug 13670: Ensure OCSP & favicons respect URL bar domain isolation
+   * Bug 16311: Fix navigation timing in ESR 38
+ * Windows
+   * Bug 16014: Staged update fails if meek is enabled
+   * Bug 16269: repeated add-on compatibility check after update (meek enabled)
+ * Mac OS
+   * Use OSX 10.7 SDK
+   * Bug 16253: Tor Browser menu on OS X is broken with ESR 38
+   * Bug 15773: Enable ICU on OS X
+ * Build System
+   * Bug 16351: Upgrade our toolchain to use GCC 5.1
+   * Bug 15772 and child tickets: Update build system for Firefox 38
+   * Bugs 15921+15922: Fix build errors during Mozilla Tryserver builds
+   * Bug 15864: rename sha256sums.txt to sha256sums-unsigned-build.txt
+
+Tor Browser 5.0a4 -- August 3 2015
+ * All Platforms
+   * Update Tor to 0.2.7.2-alpha with patches:
+     * Bug 15482: Don't allow circuits to change while a site is in use
+   * Update OpenSSL to 1.0.1p
+   * Update HTTPS-Everywhere to 5.0.7
+   * Update NoScript to 2.6.9.31
+   * Update Torbutton to 1.9.3.1
+     * Bug 16268: Show Tor Browser logo on About page
+     * Bug 16639: Check for Updates menu item can cause update download failure
+     * Bug 15781: Remove the sessionstore filter
+     * Bug 15656: Sync privacy.resistFingerprinting with Torbutton pref
+     * Translation updates
+   * Bug 16884: Prefer IPv6 when supported by the current Tor exit
+   * Bug 16488: Remove "Sign in to Sync" from the browser menu
+   * Bug 13313: Bundle a fixed set of fonts to defend against fingerprinting
+   * Bug 16662: Enable network.http.spdy.* prefs in meek-http-helper
+   * Bug 15646: Prevent keyboard layout fingerprinting in KeyboardEvent (fixup)
+   * Bug 15703: Isolate mediasource URIs and media streams to first party
+   * Bug 16429+16416: Isolate blob URIs to first party
+   * Bug 16632: Turn on the background updater and restart prompting
+   * Bug 16528: Prevent indexedDB Modernizr site breakage on Twitter and elsewhere
+   * Bug 16523: Fix in-browser JavaScript debugger
+   * Bug 16236: Windows updater: avoid writing to the registry
+   * Bug 16005: Restrict WebGL minimal mode a bit (fixup)
+   * Bug 16625: Fully disable network connection prediction
+   * Bug 16495: Fix SVG crash when security level is set to "High"
+ * Build System
+   * Bug 15864: rename sha256sums.txt to sha256sums-unsigned-build.txt
+
+Tor Browser 5.0a3 -- June 30 2015
+ * All Platforms
+   * Update Firefox to 38.1.0esr
+   * Update OpenSSL to 1.0.1o
+   * Update NoScript to 2.6.9.27
+   * Update meek to 0.20
+   * Tor patch backport
+     * Bug 16430: Allow DNS names with _ characters in them (fixes nytimes.com)
+   * Update Torbutton to 1.9.3.0
+     * Bug 16403: Set search parameters for Disconnect
+     * Bug 14429: Make sure the automatic resizing is disabled
+     * Bug 16427: Use internal update URL to block updates (instead of 127.0.0.1)
+     * Bug 16200: Update Cache API usage and prefs for FF38
+     * Bug 16357: Use Mozilla API to wipe permissions db
+     * Translation updates
+   * Update Tor Launcher to 0.2.7.6
+     * Bug 16428: Use internal update URL to block updates (instead of 127.0.0.1)
+     * Bug 15145: Visually distinguish "proxy" and "bridge" screens.
+     * Translation updates
+   * Bug 13247: Fix meek profile error after bowser restarts
+   * Bug 16397: Fix crash related to disabling SVG
+   * Bug 16403: Set search parameters for Disconnect
+   * Bug 16446: Update FTE bridge #1 fingerprint
+   * Bug 15646: Prevent keyboard layout fingerprinting in KeyboardEvent
+   * Bug 16005: Relax WebGL minimal mode
+   * Bug 16300: Isolate Broadcast Channels to first party
+   * Bug 16439: Remove Roku screencasting code
+   * Bug 16285: Disabling EME bits
+   * Bug 16206: Enforce certificate pinning
+   * Bug 15910: Disable GMPs for now
+   * Bug 13670: Isolate OCSP requests by first party domain
+   * Bug 16448: Isolate favicon requests by first party
+   * Bug 7561: Disable FTP request caching
+   * Bug 6503: Fix single-word URL bar searching
+   * Bug 15526: ES6 page crashes Tor Browser
+   * Bug 16254: Disable GeoIP-based search results.
+   * Bug 16222: Disable WebIDE to prevent remote debugging and addon downloads.
+   * Bug 13024: Disable DOM Resource Timing API
+   * Bug 16340: Disable User Timing API
+   * Bug 14952: Disable HTTP/2
+ * Mac OS
+   * Use OSX 10.7 SDK
+   * Bug 16253: Tor Browser menu on OS X is broken with ESR 38
+ * Build System
+   * Bug 16351: Upgrade our toolchain to use GCC 5.1
+   * Bug 15772 and child tickets: Update build system for Firefox 38
+
 Tor Browser 4.5.3 -- June 30 2015
  * All Platforms
    * Update Firefox to 31.8.0esr
