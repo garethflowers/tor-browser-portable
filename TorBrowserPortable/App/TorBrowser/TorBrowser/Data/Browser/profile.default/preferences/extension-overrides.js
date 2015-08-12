@@ -45,6 +45,7 @@ pref("noscript.subscription.lastCheck", -142148139);
 pref("noscript.temp", "");
 pref("noscript.untrusted", "");
 pref("noscript.forbidMedia", false);
+pref("noscript.allowWhitelistUpdates", false);
 // Now handled by plugins.click_to_play
 pref("noscript.forbidFlash", false);
 pref("noscript.forbidSilverlight", false);
@@ -97,4 +98,4 @@ pref("extensions.torlauncher.default_bridge.obfs4.3", "obfs4 104.131.108.182:568
 
 pref("extensions.torlauncher.default_bridge.meek-google.1", "meek 0.0.2.0:1 46D4A71197B8FA515A826C6B017C522FE264655B url=https://meek-reflect.appspot.com/ front=www.google.com");
 pref("extensions.torlauncher.default_bridge.meek-amazon.1", "meek 0.0.2.0:2 4EE0CC769EB4B15A872F742EDE27D298A59DCADE url=https://d2zfqthxsdq309.cloudfront.net/ front=a0.awsstatic.com");
-pref("extensions.torlauncher.default_bridge.meek-azure.1", "meek 0.0.2.0:3 A2C13B7DFCAB1CBF3A884B6EB99A98067AB6EF44 url=https://az668014.vo.msecnd.net/ front=ajax.aspnetcdn.com");
+pref("extensions.torlauncher.default_bridge.meek-azure.1", "meek 0.0.2.0:3 A2C13B7DFCAB1CBF3A884B6EB99A98067AB6EF44 url=https://az786092.vo.msecnd.net/ front=ajax.aspnetcdn.com");

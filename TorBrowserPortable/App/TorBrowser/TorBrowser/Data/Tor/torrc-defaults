@@ -5,7 +5,7 @@ AvoidDiskWrites 1
 Log notice stdout
 # Bind to this address to listen to connections from SOCKS-speaking
 # applications.
-SocksPort 9150
+SocksPort 9150 IPv6Traffic PreferIPv6
 ControlPort 9151
 CookieAuthentication 1
 ## fteproxy configuration
