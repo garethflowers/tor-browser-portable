@@ -1,3 +1,7 @@
+Tor Browser 5.0.1 -- August 18 2015
+ * All Platforms
+   * Bug 16771: Fix crash on some websites due to blob URIs
+
 Tor Browser 5.5a1 -- August 11 2015
  * All Platforms
    * Update Firefox to 38.2.0esr
