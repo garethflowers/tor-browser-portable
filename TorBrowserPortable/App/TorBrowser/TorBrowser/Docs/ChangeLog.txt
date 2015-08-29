@@ -1,3 +1,10 @@
+Tor Browser 5.0.2 -- August 27 2015
+ * All Platforms
+   * Update Firefox to 38.2.1esr
+   * Update NoScript to 2.6.9.36
+ * Linux
+   * Bug 16860: Avoid duplicate icons on Unity and Gnome
+
 Tor Browser 5.0.1 -- August 18 2015
  * All Platforms
    * Bug 16771: Fix crash on some websites due to blob URIs
