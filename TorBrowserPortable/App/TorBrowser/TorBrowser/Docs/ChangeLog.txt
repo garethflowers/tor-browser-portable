@@ -1,3 +1,30 @@
+Tor Browser 5.0.3 -- September 22 2015
+ * All Platforms
+   * Update Firefox to 38.3.0esr
+   * Update Torbutton to 1.9.3.4
+     * Bug 16887: Update intl.accept_languages value
+     * Bug 15493: Update circuit display on new circuit info
+     * Bug 16797: brandShorterName is missing from brand.properties
+     * Bug 14429: Make sure the automatic resizing is disabled
+     * Translation updates
+   * Bug 7446: Tor Browser should not "fix up" .onion domains (or any domains)
+   * Bug 16837: Disable Firefox Hotfix updates
+   * Bug 16855: Allow blobs to be download on first-party pages (fixes mega.nz)
+   * Bug 16781: Allow saving pdf files in built-in pdf viewer
+   * Bug 16842: Restore Media tab on Page information dialog
+   * Bug 16727: Disable about:healthreport page
+   * Bug 16783: Normalize NoScript default whitelist
+   * Bug 16775: Fix preferences dialog with security slider set to "High"
+   * Bug 13579: Update download progress bar automatically
+   * Bug 15646: Reduce keyboard layout fingerprinting in KeyboardEvent
+   * Bug 17046: Event.timeStamp should not reveal startup time
+   * Bug 16872: Fix warnings when opening about:downloads
+   * Bug 17097: Fix intermittent crashes when using the print dialog
+ * Windows
+  * Bug 16906: Fix Mingw-w64 compilation breakage
+ * OS X
+  * Bug 16910: Update copyright year in OS X bundles
+
 Tor Browser 5.0.2 -- August 27 2015
  * All Platforms
    * Update Firefox to 38.2.1esr
