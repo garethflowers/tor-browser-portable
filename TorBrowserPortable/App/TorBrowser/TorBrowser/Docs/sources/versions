@@ -4,14 +4,14 @@ BUILD_PT_BUNDLES=1
 
 VERIFY_TAGS=1
 
-FIREFOX_VERSION=38.2.1esr
+FIREFOX_VERSION=38.3.0esr
 
 TORBROWSER_UPDATE_CHANNEL=release
 
-TORBROWSER_TAG=tor-browser-${FIREFOX_VERSION}-5.0-2-build1
+TORBROWSER_TAG=tor-browser-${FIREFOX_VERSION}-5.0-2-build2
 TOR_TAG=tor-0.2.6.10
 TORLAUNCHER_TAG=0.2.7.7
-TORBUTTON_TAG=1.9.3.2
+TORBUTTON_TAG=1.9.3.4
 HTTPSE_TAG=5.0.7
 NSIS_TAG=v0.3
 ZLIB_TAG=v1.2.8
@@ -33,7 +33,7 @@ GO_X_CRYPTO_TAG=4ed45ec682102c643324fae5dff8dab085b6c300
 GO_X_NET_TAG=7dbad50ab5b31073856416cdcfeb2796d682f844
 OBFS4_TAG=obfs4proxy-0.0.5
 
-GITIAN_TAG=tor-browser-builder-3.x-8
+GITIAN_TAG=tor-browser-builder-3.x-8-gpgsux
 
 OPENSSL_VER=1.0.1p
 GMP_VER=5.1.3
@@ -111,7 +111,7 @@ GCC_URL=https://ftp.gnu.org/gnu/gcc/gcc-${GCC_VER}/${GCC_PACKAGE}
 NOSCRIPT_URL=https://addons.cdn.mozilla.net/user-media/addons/722/${NOSCRIPT_PACKAGE}
 PYTHON_URL=https://www.python.org/ftp/python/${PYTHON_VER}/${PYTHON_PACKAGE}
 PYTHON_MSI_URL=https://www.python.org/ftp/python/${PYTHON_VER}/${PYTHON_MSI_PACKAGE}
-PYCRYPTO_URL=https://ftp.dlitz.net/pub/dlitz/crypto/pycrypto/${PYCRYPTO_PACKAGE}
+PYCRYPTO_URL=https://pypi.python.org/packages/source/p/pycrypto/${PYCRYPTO_PACKAGE}
 ARGPARSE_URL=https://argparse.googlecode.com/files/${ARGPARSE_PACKAGE}
 PYYAML_URL=https://pypi.python.org/packages/source/P/PyYAML/${PYYAML_PACKAGE}
 ZOPEINTERFACE_URL=https://pypi.python.org/packages/source/z/zope.interface/${ZOPEINTERFACE_PACKAGE}
@@ -123,4 +123,4 @@ SETUPTOOLS_URL=https://pypi.python.org/packages/source/s/setuptools/${SETUPTOOLS
 LXML_URL=https://pypi.python.org/packages/source/l/lxml/${LXML_PACKAGE}
 PARSLEY_URL=https://pypi.python.org/packages/source/P/Parsley/${PARSLEY_PACKAGE}
 GO_URL=https://golang.org/dl/${GO_PACKAGE}
-TORBROWSER_VERSION=5.0.2
+TORBROWSER_VERSION=5.0.3
