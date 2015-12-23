@@ -1,0 +1,50 @@
+<!ENTITY https-everywhere.about.title "Hər yerdə HTTPS haqqında">
+<!ENTITY https-everywhere.about.ext_name "Hər yerdə HTTPS">
+<!ENTITY https-everywhere.about.ext_description "Veb-i şifrələ! Bir çox saytlarda HTTPS-i avtomatik istifadə et.">
+<!ENTITY https-everywhere.about.version "Versiya">
+<!ENTITY https-everywhere.about.created_by "Yaradan şəxs">
+<!ENTITY https-everywhere.about.librarians "Kitabxanaçıların Qayda Toplusu">
+<!ENTITY https-everywhere.about.thanks "Təşəkkürlər">
+<!ENTITY https-everywhere.about.contribute  "Hamı üçün HTTPS-i xoşlayırsansa, sən buna üstünlük verməlisən">
+<!ENTITY https-everywhere.about.donate_tor "Tor-a donorluq">
+<!ENTITY https-everywhere.about.tor_lang_code "en">
+<!ENTITY https-everywhere.about.or "və ya">
+<!ENTITY https-everywhere.about.donate_eff "EFF-ə donorluq">
+
+<!ENTITY https-everywhere.menu.about "Hər yerdə HTTPS haqqında">
+<!ENTITY https-everywhere.menu.observatory "SSL İzləyici Xüsusiyyətləti">
+<!ENTITY https-everywhere.menu.globalEnable " HTTPS -ni hər yerdə aktivləşdir">
+<!ENTITY https-everywhere.menu.globalDisable "HTTPS -ni həryerdə söndür">
+<!ENTITY https-everywhere.menu.blockHttpRequests "Block all HTTP requests">
+<!ENTITY https-everywhere.menu.showCounter "Hesablayıcını Göstər">
+<!ENTITY https-everywhere.menu.viewAllRules "View All Rules">
+
+<!ENTITY https-everywhere.prefs.title "Hər yerdə HTTPS Xüsusiyyətləri">
+<!ENTITY https-everywhere.prefs.enable_all "Hamısını Aktivləşdir">
+<!ENTITY https-everywhere.prefs.disable_all "Hamısını Deaktivə Et">
+<!ENTITY https-everywhere.prefs.reset_defaults "İlkin Hala Sıfırla">
+<!ENTITY https-everywhere.prefs.search "Axtar">
+<!ENTITY https-everywhere.prefs.site "Sayt">
+<!ENTITY https-everywhere.prefs.notes "Qeydlər">
+<!ENTITY https-everywhere.prefs.list_caption "Hansı HTTPS ünvan dəyişdirilmə qaydaları tətbiq edilməlidir?">
+<!ENTITY https-everywhere.prefs.enabled "Aktivləşdirildi">
+<!ENTITY https-everywhere.prefs.ruleset_howto "Öz qayda dəstini necə yazacağını öyrənə bilərsən (başqa veb səhifələrə dəstək əlavə etmək üçün)">
+<!ENTITY https-everywhere.prefs.here_link "bura">
+<!ENTITY https-everywhere.prefs.toggle "Keçid">
+<!ENTITY https-everywhere.prefs.reset_default "İlkin hala sıfırla">
+<!ENTITY https-everywhere.prefs.view_xml_source "XML Mənbəyə Bax">
+
+<!ENTITY https-everywhere.source.downloading "Yüklənir">
+<!ENTITY https-everywhere.source.filename "Fayl adı">
+<!ENTITY https-everywhere.source.unable_to_download "Mənbənin yüklənməsi alınmadı.">
+
+<!ENTITY https-everywhere.popup.title "Hər yerdə HTTPS 4.0development.11 xəbərdarlığı">
+<!ENTITY https-everywhere.popup.paragraph1 "Vayy.Sən Hər yerdə HTTPS-in stabil versiyasını istifadə edirdin, amma ola bilsin ki biz təsadüfən səni ən son buraxılışımızda inkişaf versiyasına təkmilləşdirmişik.">
+<!ENTITY https-everywhere.popup.paragraph2 "Stabil vəziyyətə qayıtmaq istəyirsən?">
+<!ENTITY https-everywhere.popup.paragraph3 "Sən bizim inkişaf buraxılışımızı istifadə etmək və Hər yerdə HTTPS versiyamızı yaxşılaşdırmaq istəsəydin biz bunu etmək arzusunda olardıq. Orada və burada https-everywhere@eff.org emailimizə xəbər verə biləcəyin problemlərı aşkarlaya bilərsən. Narahatlıq üçün üzr istəyirik. Hər yerdə HTTPS istifadə etdiyin üçün minnətdarıq.">
+<!ENTITY https-everywhere.popup.keep "Məni inkişaf versiyasında saxla">
+<!ENTITY https-everywhere.popup.revert "Ən son stabil versiyanı yüklə">
+
+<!ENTITY https-everywhere.ruleset-tests.status_title "Hər yerdə HTTPS qayda dəsti Testi">
+<!ENTITY https-everywhere.ruleset-tests.status_cancel_button "Ləğv et">
+<!ENTITY https-everywhere.ruleset-tests.status_start_button "Başla">

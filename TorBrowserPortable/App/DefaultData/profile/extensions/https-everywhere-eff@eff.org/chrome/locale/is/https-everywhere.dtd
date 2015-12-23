@@ -1,0 +1,50 @@
+<!ENTITY https-everywhere.about.title "Um HTTPS Alls staðar">
+<!ENTITY https-everywhere.about.ext_name "HTTPS Allsstaðar">
+<!ENTITY https-everywhere.about.ext_description "Dulkóðaðu vefinn! Notaðu sjálfkrafa HTTPS-öryggi á mörgum vefsvæðum.">
+<!ENTITY https-everywhere.about.version "Útgáfa">
+<!ENTITY https-everywhere.about.created_by "Búið til af">
+<!ENTITY https-everywhere.about.librarians "&quot;Ruleset Librarians&quot;">
+<!ENTITY https-everywhere.about.thanks "Þökk sé">
+<!ENTITY https-everywhere.about.contribute  "Ef þú kannt við HTTPS Allsstaðar ættirðu að íhuga">
+<!ENTITY https-everywhere.about.donate_tor "framlag til Tor">
+<!ENTITY https-everywhere.about.tor_lang_code "is">
+<!ENTITY https-everywhere.about.or "eða">
+<!ENTITY https-everywhere.about.donate_eff "Framlag til EFF">
+
+<!ENTITY https-everywhere.menu.about "Um HTTPS Allsstaðar">
+<!ENTITY https-everywhere.menu.observatory "SSL Observatory valkostir">
+<!ENTITY https-everywhere.menu.globalEnable "Virkja HTTPS Allsstaðar">
+<!ENTITY https-everywhere.menu.globalDisable "Gera HTTPS Allsstaðar óvirkt">
+<!ENTITY https-everywhere.menu.blockHttpRequests "Hindra allar HTTP beiðnir">
+<!ENTITY https-everywhere.menu.showCounter "Birta teljara">
+<!ENTITY https-everywhere.menu.viewAllRules "View All Rules">
+
+<!ENTITY https-everywhere.prefs.title "HTTPS Allsstaðar valkostir">
+<!ENTITY https-everywhere.prefs.enable_all "Virkja allt">
+<!ENTITY https-everywhere.prefs.disable_all "Gera allt óvirkt">
+<!ENTITY https-everywhere.prefs.reset_defaults "Frumstilla á sjálfgefnar stillingar">
+<!ENTITY https-everywhere.prefs.search "Leita">
+<!ENTITY https-everywhere.prefs.site "Vefsvæði">
+<!ENTITY https-everywhere.prefs.notes "Skýringar">
+<!ENTITY https-everywhere.prefs.list_caption "Hvaða HTTPS endurbeiningarreglur ættu að gilda?">
+<!ENTITY https-everywhere.prefs.enabled "Virkt">
+<!ENTITY https-everywhere.prefs.ruleset_howto "Þú getur lært hvernig á að skrifa eigin reglusett (til að bæta við stuðningi fyrir aðrar vefsíður)">
+<!ENTITY https-everywhere.prefs.here_link "hér">
+<!ENTITY https-everywhere.prefs.toggle "Víxla">
+<!ENTITY https-everywhere.prefs.reset_default "Frumstillaá sjálfgefið">
+<!ENTITY https-everywhere.prefs.view_xml_source "Skoða XML-uppruna">
+
+<!ENTITY https-everywhere.source.downloading "Sæki">
+<!ENTITY https-everywhere.source.filename "Skráarheiti">
+<!ENTITY https-everywhere.source.unable_to_download "Næ ekki að sækja upprunagögn.">
+
+<!ENTITY https-everywhere.popup.title "Tilkynning frá þróunarteymi HTTPS Allsstaðar 4.0">
+<!ENTITY https-everywhere.popup.paragraph1 "Úbbs. Þú varst að nota stöðuga útgáfu af HTTPS Allsstaðar, en við gætum fyrir slysni látið þig uppfæra í þróunarútgáfuna í síðustu uppfærslu.">
+<!ENTITY https-everywhere.popup.paragraph2 "Viltu fara aftur í stöðuga útgáfu?">
+<!ENTITY https-everywhere.popup.paragraph3 "Okkur þætti vænt um ef þú notaðir áfram þróunarútgáfuna og hjálpaðir okkur þannig að gera HTTPS Allsstaðar betri! Þú gætir fundið einhverjar villur á stöku stað, sem þú gætir þá tilkynnt til https-everywhere@eff.org. Við hörmum óþægindin ef einhver eru, og þökkum þér fyrir að nota HTTPS Allstaðar.">
+<!ENTITY https-everywhere.popup.keep "Ég vil halda þróunarútgáfunni">
+<!ENTITY https-everywhere.popup.revert "Ná í nýjustu stöðuga útgáfu">
+
+<!ENTITY https-everywhere.ruleset-tests.status_title "Prófunarreglur fyrir HTTPS Allsstaðar">
+<!ENTITY https-everywhere.ruleset-tests.status_cancel_button "Hætta við">
+<!ENTITY https-everywhere.ruleset-tests.status_start_button "Byrja">

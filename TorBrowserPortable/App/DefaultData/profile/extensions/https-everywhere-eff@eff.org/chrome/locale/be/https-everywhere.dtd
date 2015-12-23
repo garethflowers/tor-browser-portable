@@ -1,0 +1,50 @@
+<!ENTITY https-everywhere.about.title "Пра HTTPS Everywhere">
+<!ENTITY https-everywhere.about.ext_name "HTTPS Everywhere">
+<!ENTITY https-everywhere.about.ext_description "Шыфраванне Сеціва! Аўтаматычнае выкарыстанне бяспекі HTTPS на розных сайтах">
+<!ENTITY https-everywhere.about.version "Версія">
+<!ENTITY https-everywhere.about.created_by "Стваральнікі">
+<!ENTITY https-everywhere.about.librarians "Бібліятэкары збораў правілаў">
+<!ENTITY https-everywhere.about.thanks "Падзякі">
+<!ENTITY https-everywhere.about.contribute  "Калі вам да спадобы HTTPS Everywhere, мабыць вам будзе цікава">
+<!ENTITY https-everywhere.about.donate_tor "ахвяраваць сродкі Tor">
+<!ENTITY https-everywhere.about.tor_lang_code "be">
+<!ENTITY https-everywhere.about.or "or">
+<!ENTITY https-everywhere.about.donate_eff "ахвяраваць сродкі EFF">
+
+<!ENTITY https-everywhere.menu.about "Пра HTTPS Everywhere">
+<!ENTITY https-everywhere.menu.observatory "Настáўленні SSL Observatory">
+<!ENTITY https-everywhere.menu.globalEnable "Уключыць HTTPS Everywhere">
+<!ENTITY https-everywhere.menu.globalDisable "Адключыць HTTPS Everywhere">
+<!ENTITY https-everywhere.menu.blockHttpRequests "Block all HTTP requests">
+<!ENTITY https-everywhere.menu.showCounter "Паказаць лічыльнік">
+<!ENTITY https-everywhere.menu.viewAllRules "View All Rules">
+
+<!ENTITY https-everywhere.prefs.title "Настáўленні HTTPS Everywhere">
+<!ENTITY https-everywhere.prefs.enable_all "Уключыць усе">
+<!ENTITY https-everywhere.prefs.disable_all "Адключыць усе">
+<!ENTITY https-everywhere.prefs.reset_defaults "Скінуць да стандартных">
+<!ENTITY https-everywhere.prefs.search "Пошук">
+<!ENTITY https-everywhere.prefs.site "Сайт">
+<!ENTITY https-everywhere.prefs.notes "Нататкі">
+<!ENTITY https-everywhere.prefs.list_caption "Якія правілы HTTPS-перанакіраванняў трэба задзейнічаць?">
+<!ENTITY https-everywhere.prefs.enabled "Уключана">
+<!ENTITY https-everywhere.prefs.ruleset_howto "Вы можаце навучыцца пісаць уласныя зборы правілаў (каб дадаць падтрымку для іншых вэбсайтаў)">
+<!ENTITY https-everywhere.prefs.here_link "тут">
+<!ENTITY https-everywhere.prefs.toggle "Пераключыць">
+<!ENTITY https-everywhere.prefs.reset_default "Скінуць да стандартнага">
+<!ENTITY https-everywhere.prefs.view_xml_source "Прагляд крынічнага XML-коду">
+
+<!ENTITY https-everywhere.source.downloading "Сцягванне">
+<!ENTITY https-everywhere.source.filename "Назва файла">
+<!ENTITY https-everywhere.source.unable_to_download "Не выйшла сцягнуць зыходнік">
+
+<!ENTITY https-everywhere.popup.title "Абвяшчэнне HTTPS Everywhere 4.0development.11">
+<!ENTITY https-everywhere.popup.paragraph1 "Ой. Вы выкарыстоўвалі стабільную версію HTTPS Everywhere, але мы, мусіць, выпадкова абнавілі вас да версіі ў распрацоўцы з нашага апошняга выпуску.">
+<!ENTITY https-everywhere.popup.paragraph2 "Жадаеце вярнуцца назад на стабільную версію?">
+<!ENTITY https-everywhere.popup.paragraph3 "Вы б зрабілі нам ласку, калі працягнулі карыстацца версіяй у распрацоўцы і дапамаглі палепшыць HTTPS Everywhere! Калі адшукаеце некалькі хібаў тут і там, паведаміце пра іх на https-everywhere@eff.org. Даруйце за нязручнасць; дзякуем за выкарыстанне HTTPS Everywhere.">
+<!ENTITY https-everywhere.popup.keep "Пакінуць версію ў распрацоўцы">
+<!ENTITY https-everywhere.popup.revert "Сцягнуць апошнюю стабільную версію">
+
+<!ENTITY https-everywhere.ruleset-tests.status_title "Тэсты для збораў правілаў HTTPS Everywhere">
+<!ENTITY https-everywhere.ruleset-tests.status_cancel_button "Скасаваць">
+<!ENTITY https-everywhere.ruleset-tests.status_start_button "Старт">

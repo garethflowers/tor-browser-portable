@@ -1,0 +1,50 @@
+<!ENTITY https-everywhere.about.title "ስለHTTPS Everywhere">
+<!ENTITY https-everywhere.about.ext_name "HTTPS Everywhere">
+<!ENTITY https-everywhere.about.ext_description "ድሩን ያመስጥሩ! በብዙ ጣቢያዎች ላይ HTTPSን በራስ-ሰር ይጠቀሙ።">
+<!ENTITY https-everywhere.about.version "ስሪት">
+<!ENTITY https-everywhere.about.created_by "የተፈጠረው በ">
+<!ENTITY https-everywhere.about.librarians "የደንብ ስብስብ  ቤተ-መዝጋቢዎች">
+<!ENTITY https-everywhere.about.thanks "ምስጋና ይድረስ ለ">
+<!ENTITY https-everywhere.about.contribute  "HTTPS Everywhereን ከወደዱት ይህን ማድረግ ከግምት ውስጥ ማስገባት ሊፈልጉ ይችላሉ">
+<!ENTITY https-everywhere.about.donate_tor "ለTor መለገስ">
+<!ENTITY https-everywhere.about.tor_lang_code "am">
+<!ENTITY https-everywhere.about.or "or">
+<!ENTITY https-everywhere.about.donate_eff "ለEFF መለገስ">
+
+<!ENTITY https-everywhere.menu.about "ስለHTTPS Everywhere">
+<!ENTITY https-everywhere.menu.observatory "የSSL መታዘቢያ ምርጫዎች">
+<!ENTITY https-everywhere.menu.globalEnable "HTTPS Everywhereን አንቃ">
+<!ENTITY https-everywhere.menu.globalDisable "HTTPS Everywhereን አሰናክል">
+<!ENTITY https-everywhere.menu.blockHttpRequests "Block all HTTP requests">
+<!ENTITY https-everywhere.menu.showCounter "ቆጣሪን አሳይ">
+<!ENTITY https-everywhere.menu.viewAllRules "View All Rules">
+
+<!ENTITY https-everywhere.prefs.title "የHTTPS Everywhere ምርጫዎች">
+<!ENTITY https-everywhere.prefs.enable_all "ሁሉንም አንቃ">
+<!ENTITY https-everywhere.prefs.disable_all "ሁሉንም አሰናክል">
+<!ENTITY https-everywhere.prefs.reset_defaults "ወደ ነባሪዎች ዳግም አስጀምር">
+<!ENTITY https-everywhere.prefs.search "ይፈልጉ">
+<!ENTITY https-everywhere.prefs.site "ጣቢያ">
+<!ENTITY https-everywhere.prefs.notes "ማስታወሻዎች">
+<!ENTITY https-everywhere.prefs.list_caption "የትኛዎቹ የHTTPS አቅጣጫ ማዞር ደንቦች ነው መተግበር ያለባቸው?">
+<!ENTITY https-everywhere.prefs.enabled "ነቅቷል">
+<!ENTITY https-everywhere.prefs.ruleset_howto "እንዴት የእራስዎን የደንብ ስብስቦች መጻፍ እንደሚችሉ ይወቁ (ለሌሎች ጣቢያዎች ድጋፍ ለማከል)">
+<!ENTITY https-everywhere.prefs.here_link "እዚህ">
+<!ENTITY https-everywhere.prefs.toggle "ቀያይር">
+<!ENTITY https-everywhere.prefs.reset_default "ወደ ነባሪ ዳግም አስጀምር">
+<!ENTITY https-everywhere.prefs.view_xml_source "የXML ምንጩን ይመልከቱ">
+
+<!ENTITY https-everywhere.source.downloading "በማውረድ ላይ">
+<!ENTITY https-everywhere.source.filename "የፋይል ስም">
+<!ENTITY https-everywhere.source.unable_to_download "ምንጩን ማውረድ አልተቻለም።">
+
+<!ENTITY https-everywhere.popup.title "HTTPS Everywhere 4.0ግንባታ.11 ማሳወቂያ">
+<!ENTITY https-everywhere.popup.paragraph1 "ውይ። የረጋው HTTPS Everywhere ስሪቱን ነው ሲጠቀሙት የነበረው፣ ነገር ግን በቅርብ ጊዜው ልቀታችን ውስጥ ወዳለው የግንባታ ስሪት በስህተት አሳድገነዎት ሊሆን ይችላል።">
+<!ENTITY https-everywhere.popup.paragraph2 "ወደ የረጋው መመለስ ይፈልጋሉ?">
+<!ENTITY https-everywhere.popup.paragraph3 "የግንባታ ልቀታችንን መጠቀሙን ቢቀጥሉና HTTPS Everywhere የተሻለ እንድናደርገው ቢያግዙን በጣም ደስ ይለናል። እዚህና እዚያ ጥቂት ሳንካዎች ሊያገኙ ይችላሉ፣ እነዚህንም ለhttps-everywhere@eff.org ሪፖርት ማድረግ ይችላሉ። ለተፈጠረው ችግር ይቅርታ እንጠይቃለን፣ እና HTTPS Everywhereን ስለተጠቀሙ እናመሰግናለን።">
+<!ENTITY https-everywhere.popup.keep "በግንባታ ስሪቱ ላይ አቆየኝ">
+<!ENTITY https-everywhere.popup.revert "የቅርብ ጊዜውን የረጋው ስሪት አውርድ">
+
+<!ENTITY https-everywhere.ruleset-tests.status_title "የHTTPS Everywhere ደንብ ስብስብ ሙከራዎች">
+<!ENTITY https-everywhere.ruleset-tests.status_cancel_button "ይቅር">
+<!ENTITY https-everywhere.ruleset-tests.status_start_button "ጀምር">

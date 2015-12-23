@@ -1,0 +1,37 @@
+<!ENTITY https-everywhere.about.title "">
+<!ENTITY https-everywhere.about.ext_name "">
+<!ENTITY https-everywhere.about.ext_description "">
+<!ENTITY https-everywhere.about.version "">
+<!ENTITY https-everywhere.about.created_by "">
+<!ENTITY https-everywhere.about.librarians "">
+<!ENTITY https-everywhere.about.thanks "">
+<!ENTITY https-everywhere.about.contribute  "">
+<!ENTITY https-everywhere.about.donate_tor "">
+<!ENTITY https-everywhere.about.tor_lang_code "">
+<!ENTITY https-everywhere.about.donate_eff "">
+
+<!ENTITY https-everywhere.menu.about "">
+<!ENTITY https-everywhere.menu.observatory "">
+<!ENTITY https-everywhere.menu.globalEnable "">
+<!ENTITY https-everywhere.menu.globalDisable "">
+
+<!ENTITY https-everywhere.prefs.title "">
+<!ENTITY https-everywhere.prefs.enable_all "">
+<!ENTITY https-everywhere.prefs.disable_all "">
+<!ENTITY https-everywhere.prefs.reset_defaults "">
+<!ENTITY https-everywhere.prefs.search "">
+<!ENTITY https-everywhere.prefs.site "">
+<!ENTITY https-everywhere.prefs.notes "">
+<!ENTITY https-everywhere.prefs.list_caption "">
+<!ENTITY https-everywhere.prefs.enabled "">
+<!ENTITY https-everywhere.prefs.ruleset_howto "">
+<!ENTITY https-everywhere.prefs.here_link "">
+<!ENTITY https-everywhere.prefs.toggle "">
+<!ENTITY https-everywhere.prefs.reset_default "">
+<!ENTITY https-everywhere.prefs.view_xml_source "">
+
+<!ENTITY https-everywhere.source.downloading "">
+<!ENTITY https-everywhere.source.filename "">
+<!ENTITY https-everywhere.source.unable_to_download "">
+
+

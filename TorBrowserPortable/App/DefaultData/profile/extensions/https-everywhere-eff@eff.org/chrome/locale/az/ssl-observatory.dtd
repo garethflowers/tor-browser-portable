@@ -1,0 +1,102 @@
+<!-- Observatory popup window -->
+<!ENTITY ssl-observatory.popup.details "Detallar və Məxfilik Məlumatları">
+<!ENTITY ssl-observatory.popup.later "Məndən Daha Sonra Soruş">
+<!ENTITY ssl-observatory.popup.no "Xeyr">
+
+<!ENTITY ssl-observatory.popup.text "Hər yerdə HTTPS sənin Müşahidə məntəqənə
+setifikatları göndərməklə sənin brauzerinə qarşı hücumları müəyyənləşdirə
+bilir. Bunu aktivləşdirirsən?">
+
+<!--<!ENTITY ssl-observatory.popup.text 
+"EFF's SSL Observatory can detect attacks against HTTPS websites by collecting
+and auditing the certificates being presented to your browser. Would you like
+to turn it on?">-->
+
+<!ENTITY ssl-observatory.popup.title 
+"Hər yerdə HTTPS SSL Müşahidə məntəqəsini istifadə etsin?">
+
+<!ENTITY ssl-observatory.popup.yes "Bəli">
+
+<!-- Observatory preferences dialog -->
+
+<!ENTITY ssl-observatory.prefs.adv_priv_opts1
+"Sən zəhlətökən korporativ şəbəkə istifadə etdikcə
+bunu aktivləşdirmək olar:">
+
+<!ENTITY ssl-observatory.prefs.adv_priv_opts2
+"Təhlükəsiz, sən sirli intranet server adları ilə korporativ şəbəkə istifadə etdiyin müddətdə:">
+
+<!ENTITY ssl-observatory.prefs.alt_roots 
+"Qeyri-standart köklü CA-lar tərəfindən imzalanmış sertifikatları daxil edib yoxla">
+
+<!ENTITY ssl-observatory.prefs.alt_roots_tooltip 
+"Sən zəhlətökən korporativ şəbəkə və ya brauzerini TLS proksi vasitəsilə və məxfi mənbə Sertifikat Mərkəzi vasitəsilə izləyən Kaspersky anti virusunu istifadə etdiyin müddətcə bunu açıq saxlamaq daha təhlükəsizdir (və daha yaxşıdır). Şəbəkədə açıq saxlandığı müddət ərzində bu, mövcud proksi vasitəsilə hansı https:// domeynlərə ziyarət edildiyini nümayiş etdirə bilər; bu onun istehsal etdiyi sertifikatlara görə. Ona görə də ilkin halda onu bağlı saxlayırıq.">
+
+<!ENTITY ssl-observatory.prefs.anonymous "Anonimlik üçün Tor istifadə edən sertifikatları yoxla">
+<!ENTITY ssl-observatory.prefs.anonymous_unavailable 
+"Anonimlik üçün Tor istifadə edən sertifikatları yoxla (Tor-u tələb edir)">
+<!ENTITY ssl-observatory.prefs.anonymous_tooltip 
+"İşləmə və quraşdırılma üçün bu seçim Tor tələb edir">
+
+<!ENTITY ssl-observatory.prefs.asn 
+"Yeni sertifikat gördükdə, Müşahidə məntəqəsinə hansı İXT-ə qoşulduğunu bildir">
+
+<!ENTITY ssl-observatory.prefs.asn_tooltip
+"Bu sənin şəbəkənin &quot;Anonim Sistem nömrəsi&quot;ni əldə edib göndərəcək. Bu bizə HTTPS əleyhinə ola biləcək hücumları, İran və Suriya kimi hücuma meylli məkanlardan müşahidə edilib edilmədiyimizi müəyyənləşdirməyə kömək edəcək.">
+
+<!ENTITY ssl-observatory.prefs.show_cert_warning
+"Sənin brauzerin tərəfindən müəyyən edilə bilməyən saxta sertifikatları Müşahidə məntəqəsi aşkarladıqda, xəbərdarlıq siqnalı ver">
+
+<!ENTITY ssl-observatory.prefs.show_cert_warning_tooltip
+"Bu Saxtalaşdırılmış Sertifikatlar Siyahısı olə daxil edilmiş sertifikatları yoxlayacaq. Biz bütün saxta sertifikatları müəyyən edə biləcəyimizə zəmanət vermirik, amma hər hansı xəbərdarlıq siqnalı əldə etdikdə, nəyinsə təhlükəli olduğunu yadından çıxarma.">
+
+<!ENTITY ssl-observatory.prefs.done "Oldu">
+
+<!ENTITY ssl-observatory.prefs.explanation 
+"Hər yerdə HTTPS EEF-in SSL Müşahidə məntəqəsini istifadə edə bilər. Bu iki şey edir: (1)
+Veb təhlükəsizliyi inkişaf etdirmək üçün əsas hücumları aşkarlamağa kömək etmək 
+üçün HTTPS sertifikatlarının üzlərini Müşahidə məntəqəsinə göndərir; və (2)
+brauzerindəki təhlükəli bağlantı və hücumlar haqqında sənə xəbər verməyə bizə icazə verir.">
+
+<!--<!ENTITY ssl-observatory.prefs.explanation2
+"When you visit https://www.example.com, the Observatory will learn that
+somebody visited that site, but will not know who or what page they looked at.
+Mouseover the options for further details:">-->
+
+<!ENTITY ssl-observatory.prefs.explanation2
+
+"Məsələn, sən https://www.something.com saytına daxil olduqda, Müşahidə 
+məntəqəsi tərəfindən əldə edilmiş sertifikatda kiminsə www.something.com 
+saytına daxil olduğu haqqında məlumat veriləcək, amma onun kim olduğu və 
+hansı səhifələrə baxdığı bildirilməyəcəkdir. Ətraflı məlumat üçün mausu 
+hərəkət etdir:">
+
+<!ENTITY ssl-observatory.prefs.hide "Ətraflı seçimləri gizlə">
+
+<!ENTITY ssl-observatory.prefs.nonanon 
+"Tor mümkün olmadıqda belə sertifikatları yoxla">
+
+<!ENTITY ssl-observatory.prefs.nonanon_tooltip
+"Biz yenə də məlumatı anonim saxlamağa çalışacağıq, amma bu seçim daha az təhlükəsizdir">
+
+<!ENTITY ssl-observatory.prefs.priv_dns 
+"Qeyri-ictimai DNS adlar üçün sertifikatları daxil et və yoxla">
+
+<!ENTITY ssl-observatory.prefs.priv_dns_tooltip
+"Bu seçim quraşdırılmadıqca Müşahidə məntəqəsi DNS sistemi vasitəsilə aydınlaşdırıla bilməyən adlar üçün sertifikat daxil etməyəcək.">
+
+<!ENTITY ssl-observatory.prefs.show "Ətraflı seçimləri göstər">
+
+<!ENTITY ssl-observatory.prefs.title "SSL İzləyici Xüsusiyyətləti">
+
+<!ENTITY ssl-observatory.prefs.use "Müşahidə məntəqəsini istifadə edirsən?">
+<!ENTITY ssl-observatory.warning.title "EFF-in SSL Müşahidə məntəqəsi tərəfindən XƏBƏRDARLIQ">
+<!ENTITY ssl-observatory.warning.showcert "Sertifikat zəncirini göstər">
+<!ENTITY ssl-observatory.warning.okay "Mən anlayıram">
+<!ENTITY ssl-observatory.warning.text "EFF-in SSL Müşahidə məntəqəsi bu sayt üçün HTTPS sertifikat(lar)ı haqqında xəbərdarlıq təqdim edib:">
+<!ENTITY ssl-observatory.warning.defense "Sən sayta daxil olmusansa, təhlükəsiz əlaqə zamanı şifrəni dəyişmək məsləhət edilir. (Bu xəbərdarlıqlar Hər yerdə HTTPS xüsusiyyətlər dialoqunun &quot;SSL Müşahidə məntəqəsi&quot;ndə deaktivasiya edilə bilər.)">
+
+<!ENTITY ssl-observatory.prefs.self_signed
+"Şəxsi-imzalanmış sertifikatları daxil et və yoxla">
+<!ENTITY ssl-observatory.prefs.self_signed_tooltip
+"Bu məsləhət edilir; kriptoqrafik problemlər şəxsi-imzalanmış cihazlarda daha çox yayılmışdır">

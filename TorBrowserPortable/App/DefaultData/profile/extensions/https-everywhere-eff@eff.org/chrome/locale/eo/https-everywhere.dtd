@@ -1,0 +1,50 @@
+<!ENTITY https-everywhere.about.title "Pri HTTPS-Ĉie">
+<!ENTITY https-everywhere.about.ext_name "HTTPS-Ĉie">
+<!ENTITY https-everywhere.about.ext_description "Ĉifrigu la reton! Aŭtomate uzu HTTPS‐sekurecon ĉe multaj retejoj.">
+<!ENTITY https-everywhere.about.version "Versio">
+<!ENTITY https-everywhere.about.created_by "Kreita de">
+<!ENTITY https-everywhere.about.librarians "Libraristoj pri regularo">
+<!ENTITY https-everywhere.about.thanks "Dankoj al">
+<!ENTITY https-everywhere.about.contribute  "Se vi ŝatas HTTPS-Ĉie, vi devus konsideri">
+<!ENTITY https-everywhere.about.donate_tor "Donaci al Tor">
+<!ENTITY https-everywhere.about.tor_lang_code "eo">
+<!ENTITY https-everywhere.about.or "aŭ">
+<!ENTITY https-everywhere.about.donate_eff "Donaci al EFF">
+
+<!ENTITY https-everywhere.menu.about "Pri HTTPS-Ĉie">
+<!ENTITY https-everywhere.menu.observatory "Agordoj de SSL-Observatorio">
+<!ENTITY https-everywhere.menu.globalEnable "Enŝalti HTTPS-Ĉie">
+<!ENTITY https-everywhere.menu.globalDisable "Malŝalti HTTPS-Ĉie">
+<!ENTITY https-everywhere.menu.blockHttpRequests "Block all HTTP requests">
+<!ENTITY https-everywhere.menu.showCounter "vidi nombrilo">
+<!ENTITY https-everywhere.menu.viewAllRules "View All Rules">
+
+<!ENTITY https-everywhere.prefs.title "Agordoj de HTTPS-Ĉie">
+<!ENTITY https-everywhere.prefs.enable_all "Enŝalti ĉiujn">
+<!ENTITY https-everywhere.prefs.disable_all "Malŝalti ĉiujn">
+<!ENTITY https-everywhere.prefs.reset_defaults "Reŝargi al aprioroj">
+<!ENTITY https-everywhere.prefs.search "Serĉi">
+<!ENTITY https-everywhere.prefs.site "Retejo">
+<!ENTITY https-everywhere.prefs.notes "Notoj">
+<!ENTITY https-everywhere.prefs.list_caption "Kiuj reguloj pri HTTPS-alidirektado aplikiĝi?">
+<!ENTITY https-everywhere.prefs.enabled "Enŝaltita">
+<!ENTITY https-everywhere.prefs.ruleset_howto "Vi povas lerni kiel verki viajn proprajn regularojn (por aldoni subtenon por aliaj retejoj)">
+<!ENTITY https-everywhere.prefs.here_link "ĉi tie">
+<!ENTITY https-everywhere.prefs.toggle "Ŝalti">
+<!ENTITY https-everywhere.prefs.reset_default "Reŝargi al aprioroj">
+<!ENTITY https-everywhere.prefs.view_xml_source "Vidi XML-fonton">
+
+<!ENTITY https-everywhere.source.downloading "Elŝutante">
+<!ENTITY https-everywhere.source.filename "Dosiernomo">
+<!ENTITY https-everywhere.source.unable_to_download "Fonto ne elŝuteblas.">
+
+<!ENTITY https-everywhere.popup.title "Atentigo pri HTTPS-Ĉie 4.0development.11">
+<!ENTITY https-everywhere.popup.paragraph1 "Oops. Vi estas uzanta la stabilan version de HTTPS-Ĉie sed ni eble erare ĝisdatigis vin al evoluigan version dum nia lasta eldono.">
+<!ENTITY https-everywhere.popup.paragraph2 "Ĉu vi volas reiri al stabila versio?">
+<!ENTITY https-everywhere.popup.paragraph3 "Ni deziras, ke vi uzas nian evoluigan version por helpi nin plibonigi HTTPS-Ĉie! Vi eble trovas kelkajn cimojn, kiujn vi povas raporti per https-everywhere@eff.org. Ni pardonpetas por la malagrablo kaj dankas vin por uzi HTTPS-Ĉie.">
+<!ENTITY https-everywhere.popup.keep "Teni min al evoluiga versio">
+<!ENTITY https-everywhere.popup.revert "Elŝutu la lastan stabilan version">
+
+<!ENTITY https-everywhere.ruleset-tests.status_title "Provoj de HTTPS-Ĉie Regularoj">
+<!ENTITY https-everywhere.ruleset-tests.status_cancel_button "Rezigni">
+<!ENTITY https-everywhere.ruleset-tests.status_start_button "Ek">

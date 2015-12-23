@@ -1,0 +1,50 @@
+<!ENTITY https-everywhere.about.title "Tentang HTTPS Everywhere">
+<!ENTITY https-everywhere.about.ext_name "HTTPS Everywhere">
+<!ENTITY https-everywhere.about.ext_description "Enkripsi Web-nya! Secara otomatis menggunakan keamanan HTTPS pada banyak situs.">
+<!ENTITY https-everywhere.about.version "Versi">
+<!ENTITY https-everywhere.about.created_by "Dibuat oleh">
+<!ENTITY https-everywhere.about.librarians "Pustakawan Ruleset">
+<!ENTITY https-everywhere.about.thanks "Terima kasih kepada">
+<!ENTITY https-everywhere.about.contribute  "Jika Anda menyukai HTTPS Everywhere, Anda dapat">
+<!ENTITY https-everywhere.about.donate_tor "Donasi untuk Tor">
+<!ENTITY https-everywhere.about.tor_lang_code "en">
+<!ENTITY https-everywhere.about.or "atau">
+<!ENTITY https-everywhere.about.donate_eff "Donasi untuk EFF">
+
+<!ENTITY https-everywhere.menu.about "Tentang HTTPS Everywhere">
+<!ENTITY https-everywhere.menu.observatory "Preferensi SSL Observatory">
+<!ENTITY https-everywhere.menu.globalEnable "Fungsikan HTTPS Everywhere">
+<!ENTITY https-everywhere.menu.globalDisable "Nonfungsikan HTTPS Everywhere">
+<!ENTITY https-everywhere.menu.blockHttpRequests "Blokir semua permintaan HTTP">
+<!ENTITY https-everywhere.menu.showCounter "Tampilkan Penghitung">
+<!ENTITY https-everywhere.menu.viewAllRules "Lihat Semua Aturan">
+
+<!ENTITY https-everywhere.prefs.title "Preferensi HTTPS Everywhere">
+<!ENTITY https-everywhere.prefs.enable_all "Fungsikan Semua">
+<!ENTITY https-everywhere.prefs.disable_all "Nonfungsikan Semua">
+<!ENTITY https-everywhere.prefs.reset_defaults "Kembalikan ke Bawaan">
+<!ENTITY https-everywhere.prefs.search "Cari">
+<!ENTITY https-everywhere.prefs.site "Situs">
+<!ENTITY https-everywhere.prefs.notes "Catatan">
+<!ENTITY https-everywhere.prefs.list_caption "Aturan pengalihan HTTPS yang mana yang harus diterapkan?">
+<!ENTITY https-everywhere.prefs.enabled "Fungsikan">
+<!ENTITY https-everywhere.prefs.ruleset_howto "Sekarang Anda bisa belajar bagaimana menulis ruleset Anda sendiri (untuk menambah dukungan untuk situs web lain)">
+<!ENTITY https-everywhere.prefs.here_link "di sini">
+<!ENTITY https-everywhere.prefs.toggle "Jungkit">
+<!ENTITY https-everywhere.prefs.reset_default "Kembalikan ke Bawaan">
+<!ENTITY https-everywhere.prefs.view_xml_source "Lihat Sumber XML">
+
+<!ENTITY https-everywhere.source.downloading "Mengunduh">
+<!ENTITY https-everywhere.source.filename "Nama Berkas">
+<!ENTITY https-everywhere.source.unable_to_download "Tidak dapat mengunduh sumber.">
+
+<!ENTITY https-everywhere.popup.title "Notifikasi HTTPS Everywhere 4.0development.11">
+<!ENTITY https-everywhere.popup.paragraph1 "Oops. Anda telah menggunakan HTTPS Everywhere versi stabil, tetapi kami mungkin secara tidak sengaja memutakhirkannya ke versi pengembangan pada rilis terakhir kami.">
+<!ENTITY https-everywhere.popup.paragraph2 "Apakah Anda ingin kembali ke versi stabil?">
+<!ENTITY https-everywhere.popup.paragraph3 "Kami senang jika Anda tetap menggunakan rilis pengembangan kami dan membantu kami membuat HTTPS Everywhere lebih baik! Anda mungkin akan menemukan beberapa kutu di sana-sini, dan kamu dapat melaporkannya ke https-everywhere@eff.org. Maaf atas ketidak-nyamanannya, dan terima kasih telah menggunakan HTTPS Everywhere.">
+<!ENTITY https-everywhere.popup.keep "Tetap pada versi pengembangan">
+<!ENTITY https-everywhere.popup.revert "Unduh versi stabil terakhir">
+
+<!ENTITY https-everywhere.ruleset-tests.status_title "Tes Ruleset HTTPS Everywhere">
+<!ENTITY https-everywhere.ruleset-tests.status_cancel_button "Batal">
+<!ENTITY https-everywhere.ruleset-tests.status_start_button "Mulai">

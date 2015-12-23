@@ -1,9 +1,30 @@
+Tor Browser 5.0.5 -- December 15 2015
+ * All Platforms
+   * Update Firefox to 38.5.0esr
+   * Update Tor to 0.2.7.6
+   * Update OpenSSL to 1.0.1q
+   * Update NoScript to 2.7
+   * Update HTTPS Everywhere to 5.1.1
+   * Update Torbutton to 1.9.3.7
+     * Bug 16990: Avoid matching '250 ' to the end of node name
+     * Bug 17565: Tor fundraising campaign donation banner
+     * Bug 17770: Fix alignments on donation banner
+     * Bug 17792: Include donation banner in some non en-US Tor Browsers
+     * Translation updates
+   * Bug 17207: Hide MIME types and plugins from websites
+   * Bug 16909+17383: Adapt to HTTPS-Everywhere build changes
+   * Bug 16863: Avoid confusing error when loop.enabled is false
+   * Bug 17502: Add a preference for hiding "Open with" on download dialog
+   * Bug 17446: Prevent canvas extraction by third parties (fixup of #6253)
+   * Bug 16441: Suppress "Reset Tor Browser" prompt
+   * Bug 17747: Add ndnop3 as new default obfs4 bridge
+
 Tor Browser 5.0.4 -- November 3 2015
  * All Platforms
    * Update Firefox to 38.4.0esr
    * Update NoScript to 2.6.9.39
    * Update Torbutton to 1.9.3.5
-     * Bug 9263: Spoof Referer when leaving a .onion domain
+     * Bug 9623: Spoof Referer when leaving a .onion domain
      * Bug 16735: about:tor should accommodate different fonts/font sizes
      * Bug 16937: Don't translate the homepage/spellchecker dictionary string
      * Bug 17164: Don't show text-select cursor on circuit display
