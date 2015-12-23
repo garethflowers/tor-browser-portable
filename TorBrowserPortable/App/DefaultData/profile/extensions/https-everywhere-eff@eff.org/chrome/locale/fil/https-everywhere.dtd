@@ -1,0 +1,50 @@
+<!ENTITY https-everywhere.about.title "Tungkol sa HTTPS Everywhere">
+<!ENTITY https-everywhere.about.ext_name "HTTPS Everywhere">
+<!ENTITY https-everywhere.about.ext_description "I-encrypt ang Web! Awtomatikong gamitin ang HTTPS security sa maraming sites.">
+<!ENTITY https-everywhere.about.version "Bersyon">
+<!ENTITY https-everywhere.about.created_by "Ginawa ni/ng">
+<!ENTITY https-everywhere.about.librarians "Ruleset Librarians">
+<!ENTITY https-everywhere.about.thanks "Salamat kay/sa">
+<!ENTITY https-everywhere.about.contribute  "Kung nagustuhan mo ang HTTPS Everywhere, baka magustuhan mo rin ang">
+<!ENTITY https-everywhere.about.donate_tor "Paano mag-donate sa Tor">
+<!ENTITY https-everywhere.about.tor_lang_code "fil">
+<!ENTITY https-everywhere.about.or "o">
+<!ENTITY https-everywhere.about.donate_eff "Paano mag-donate sa EFF">
+
+<!ENTITY https-everywhere.menu.about "Tungkol sa HTTPS Everywhere">
+<!ENTITY https-everywhere.menu.observatory "SSL Observatory Preferences">
+<!ENTITY https-everywhere.menu.globalEnable "Enable HTTPS Everywhere">
+<!ENTITY https-everywhere.menu.globalDisable "Disable HTTPS Everywhere">
+<!ENTITY https-everywhere.menu.blockHttpRequests "Block all HTTP requests">
+<!ENTITY https-everywhere.menu.showCounter "Show Counter">
+<!ENTITY https-everywhere.menu.viewAllRules "View All Rules">
+
+<!ENTITY https-everywhere.prefs.title "HTTPS Everywhere Preferences">
+<!ENTITY https-everywhere.prefs.enable_all "Enable All">
+<!ENTITY https-everywhere.prefs.disable_all "Disable All">
+<!ENTITY https-everywhere.prefs.reset_defaults "Ibalik sa Defaults">
+<!ENTITY https-everywhere.prefs.search "Maghanap">
+<!ENTITY https-everywhere.prefs.site "Site">
+<!ENTITY https-everywhere.prefs.notes "Notes">
+<!ENTITY https-everywhere.prefs.list_caption "Aling HTTPS redirection rules ang dapat gamitin?">
+<!ENTITY https-everywhere.prefs.enabled "Enabled">
+<!ENTITY https-everywhere.prefs.ruleset_howto "Puwede kang matuto kung paano magsulat ng sarili mong rulesets (para magdagdag ng support para sa iba pang web sites)">
+<!ENTITY https-everywhere.prefs.here_link "dito">
+<!ENTITY https-everywhere.prefs.toggle "Toggle">
+<!ENTITY https-everywhere.prefs.reset_default "Ibalik sa Default">
+<!ENTITY https-everywhere.prefs.view_xml_source "Tingnan ang XML Source">
+
+<!ENTITY https-everywhere.source.downloading "Downloading">
+<!ENTITY https-everywhere.source.filename "Filename">
+<!ENTITY https-everywhere.source.unable_to_download "Hindi ma-download ang source.">
+
+<!ENTITY https-everywhere.popup.title "HTTPS Everywhere 4.0development.11 notification">
+<!ENTITY https-everywhere.popup.paragraph1 "Hala. Ginagamit mo dati ang stable version ng HTTPS Everywhere, pero maaaring hindi namin sinasadyang naibigay sa iyo ang development version noong huli naming release.">
+<!ENTITY https-everywhere.popup.paragraph2 "Gusto mo bang bumalik sa stable?">
+<!ENTITY https-everywhere.popup.paragraph3 "Ikalulugod namin kung itutuloy mo ang paggamit sa aming development release at kung tutulungan mo kaming pagandahin ang HTTPS Everywhere! Maaari kang makakita ng ilan pang bugs dito na maaari mong iulat sa https-everywhere@eff.org. Humihingi kami ng paumanhin sa abala at nagpapasalamat kami sa iyong paggamit ng HTTPS Everywhere.">
+<!ENTITY https-everywhere.popup.keep "Sige, gusto ko sa development version">
+<!ENTITY https-everywhere.popup.revert "I-download ang pinakabagong stable version">
+
+<!ENTITY https-everywhere.ruleset-tests.status_title "HTTPS Everywhere Ruleset Tests">
+<!ENTITY https-everywhere.ruleset-tests.status_cancel_button "Cancel">
+<!ENTITY https-everywhere.ruleset-tests.status_start_button "Simulan">

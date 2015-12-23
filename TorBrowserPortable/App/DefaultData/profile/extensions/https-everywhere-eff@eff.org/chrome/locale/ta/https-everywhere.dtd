@@ -1,0 +1,50 @@
+<!ENTITY https-everywhere.about.title "எல்லா இடங்களிலும் HTTPS பற்றி">
+<!ENTITY https-everywhere.about.ext_name "எல்லா இடங்களிலும் HTTPS">
+<!ENTITY https-everywhere.about.ext_description "வலை Encrypt! தானாகவே பல தளங்களில் HTTPS பாதுகாப்பு பயன்படுத்த.">
+<!ENTITY https-everywhere.about.version "பதிப்பு">
+<!ENTITY https-everywhere.about.created_by "உருவாக்கப்பட்டது">
+<!ENTITY https-everywhere.about.librarians "Ruleset நூலகர்கள்">
+<!ENTITY https-everywhere.about.thanks "நன்றிகள்">
+<!ENTITY https-everywhere.about.contribute  "நீங்கள் எல்லா இடங்களிலும் HTTPS விரும்பினால், நீங்கள் பரிசீலிக்க வேண்டும்">
+<!ENTITY https-everywhere.about.donate_tor "Tor நன்கொடை">
+<!ENTITY https-everywhere.about.tor_lang_code "en">
+<!ENTITY https-everywhere.about.or "அல்லது">
+<!ENTITY https-everywhere.about.donate_eff "EFF நன்கொடை">
+
+<!ENTITY https-everywhere.menu.about "எல்லா இடங்களிலும் HTTPS பற்றி">
+<!ENTITY https-everywhere.menu.observatory "SSL அவதான விருப்பங்கள்">
+<!ENTITY https-everywhere.menu.globalEnable "எல்லா இடங்களிலும் HTTPS செயலாக்கு">
+<!ENTITY https-everywhere.menu.globalDisable "எல்லா இடங்களிலும் HTTPS முடக்கு">
+<!ENTITY https-everywhere.menu.blockHttpRequests "அனைத்து HTTP கோரிக்கைகள் தடு">
+<!ENTITY https-everywhere.menu.showCounter "காட்டு கருமபீடம்">
+<!ENTITY https-everywhere.menu.viewAllRules "View All Rules">
+
+<!ENTITY https-everywhere.prefs.title "HTTPS எல்லா இடங்களிலும் விருப்பங்கள்">
+<!ENTITY https-everywhere.prefs.enable_all "அனைத்தும் செயலாக்கு">
+<!ENTITY https-everywhere.prefs.disable_all "அனைத்தும் முடக்கு">
+<!ENTITY https-everywhere.prefs.reset_defaults "இயல்புநிலைக்கு மீட்டமை">
+<!ENTITY https-everywhere.prefs.search "தேடு">
+<!ENTITY https-everywhere.prefs.site "தளம்">
+<!ENTITY https-everywhere.prefs.notes "குறிப்புகள்">
+<!ENTITY https-everywhere.prefs.list_caption "எந்த HTTPS திருப்பிவிடுதல் விதிகளை விண்ணப்பிக்க வேண்டும்?">
+<!ENTITY https-everywhere.prefs.enabled "இயக்கப்பட்டது">
+<!ENTITY https-everywhere.prefs.ruleset_howto "நீங்கள் உங்கள் சொந்த rulesets (பிற இணைய தளங்கள் ஆதரவு சேர்க்க) எழுத எப்படி அறிய முடியும்">
+<!ENTITY https-everywhere.prefs.here_link "இங்கே">
+<!ENTITY https-everywhere.prefs.toggle "மாற்று">
+<!ENTITY https-everywhere.prefs.reset_default "இயல்புநிலைக்கு மீட்டமை">
+<!ENTITY https-everywhere.prefs.view_xml_source "XML மூலத்தை காண">
+
+<!ENTITY https-everywhere.source.downloading "பதிவிறக்குகிறது">
+<!ENTITY https-everywhere.source.filename "கோப்பின் பெயர்">
+<!ENTITY https-everywhere.source.unable_to_download "மூலத்தை பதிவிறக்க இயலவில்லை.">
+
+<!ENTITY https-everywhere.popup.title "HTTPS எல்லா இடங்களிலும் 4.0மேம்பாட்டு.11 அறிவிக்கை">
+<!ENTITY https-everywhere.popup.paragraph1 "அடடா. நீங்கள் எல்லா இடங்களிலும் HTTPS நிலையான பதிப்பு பயன்படுத்தி இருந்தன, ஆனால் நாம் தற்செயலாக எங்கள் கடந்த வெளியீட்டில் வளர்ச்சி பதிப்பு நீங்கள் மேம்படுத்தப்படும் என்று.">
+<!ENTITY https-everywhere.popup.paragraph2 "நீங்கள் மீண்டும் நிலையாக செல்ல விரும்புகிறீர்களா?">
+<!ENTITY https-everywhere.popup.paragraph3 "சிறப்பாக HTTPS செய்ய உதவியது என்றால் நாம் அதை விரும்புகிறோம்! நீங்கள் https-everywhere@eff.org தெரிவிக்க முடியும், இது இங்கே மற்றும் அங்கே இன்னும் சில பிழைகள் உள்ளன கண்டுபிடிக்க வேண்டும். சிரமத்திற்கு மன்னிக்கவும், எல்லா இடங்களிலும் HTTPS பயன்படுத்தி நன்றி.">
+<!ENTITY https-everywhere.popup.keep "வளர்ச்சி பதிப்பு என்னை வைத்து">
+<!ENTITY https-everywhere.popup.revert "சமீபத்திய நிலையான பதிப்பை பதிவிறக்கு">
+
+<!ENTITY https-everywhere.ruleset-tests.status_title "HTTPS எல்லா இடங்களிலும் Ruleset சோதனைகள்">
+<!ENTITY https-everywhere.ruleset-tests.status_cancel_button "ரத்துசெய்">
+<!ENTITY https-everywhere.ruleset-tests.status_start_button "தொடங்கு">

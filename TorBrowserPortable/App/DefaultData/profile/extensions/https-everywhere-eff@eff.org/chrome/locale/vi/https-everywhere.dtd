@@ -1,0 +1,50 @@
+<!ENTITY https-everywhere.about.title "Thông tin về HTTPS Everywhere">
+<!ENTITY https-everywhere.about.ext_name "HTTPS Everywhere">
+<!ENTITY https-everywhere.about.ext_description "Mã hóa trang web! Tự động sử dụng bảo mật HTTPS ở nhiều trang web.">
+<!ENTITY https-everywhere.about.version "Phiên bản">
+<!ENTITY https-everywhere.about.created_by "Tạo ra bởi">
+<!ENTITY https-everywhere.about.librarians "Ruleset Librarians">
+<!ENTITY https-everywhere.about.thanks "Nhờ có">
+<!ENTITY https-everywhere.about.contribute  "Nếu như bạn thích HTTPS Everywhere, có thể bạn cũng thích">
+<!ENTITY https-everywhere.about.donate_tor "Đóng góp cho Tor">
+<!ENTITY https-everywhere.about.tor_lang_code "en">
+<!ENTITY https-everywhere.about.or "Hoặc">
+<!ENTITY https-everywhere.about.donate_eff "Đóng góp cho EFF">
+
+<!ENTITY https-everywhere.menu.about "Thông tin về HTTPS Everywhere">
+<!ENTITY https-everywhere.menu.observatory "SSL Observatory Preferences">
+<!ENTITY https-everywhere.menu.globalEnable "Kích hoạt HTTPS Everywhere">
+<!ENTITY https-everywhere.menu.globalDisable "Ngừng HTTPS Everywhere">
+<!ENTITY https-everywhere.menu.blockHttpRequests "Block all HTTP requests">
+<!ENTITY https-everywhere.menu.showCounter "Show Counter">
+<!ENTITY https-everywhere.menu.viewAllRules "View All Rules">
+
+<!ENTITY https-everywhere.prefs.title "Cài đặt HTTPS Everywhere">
+<!ENTITY https-everywhere.prefs.enable_all "Kích hoạt tất">
+<!ENTITY https-everywhere.prefs.disable_all "Tắt hết">
+<!ENTITY https-everywhere.prefs.reset_defaults "Khôi phục mặc định">
+<!ENTITY https-everywhere.prefs.search "Tìm kiếm">
+<!ENTITY https-everywhere.prefs.site "Trang web">
+<!ENTITY https-everywhere.prefs.notes "Ghi chép">
+<!ENTITY https-everywhere.prefs.list_caption "Which HTTPS redirection rules should apply?">
+<!ENTITY https-everywhere.prefs.enabled "Kích hoạt">
+<!ENTITY https-everywhere.prefs.ruleset_howto "You can learn how to write your own rulesets (to add support for other web sites)">
+<!ENTITY https-everywhere.prefs.here_link "Tại đây">
+<!ENTITY https-everywhere.prefs.toggle "Bật tắt">
+<!ENTITY https-everywhere.prefs.reset_default "Khôi phục mặc định">
+<!ENTITY https-everywhere.prefs.view_xml_source "Tìm nguồn XML">
+
+<!ENTITY https-everywhere.source.downloading "Đang tải xuống">
+<!ENTITY https-everywhere.source.filename "Tên tệp">
+<!ENTITY https-everywhere.source.unable_to_download "Không thể tải nguồn xuống được">
+
+<!ENTITY https-everywhere.popup.title "HTTPS Everywhere 4.0development.11 notification">
+<!ENTITY https-everywhere.popup.paragraph1 "Ối. Bạn đang dùng phiên bản ổn định của HTTPS Everywhere, nhưng có lẽ chúng tôi đã tình cờ nâng cấp lên phiên bản phát triển trong lần phát hành vừa rồi.">
+<!ENTITY https-everywhere.popup.paragraph2 "Bạn có muốn quay lại phiên bản ổn định?">
+<!ENTITY https-everywhere.popup.paragraph3 "Chúng tôi rất vui nếu như bạn tiếp tục sử dụng phiên bản phát triển và giúp chúng tôi làm cho HTTPS tốt hơn! Bạn có thể thấy có một vài lỗi kỹ thuật, mà bạn có thể báo lại với https-everywhere@eff.org. Xin lỗi vì sự bất tiện này, và cám ơn bạn vì đã sử dụng HTTPS Everywhere.">
+<!ENTITY https-everywhere.popup.keep "Giữ phiên bản phát triển">
+<!ENTITY https-everywhere.popup.revert "Tải về phiên bản ổn định mới nhất">
+
+<!ENTITY https-everywhere.ruleset-tests.status_title "HTTPS Everywhere Ruleset Tests">
+<!ENTITY https-everywhere.ruleset-tests.status_cancel_button "Hủy bỏ">
+<!ENTITY https-everywhere.ruleset-tests.status_start_button "Bắt đầu">

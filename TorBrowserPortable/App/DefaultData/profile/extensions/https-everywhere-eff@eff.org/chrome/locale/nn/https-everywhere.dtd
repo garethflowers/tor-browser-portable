@@ -1,0 +1,50 @@
+<!ENTITY https-everywhere.about.title "Om HTTPS Everywhere">
+<!ENTITY https-everywhere.about.ext_name "HTTPS Everywhere">
+<!ENTITY https-everywhere.about.ext_description "Krypter veven! Bruk HTTPS-tryggleik automatisk på mange sider.">
+<!ENTITY https-everywhere.about.version "Versjon">
+<!ENTITY https-everywhere.about.created_by "Laga av">
+<!ENTITY https-everywhere.about.librarians "Regelsettbibliotekarar">
+<!ENTITY https-everywhere.about.thanks "Takk til">
+<!ENTITY https-everywhere.about.contribute  "Om du likar HTTPS Everywhere, kunne du kanskje vurdere å ">
+<!ENTITY https-everywhere.about.donate_tor "Donere til Tor">
+<!ENTITY https-everywhere.about.tor_lang_code "en">
+<!ENTITY https-everywhere.about.or "eller">
+<!ENTITY https-everywhere.about.donate_eff "Donerer til EFF">
+
+<!ENTITY https-everywhere.menu.about "Om HTTPS Everywhere">
+<!ENTITY https-everywhere.menu.observatory "SSL Observatory Innstillingar">
+<!ENTITY https-everywhere.menu.globalEnable "Slå på HTTPS Everywhere">
+<!ENTITY https-everywhere.menu.globalDisable "Slå av HTTPS Everywhere">
+<!ENTITY https-everywhere.menu.blockHttpRequests "Blokker alle HTTP-førespurnadar">
+<!ENTITY https-everywhere.menu.showCounter "Vis teljar">
+<!ENTITY https-everywhere.menu.viewAllRules "View All Rules">
+
+<!ENTITY https-everywhere.prefs.title "HTTPS Everywhere Innstillingar">
+<!ENTITY https-everywhere.prefs.enable_all "Slå på alle">
+<!ENTITY https-everywhere.prefs.disable_all "Slå av alle">
+<!ENTITY https-everywhere.prefs.reset_defaults "Still tilbake til standard">
+<!ENTITY https-everywhere.prefs.search "Søk">
+<!ENTITY https-everywhere.prefs.site "Side">
+<!ENTITY https-everywhere.prefs.notes "Merknadar">
+<!ENTITY https-everywhere.prefs.list_caption "Kva for HTTPS vidaresendingsreglar skal gjelde?">
+<!ENTITY https-everywhere.prefs.enabled "Slått på">
+<!ENTITY https-everywhere.prefs.ruleset_howto "Du kan læra korleis du lagar dine eigne regelsett (for å støtta andre vevsider)">
+<!ENTITY https-everywhere.prefs.here_link "her">
+<!ENTITY https-everywhere.prefs.toggle "Skift mellom">
+<!ENTITY https-everywhere.prefs.reset_default "Still tilbake til standard">
+<!ENTITY https-everywhere.prefs.view_xml_source "Vis XML-kjelde">
+
+<!ENTITY https-everywhere.source.downloading "Lastar ned">
+<!ENTITY https-everywhere.source.filename "Filnamn">
+<!ENTITY https-everywhere.source.unable_to_download "Klarte ikkje å lasta ned kjelde.">
+
+<!ENTITY https-everywhere.popup.title "HTTPS Everywhere 4.0utvikling.11 varsel">
+<!ENTITY https-everywhere.popup.paragraph1 "Ojsann. Du brukte den stabile versjonen av HTTPS Everywhere, men vi kan ved eit uhell ha oppgradert deg til utviklarversjonen i vår siste utgjeving.">
+<!ENTITY https-everywhere.popup.paragraph2 "Vil du gå tilbake til den stabile?">
+<!ENTITY https-everywhere.popup.paragraph3 "Vi vert glade om du held fram å bruka utviklarversjonen vår og hjelpte oss å gjera HTTPS Everywhere betre! Det kan vera at du finn ut at det er nokre fleire feil her og der som du kan rapportera til https-everywhere@eff.org. Beklagar ulempa, og takk for at du brukar HTTPS Everywhere.">
+<!ENTITY https-everywhere.popup.keep "Eg vil bruka utviklarversjonen">
+<!ENTITY https-everywhere.popup.revert "Last ned siste stabile versjon">
+
+<!ENTITY https-everywhere.ruleset-tests.status_title "HTTPS Everywhere regelsett-testar">
+<!ENTITY https-everywhere.ruleset-tests.status_cancel_button "Cancel">
+<!ENTITY https-everywhere.ruleset-tests.status_start_button "Start">

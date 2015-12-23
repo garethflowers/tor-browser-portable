@@ -1,0 +1,50 @@
+<!ENTITY https-everywhere.about.title "Ynghylch HTTPS Everywhere">
+<!ENTITY https-everywhere.about.ext_name "HTTPS Everywhere">
+<!ENTITY https-everywhere.about.ext_description "Amgriptiwch yr We! Defnyddiwch diogelwch HTTPS yn awtomatig ar nifer o wefanau.">
+<!ENTITY https-everywhere.about.version "Fersiwn">
+<!ENTITY https-everywhere.about.created_by "Creuwyd gan">
+<!ENTITY https-everywhere.about.librarians "Llyfrgellwyr Set Rheol ">
+<!ENTITY https-everywhere.about.thanks "Diolch i">
+<!ENTITY https-everywhere.about.contribute  "Os rydych yn hoffi HTTPS Everywhere, efallai byddech yn ystyrio">
+<!ENTITY https-everywhere.about.donate_tor "Gyfrannu i Tor">
+<!ENTITY https-everywhere.about.tor_lang_code "en">
+<!ENTITY https-everywhere.about.or "or">
+<!ENTITY https-everywhere.about.donate_eff "Gyfrannu i EFF">
+
+<!ENTITY https-everywhere.menu.about "Ynghylch HTTPS Everywhere">
+<!ENTITY https-everywhere.menu.observatory "Dewisiadau SSL Observatory">
+<!ENTITY https-everywhere.menu.globalEnable "Galluogi HTTPS Everywhere">
+<!ENTITY https-everywhere.menu.globalDisable "Analluogi HTTPS Everywhere">
+<!ENTITY https-everywhere.menu.blockHttpRequests "Block all HTTP requests">
+<!ENTITY https-everywhere.menu.showCounter "Dangos rhifydd">
+<!ENTITY https-everywhere.menu.viewAllRules "View All Rules">
+
+<!ENTITY https-everywhere.prefs.title "Dewisiadau HTTPS Everywhere">
+<!ENTITY https-everywhere.prefs.enable_all "Galluogi Popeth">
+<!ENTITY https-everywhere.prefs.disable_all "Analluogi Popeth">
+<!ENTITY https-everywhere.prefs.reset_defaults "Ailosod i'r ddiofynnau">
+<!ENTITY https-everywhere.prefs.search "Chwilio">
+<!ENTITY https-everywhere.prefs.site "Safle">
+<!ENTITY https-everywhere.prefs.notes "Nodiadau">
+<!ENTITY https-everywhere.prefs.list_caption "Pa rheolau ailgyfeirio HTTPS sy'n berthnasol?">
+<!ENTITY https-everywhere.prefs.enabled "Wedi Galluogi">
+<!ENTITY https-everywhere.prefs.ruleset_howto "Gallwch ddysgi sut i ysgrifennu setiau rheol eich hun (i ychwanegu cymorth i wefannau eraill)">
+<!ENTITY https-everywhere.prefs.here_link "fama">
+<!ENTITY https-everywhere.prefs.toggle "Togl">
+<!ENTITY https-everywhere.prefs.reset_default "Ailosod i ddiofyn">
+<!ENTITY https-everywhere.prefs.view_xml_source "Gwelwch ffynhonnell XML">
+
+<!ENTITY https-everywhere.source.downloading "Yn lawrlwytho">
+<!ENTITY https-everywhere.source.filename "Enw ffeil">
+<!ENTITY https-everywhere.source.unable_to_download "Methu lawrlwytho'r ffynhonnell.">
+
+<!ENTITY https-everywhere.popup.title "Hysbysiad HTTPS Everywhere 4.0development.11">
+<!ENTITY https-everywhere.popup.paragraph1 "Wps! Oeddech yn defnyddio'r fersiwn sefydloh o HTTPS Everywhere, ond efallai wnaethon ni uwchraddio chithau i'r fersiwn datblygiad yn y datganiad diwethaf.">
+<!ENTITY https-everywhere.popup.paragraph2 "Ydych chi eisiau fynd yn ôl i sefydlog?">
+<!ENTITY https-everywhere.popup.paragraph3 "Bydden ni'n hoffi iddich chi parhau defnyddio ein datganiad datblygiad, ac helpu ni gwneud HTTPS Everywhere yn gwell! Efallai byddech chi'n canfod cwpl o bygiau - gallwch adrodd y broblem gan e-bostio https-everywhere@eff.org. Mae'n ddrwg gennym ni am yr anghyfleustr, ac diolch am defnyddio HTTPS Everywhere.">
+<!ENTITY https-everywhere.popup.keep "Cadw finnau ar y fersiwn datblydiedig">
+<!ENTITY https-everywhere.popup.revert "Lawrlwythwch y fersiwn sefydlog diwethaf">
+
+<!ENTITY https-everywhere.ruleset-tests.status_title "Profion setiau rheol HTTPS Everywhere">
+<!ENTITY https-everywhere.ruleset-tests.status_cancel_button "Canslo">
+<!ENTITY https-everywhere.ruleset-tests.status_start_button "Dechrau">
