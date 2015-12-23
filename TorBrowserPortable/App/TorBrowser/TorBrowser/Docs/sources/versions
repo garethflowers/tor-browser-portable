@@ -8,7 +8,7 @@ FIREFOX_VERSION=38.5.0esr
 
 TORBROWSER_UPDATE_CHANNEL=release
 
-TORBROWSER_TAG=tor-browser-${FIREFOX_VERSION}-5.0-1-build2
+TORBROWSER_TAG=tor-browser-${FIREFOX_VERSION}-5.0-2-build1
 TOR_TAG=tor-0.2.7.6
 TORLAUNCHER_TAG=0.2.7.7
 TORBUTTON_TAG=1.9.3.7
@@ -38,7 +38,7 @@ GITIAN_TAG=tor-browser-builder-3.x-8-gpgsux
 OPENSSL_VER=1.0.1q
 GMP_VER=5.1.3
 FIREFOX_LANG_VER=$FIREFOX_VERSION
-FIREFOX_LANG_BUILD=build1
+FIREFOX_LANG_BUILD=build2
 BINUTILS_VER=2.24
 GCC_VER=5.1.0
 PYTHON_VER=2.7.5
@@ -123,4 +123,4 @@ SETUPTOOLS_URL=https://pypi.python.org/packages/source/s/setuptools/${SETUPTOOLS
 LXML_URL=https://pypi.python.org/packages/source/l/lxml/${LXML_PACKAGE}
 PARSLEY_URL=https://pypi.python.org/packages/source/P/Parsley/${PARSLEY_PACKAGE}
 GO_URL=https://golang.org/dl/${GO_PACKAGE}
-TORBROWSER_VERSION=5.0.5
+TORBROWSER_VERSION=5.0.6
