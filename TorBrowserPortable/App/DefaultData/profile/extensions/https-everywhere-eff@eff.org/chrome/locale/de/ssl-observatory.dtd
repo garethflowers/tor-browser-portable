@@ -20,8 +20,8 @@ to turn it on?">-->
 <!-- Observatory preferences dialog -->
 
 <!ENTITY ssl-observatory.prefs.adv_priv_opts1
-"Es ist sicher, diese Option zu aktivieren, es sei denn, 
-Sie benutzen ein sehr aufdringliches Firmennetzwerk:">
+"Es ist kein Problem, diese Option zu aktivieren, es sei denn, 
+Sie befinden sich in einem sehr aufdringlichen Firmennetzwerk:">
 
 <!ENTITY ssl-observatory.prefs.adv_priv_opts2
 "Sicher, es sei denn, Sie benutzen ein Firmennetzwerk mit geheimen Intranet-Servernamen:">

@@ -17,7 +17,7 @@
 <!ENTITY https-everywhere.menu.globalDisable "Slå av HTTPS Everywhere">
 <!ENTITY https-everywhere.menu.blockHttpRequests "Blokker alle HTTP-førespurnadar">
 <!ENTITY https-everywhere.menu.showCounter "Vis teljar">
-<!ENTITY https-everywhere.menu.viewAllRules "View All Rules">
+<!ENTITY https-everywhere.menu.viewAllRules "Vis alle reglane">
 
 <!ENTITY https-everywhere.prefs.title "HTTPS Everywhere Innstillingar">
 <!ENTITY https-everywhere.prefs.enable_all "Slå på alle">

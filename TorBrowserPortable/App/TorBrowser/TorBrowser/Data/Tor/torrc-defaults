@@ -1,3 +1,9 @@
+# torrc-defaults for Tor Browser
+#
+# This file is distributed with Tor Browser and should not be modified (it
+# may be overwritten during the next Tor Browser update). To customize your
+# Tor configuration, shut down Tor Browser and edit the torrc file.
+#
 # If non-zero, try to write to disk less frequently than we would otherwise.
 AvoidDiskWrites 1
 # Where to send logging messages.  Format is minSeverity[-maxSeverity]

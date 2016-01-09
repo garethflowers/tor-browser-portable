@@ -18,7 +18,7 @@ to turn it on?">-->
 <!-- Observatory preferences dialog -->
 
 <!ENTITY ssl-observatory.prefs.adv_priv_opts1
-"非常に監視が厳しい企業ネットワークを使用する場合は、これを有効にした方が安全です:">
+"非常に監視が厳しい企業ネットワークを使用していなければ、これを有効にした方が安全です:">
 
 <!ENTITY ssl-observatory.prefs.adv_priv_opts2
 "次の秘密イントラネットのサーバー名で企業ネットワークを使用しなければ、安全です:">

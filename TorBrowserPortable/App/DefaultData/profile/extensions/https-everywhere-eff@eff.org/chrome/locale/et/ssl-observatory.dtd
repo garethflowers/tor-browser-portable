@@ -39,13 +39,13 @@ kui kasutad sissetungivat korporatiivvõrku:">
 "See säte nõuab, et Tor on paigaldatud ja töötab">
 
 <!ENTITY ssl-observatory.prefs.asn 
-"When you see a new certificate, tell the Observatory which ISP you are connected to">
+"Kui te näete uut sertifikaati, öelge observatooriumile mis ISPsse te olete ühendatud">
 
 <!ENTITY ssl-observatory.prefs.asn_tooltip
 "This will fetch and send the &quot;Autonomous System number&quot; of your network.  This will help us locate attacks against HTTPS, and to determine whether we have observations from networks in places like Iran and Syria where attacks are comparatively common.">
 
 <!ENTITY ssl-observatory.prefs.show_cert_warning
-"Show a warning when the Observatory detects a revoked certificate not caught by your browser">
+"Näita hoiatust kui observatoorium leiab tühistatud sertifikaadi, mida teie brauser ei märganud">
 
 <!ENTITY ssl-observatory.prefs.show_cert_warning_tooltip
 "This will check submitted certificates against known Certificate Revocation Lists. Unfortunately we cannot guarantee that we will flag every revoked certificate, but if you do see a warning there's a good chance something is wrong.">
@@ -73,16 +73,16 @@ looked at.  Mouseover the options for further details:">
 <!ENTITY ssl-observatory.prefs.hide "Peida täiendavad sätted">
 
 <!ENTITY ssl-observatory.prefs.nonanon 
-"Check certificates even if Tor is not available">
+"Kontrolli sertifikaate kui Tor ei ole saadaval">
 
 <!ENTITY ssl-observatory.prefs.nonanon_tooltip
-"We will still try to keep the data anonymous, but this option is less secure">
+"Me üritame hoida andmeid anonnüümsena, aga see seade on vähem turvaline">
 
 <!ENTITY ssl-observatory.prefs.priv_dns 
-"Submit and check certificates for non-public DNS names">
+"Saada ja kontrolli sertifikaate mitte-publik DNS nimedele">
 
 <!ENTITY ssl-observatory.prefs.priv_dns_tooltip
-"Unless this option is checked, the Observatory will not record certificates for names that it cannot resolve through the DNS system.">
+"Väljaarvatud kui see seade on sees, observatoorium ei talleta sertifikaate nimedele, mida see ei suuda lahendada läbi DNS süsteemi.">
 
 <!ENTITY ssl-observatory.prefs.show "Kuva täiendavad sätted">
 
@@ -92,8 +92,8 @@ looked at.  Mouseover the options for further details:">
 <!ENTITY ssl-observatory.warning.title "HOIATUS EFF'i SSL Observatory'st">
 <!ENTITY ssl-observatory.warning.showcert "Kuva sertifikaatide ahel">
 <!ENTITY ssl-observatory.warning.okay "Sain aru">
-<!ENTITY ssl-observatory.warning.text "EFF's SSL Observatory has issued a warning about the HTTPS certificiate(s) for this site:">
-<!ENTITY ssl-observatory.warning.defense "If you are logged in to this site, it may be advisable to change your password once you have a safe connection. (These warnings can be disabled in the &quot;SSL Observatory&quot; tab of the HTTPS Everywhere preferences dialog.)">
+<!ENTITY ssl-observatory.warning.text "EFFi SSL Observatoorium on välja andnud hoiatuse selle veebilehekülje HTTPS sertifikaatide kohta: ">
+<!ENTITY ssl-observatory.warning.defense "Kui sa oled sisse logitud sellesse veebilehekülge, on soovitav vahetada salasõna, siis kui olete saavutanud turvalise ühenduse. (Need hoiatused on võimalik keelata &quot;SSL observatoorium&quot; vahelehel HTTPS Igalpool eelistuste dialoogis.)">
 
 <!ENTITY ssl-observatory.prefs.self_signed
 "Saada ja kontrolli enda allkirjastatud sertifikaate">

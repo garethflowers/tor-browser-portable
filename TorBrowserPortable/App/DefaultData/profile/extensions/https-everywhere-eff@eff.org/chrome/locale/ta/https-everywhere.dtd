@@ -17,7 +17,7 @@
 <!ENTITY https-everywhere.menu.globalDisable "எல்லா இடங்களிலும் HTTPS முடக்கு">
 <!ENTITY https-everywhere.menu.blockHttpRequests "அனைத்து HTTP கோரிக்கைகள் தடு">
 <!ENTITY https-everywhere.menu.showCounter "காட்டு கருமபீடம்">
-<!ENTITY https-everywhere.menu.viewAllRules "View All Rules">
+<!ENTITY https-everywhere.menu.viewAllRules "அனைத்து விதிகள் காண்கவும்">
 
 <!ENTITY https-everywhere.prefs.title "HTTPS எல்லா இடங்களிலும் விருப்பங்கள்">
 <!ENTITY https-everywhere.prefs.enable_all "அனைத்தும் செயலாக்கு">

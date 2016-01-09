@@ -3,9 +3,7 @@
 <!ENTITY ssl-observatory.popup.later "Vprašaj me kasneje">
 <!ENTITY ssl-observatory.popup.no "Ne">
 
-<!ENTITY ssl-observatory.popup.text "HTTPS Povsod lahko zazna napade
-na vaš brskalnik tako, da pošlje certifikate ki jih prejmete v
-Observatorij. Želite to vključiti?">
+<!ENTITY ssl-observatory.popup.text "HTTPS Everywhere lahko zazna napade proti vašemu brskalniku z pošiljanjem certifikatov, ki jih prejmete v opazovalnico. Želite to vključiti?">
 
 <!--<!ENTITY ssl-observatory.popup.text 
 "EFF's SSL Observatory can detect attacks against HTTPS websites by collecting
@@ -13,18 +11,17 @@ and auditing the certificates being presented to your browser. Would you like
 to turn it on?">-->
 
 <!ENTITY ssl-observatory.popup.title 
-"Ali naj HTTPS Everywhere uporablja SSL Observatorij?">
+"Ali naj HTTPS Everywhere uporablja SSL opazovalnico?">
 
 <!ENTITY ssl-observatory.popup.yes "Da">
 
 <!-- Observatory preferences dialog -->
 
 <!ENTITY ssl-observatory.prefs.adv_priv_opts1
-"To omogočanje je varno dokler ne uporabite zelo
-vsiljivo poslovno omrežje:">
+"Varno je da to vključite, dokler ne uporabljate zelo vsivljivega poslovnega omrežja.">
 
 <!ENTITY ssl-observatory.prefs.adv_priv_opts2
-"Varno dokler ne uporabite poslovno omrežje s tajnimi imeni intranet strežnikov:">
+"Varno, dokler ne uporabite poslovno omrežje s tajnimi imeni intranet strežnikov:">
 
 <!ENTITY ssl-observatory.prefs.alt_roots 
 "Predloži in preveri certifikate nestandardnih overoviteljev">
@@ -50,7 +47,7 @@ vsiljivo poslovno omrežje:">
 <!ENTITY ssl-observatory.prefs.show_cert_warning_tooltip
 "To preverjanje bo predložilo certifikate pred Seznam Preklicanih Certifikatov. Na žalost ne moremo zagotoviti, da bomo označili vsak razveljavljen certifikat, če pa vidite opozorilo obstaja velika verjetnost, da je nekaj narobe.">
 
-<!ENTITY ssl-observatory.prefs.done "Narejeno">
+<!ENTITY ssl-observatory.prefs.done "Opravljeno">
 
 <!ENTITY ssl-observatory.prefs.explanation 
 "HTTPS Povsod uporablja EFF's SSL Observatorij. To naredi dvoje: (1)

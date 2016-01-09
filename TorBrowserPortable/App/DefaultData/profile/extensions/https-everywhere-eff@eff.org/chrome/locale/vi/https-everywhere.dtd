@@ -3,7 +3,7 @@
 <!ENTITY https-everywhere.about.ext_description "Mã hóa trang web! Tự động sử dụng bảo mật HTTPS ở nhiều trang web.">
 <!ENTITY https-everywhere.about.version "Phiên bản">
 <!ENTITY https-everywhere.about.created_by "Tạo ra bởi">
-<!ENTITY https-everywhere.about.librarians "Ruleset Librarians">
+<!ENTITY https-everywhere.about.librarians "Thư viện tập quy tắc">
 <!ENTITY https-everywhere.about.thanks "Nhờ có">
 <!ENTITY https-everywhere.about.contribute  "Nếu như bạn thích HTTPS Everywhere, có thể bạn cũng thích">
 <!ENTITY https-everywhere.about.donate_tor "Đóng góp cho Tor">
@@ -12,12 +12,12 @@
 <!ENTITY https-everywhere.about.donate_eff "Đóng góp cho EFF">
 
 <!ENTITY https-everywhere.menu.about "Thông tin về HTTPS Everywhere">
-<!ENTITY https-everywhere.menu.observatory "SSL Observatory Preferences">
+<!ENTITY https-everywhere.menu.observatory "Tuỳ chọn quan sát SSL">
 <!ENTITY https-everywhere.menu.globalEnable "Kích hoạt HTTPS Everywhere">
 <!ENTITY https-everywhere.menu.globalDisable "Ngừng HTTPS Everywhere">
-<!ENTITY https-everywhere.menu.blockHttpRequests "Block all HTTP requests">
-<!ENTITY https-everywhere.menu.showCounter "Show Counter">
-<!ENTITY https-everywhere.menu.viewAllRules "View All Rules">
+<!ENTITY https-everywhere.menu.blockHttpRequests "Chặn tất cả yêu cầu HTTP">
+<!ENTITY https-everywhere.menu.showCounter "Hiện bộ đếm">
+<!ENTITY https-everywhere.menu.viewAllRules "Xem tất cả quy tắc">
 
 <!ENTITY https-everywhere.prefs.title "Cài đặt HTTPS Everywhere">
 <!ENTITY https-everywhere.prefs.enable_all "Kích hoạt tất">
@@ -26,9 +26,9 @@
 <!ENTITY https-everywhere.prefs.search "Tìm kiếm">
 <!ENTITY https-everywhere.prefs.site "Trang web">
 <!ENTITY https-everywhere.prefs.notes "Ghi chép">
-<!ENTITY https-everywhere.prefs.list_caption "Which HTTPS redirection rules should apply?">
+<!ENTITY https-everywhere.prefs.list_caption "Quy tắc chuyển hướng HTTPS nào phải được áp dụng?">
 <!ENTITY https-everywhere.prefs.enabled "Kích hoạt">
-<!ENTITY https-everywhere.prefs.ruleset_howto "You can learn how to write your own rulesets (to add support for other web sites)">
+<!ENTITY https-everywhere.prefs.ruleset_howto "Bạn có thể tìm hiểu về cách tự viết tập quy tắc (để thêm hỗ trợ cho những website khác)">
 <!ENTITY https-everywhere.prefs.here_link "Tại đây">
 <!ENTITY https-everywhere.prefs.toggle "Bật tắt">
 <!ENTITY https-everywhere.prefs.reset_default "Khôi phục mặc định">
@@ -45,6 +45,6 @@
 <!ENTITY https-everywhere.popup.keep "Giữ phiên bản phát triển">
 <!ENTITY https-everywhere.popup.revert "Tải về phiên bản ổn định mới nhất">
 
-<!ENTITY https-everywhere.ruleset-tests.status_title "HTTPS Everywhere Ruleset Tests">
+<!ENTITY https-everywhere.ruleset-tests.status_title "Kiểm tra tập quy tắc HTTPS Everywhere">
 <!ENTITY https-everywhere.ruleset-tests.status_cancel_button "Hủy bỏ">
 <!ENTITY https-everywhere.ruleset-tests.status_start_button "Bắt đầu">

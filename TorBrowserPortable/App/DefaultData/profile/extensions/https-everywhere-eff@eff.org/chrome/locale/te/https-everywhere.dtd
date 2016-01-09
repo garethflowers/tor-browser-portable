@@ -13,8 +13,8 @@
 
 <!ENTITY https-everywhere.menu.about "About HTTPS Everywhere">
 <!ENTITY https-everywhere.menu.observatory "SSL Observatory Preferences">
-<!ENTITY https-everywhere.menu.globalEnable "Enable HTTPS Everywhere">
-<!ENTITY https-everywhere.menu.globalDisable "Disable HTTPS Everywhere">
+<!ENTITY https-everywhere.menu.globalEnable "ప్రతీచోటా HTTPS చేతనించు">
+<!ENTITY https-everywhere.menu.globalDisable "ప్రతీచోటా HTTPS అచేతనించు">
 <!ENTITY https-everywhere.menu.blockHttpRequests "Block all HTTP requests">
 <!ENTITY https-everywhere.menu.showCounter "Show Counter">
 <!ENTITY https-everywhere.menu.viewAllRules "View All Rules">

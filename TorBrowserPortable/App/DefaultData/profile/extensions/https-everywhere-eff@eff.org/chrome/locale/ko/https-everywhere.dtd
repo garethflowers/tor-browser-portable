@@ -16,9 +16,9 @@
 <!ENTITY https-everywhere.menu.observatory "SSL 관측 환경 설정">
 <!ENTITY https-everywhere.menu.globalEnable "모든곳에서 HTTPS 사용">
 <!ENTITY https-everywhere.menu.globalDisable "모든곳에서 HTTPS 사용 안 함">
-<!ENTITY https-everywhere.menu.blockHttpRequests "Block all HTTP requests">
+<!ENTITY https-everywhere.menu.blockHttpRequests "모든 HTTP 송수신 차단">
 <!ENTITY https-everywhere.menu.showCounter "카운터 보기">
-<!ENTITY https-everywhere.menu.viewAllRules "View All Rules">
+<!ENTITY https-everywhere.menu.viewAllRules "모든 규칙 표시">
 
 <!ENTITY https-everywhere.prefs.title "HTTPS 모든곳 사용 환경 설정">
 <!ENTITY https-everywhere.prefs.enable_all "모두 사용">
