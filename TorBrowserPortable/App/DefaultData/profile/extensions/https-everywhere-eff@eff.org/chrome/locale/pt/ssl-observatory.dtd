@@ -3,7 +3,9 @@
 <!ENTITY ssl-observatory.popup.later "Perguntar Mais Tarde">
 <!ENTITY ssl-observatory.popup.no "Não">
 
-<!ENTITY ssl-observatory.popup.text "HTTPS Everywhere pode detetar ataques contra o seu navegador, enviando os certificados que recebe para o Observatório. Ativar isto?">
+<!ENTITY ssl-observatory.popup.text "HTTPS Everywhere pode detetar ataques
+contra o seu navegador, ao enviar os certificados que recebe para o
+Observatório. Ativar isto?">
 
 <!--<!ENTITY ssl-observatory.popup.text 
 "EFF's SSL Observatory can detect attacks against HTTPS websites by collecting
@@ -11,7 +13,7 @@ and auditing the certificates being presented to your browser. Would you like
 to turn it on?">-->
 
 <!ENTITY ssl-observatory.popup.title 
-"HTTPS Everywhere deverá usar o Observatório SSL?">
+"HTTPS Everywhere deverá utilizar o Observatório SSL?">
 
 <!ENTITY ssl-observatory.popup.yes "Sim">
 
@@ -22,13 +24,13 @@ to turn it on?">-->
  rede empresarial muito intrusiva:">
 
 <!ENTITY ssl-observatory.prefs.adv_priv_opts2
-"Apropriado, a menos que use uma rede empresarial, com servidores de intranet cujos nomes sejam confidenciais:">
+"Seguro, a menos que utilize uma rede empresarial com nomes de servidor de intranet secretos:">
 
 <!ENTITY ssl-observatory.prefs.alt_roots 
 "Submeter e verificar os certificados assinados por raizes não padrões CAs">
 
 <!ENTITY ssl-observatory.prefs.alt_roots_tooltip 
-"É apropriado (e uma boa ideia) ativar esta opção, a menos que use uma rede corporativa que vigia sua navegação por meio de um proxy TLS e uma Autoridade Certificadora Raiz privada.  Se for ativada em tal rede, esta opção poderá divulgar detalhes dos domínios https:// específicos que se acessaram através daquele proxy, por causa dos certificados distintivos assim criados.  Por isso, esta opção é desativada por padrão.">
+"É seguro (e uma boa ideia) ativar esta opção, a menos que utilize uma rede de empresa intrusiva ou o programa de antivírus Kaspersky que monitoriza a sua navegação com um proxy TLS e uma Autoridade Certificadora de raiz privada.  Se for ativada em tal rede, esta opção poderá divulgar os detalhes dos domínios https:// que tenham sido visitados através deste proxy, por causa dos certificados únicos que este poderia criar. Por isso, nós deixámos esta opção desativada por predefinição.">
 
 <!ENTITY ssl-observatory.prefs.anonymous "Verificar os certificados utilizando o Tor para anonimato">
 <!ENTITY ssl-observatory.prefs.anonymous_unavailable 
@@ -48,7 +50,7 @@ to turn it on?">-->
 <!ENTITY ssl-observatory.prefs.show_cert_warning_tooltip
 "Este irá verificar certificados submetidos contra conhecidas Listas de Revogação de Certificados. Infelizmente não podemos garantir que iremos marcar cada certificado revogado, mas se efectivamente vir um alerta existe uma boa chance de que algo está errado.">
 
-<!ENTITY ssl-observatory.prefs.done "Completo">
+<!ENTITY ssl-observatory.prefs.done "Concluído">
 
 <!ENTITY ssl-observatory.prefs.explanation 
 "HTTPS Em Qualquer Lugar pode utilizar o Observatório SSL EFF's. Acontecem duas coisas: (1)
@@ -63,10 +65,10 @@ Mouseover the options for further details:">-->
 
 <!ENTITY ssl-observatory.prefs.explanation2
 
-"Por exemplo, ao visitar https://www.something.com, o certificado
-recebido pelo Observatório vai indicar que alguém visitou
-https://www.something.com, mas não quem visitou o sítio ou que página foi especificamente
-visualizada. Passe com o rato em cima das opções para mais pormenores:">
+"Por exemplo, quando visita https://www.something.com, o certificado
+recebido pelo Observatório irá indicar que alguém visitou
+https://www.something.com, mas não quem visitou o sítio ou que página especifica
+foi visualizada. Passe o rato por cima das opções para mais detalhes:">
 
 <!ENTITY ssl-observatory.prefs.hide "Ocultar as opções avançadas">
 

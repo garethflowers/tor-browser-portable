@@ -17,7 +17,7 @@
 <!ENTITY https-everywhere.menu.globalDisable "Wyłącz HTTPS Everywhere">
 <!ENTITY https-everywhere.menu.blockHttpRequests "Blokuj wszystkie próby połączenia HTTP">
 <!ENTITY https-everywhere.menu.showCounter "Pokaż Licznik">
-<!ENTITY https-everywhere.menu.viewAllRules "View All Rules">
+<!ENTITY https-everywhere.menu.viewAllRules "Wyświetl wszystkie zasady">
 
 <!ENTITY https-everywhere.prefs.title "Ustawienia HTTPS Everywhere">
 <!ENTITY https-everywhere.prefs.enable_all "Włącz wszystko">

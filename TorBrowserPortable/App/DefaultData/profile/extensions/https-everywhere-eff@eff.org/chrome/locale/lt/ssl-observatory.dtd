@@ -93,7 +93,7 @@ bet ne tai, kas aplankė svetainę, ar kokį konkrečiai puslapį jie
 <!ENTITY ssl-observatory.warning.showcert "Rodyti sertifikatų grandinę">
 <!ENTITY ssl-observatory.warning.okay "Suprantu">
 <!ENTITY ssl-observatory.warning.text "EFF SSL Observatorija įspėja apie šių svetainių HTTPS sertifikatus:">
-<!ENTITY ssl-observatory.warning.defense "If you are logged in to this site, it may be advisable to change your password once you have a safe connection. (These warnings can be disabled in the &quot;SSL Observatory&quot; tab of the HTTPS Everywhere preferences dialog.)">
+<!ENTITY ssl-observatory.warning.defense "Jeigu esate prisijungę prie šios svetainės, gali būti patariama, kai turėsite saugų ryšį, pasikeisti savo slaptažodį. (Šie įspėjimai gali būti išjungti &quot;SSL Observatorijos&quot; kortelėje, HTTPS Everywhere nuostatų dialoge.)">
 
 <!ENTITY ssl-observatory.prefs.self_signed
 "Teikti ir tikrinti savo paties pasirašytus sertifikatus">

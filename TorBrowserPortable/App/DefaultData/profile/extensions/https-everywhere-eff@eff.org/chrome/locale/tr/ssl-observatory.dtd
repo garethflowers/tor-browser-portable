@@ -3,9 +3,9 @@
 <!ENTITY ssl-observatory.popup.later "Daha Sonra Sor">
 <!ENTITY ssl-observatory.popup.no "Hayır">
 
-<!ENTITY ssl-observatory.popup.text "HTTPS Everywhere tarayıcınıza
-karşı yapılacak saldırıları, güvenlik sertifikalarını Gözlem altına alarak algılayabilir.
-Bu özelliği etkinleştirmek ister misiniz?">
+<!ENTITY ssl-observatory.popup.text "HTTPS Everywhere tarayıcınıza karşı
+yapılacak saldırıları gönderip aldığınız sertifikaları gözlemleyerek
+algılayabilir.  Bu özellik etkinleştirilsin mi?">
 
 <!--<!ENTITY ssl-observatory.popup.text 
 "EFF's SSL Observatory can detect attacks against HTTPS websites by collecting
@@ -30,25 +30,25 @@ bu seçeneği etkinleştirmek güvenlidir.">
 "Standart dışı kök otorite tarafından imzalanmış sertifikaları gönder ve denetle">
 
 <!ENTITY ssl-observatory.prefs.alt_roots_tooltip 
-"TLS vekil sunucu ya da özel bir kök Sertifika Otoritesi ile İnternet gezintilerini gözlemleyebilen Kaspersky antivirüs yazılımı ya da sıkı güvenlikli bir kurumsal ağ kullanmıyorsanız bu özelliği etkinleştirmek güvenlidir (ve akıllıca). Sıkı güvenlikli bir ağ kullanıyorsanız, bu seçenek eşsiz sertifikalar oluşturduğundan, vekil sunucu üzerinden hangi https:// adreslerine eriştiğiniz kanıtlanır. Bu nedenle bu seçenek varsayılan olarak devre dışıdır.">
+"TLS vekil sunucu ya da özel bir kök Sertifika Otoritesi ile Internet gezintilerini gözlemleyebilen Kaspersky antivirüs yazılımı ya da sıkı güvenlikli bir kurumsal ağ kullanmıyorsanız bu özelliği etkinleştirmek güvenlidir (ve akıllıca). Sıkı güvenlikli bir ağ kullanıyorsanız, bu seçenek eşsiz sertifikalar oluşturduğundan, vekil sunucu üzerinden hangi https:// adreslerine eriştiğiniz kanıtlanır. Bu nedenle bu seçenek varsayılan olarak kapalıdır.">
 
-<!ENTITY ssl-observatory.prefs.anonymous "Gizlilik için Tor kullanırken sertifikalar denetlensin">
+<!ENTITY ssl-observatory.prefs.anonymous "Gizlilik için Tor kullanılırken sertifikalar denetlensin">
 <!ENTITY ssl-observatory.prefs.anonymous_unavailable 
-"Gizlilik için Tor kullanırken sertifikalar denetlensin (Tor gereklidir)">
+"Gizlilik için Tor kullanılırken sertifikalar denetlensin (Tor gereklidir)">
 <!ENTITY ssl-observatory.prefs.anonymous_tooltip 
-"Bu özellik için Tor yazılımı yüklenmiş ve çalışıyor olmalıdır">
+"Bu özellik için Tor yüklenmiş ve çalışıyor olmalıdır">
 
 <!ENTITY ssl-observatory.prefs.asn 
 "Yeni bir sertifika görüldüğünde, Gözlemciye hangi ISS üzerinden bağlandığım bildirilsin">
 
 <!ENTITY ssl-observatory.prefs.asn_tooltip
-"Bu ağın &quot;Özerk Sistemi Numarası&quot; alınarak gönderilecek. Böylece HTTPS karşıtı saldırıların yerel olarak belirlenerek, İran ve Suriye gibi saldırıların sıklıkla görüldüğü yerlerin gözlenmesine yardımcı olacaktır.">
+"Bu ağın &quot;Özerk Sistem numarası&quot; alınarak gönderilecek. Böylece HTTPS karşıtı saldırıların yerel olarak belirlenerek, İran ve Suriye gibi saldırıların sıklıkla görüldüğü yerlerin gözlenmesine yardımcı olacaktır.">
 
 <!ENTITY ssl-observatory.prefs.show_cert_warning
-"Gözlemci, tarayıcı tarafından yakalanamayan geçersiz bir sertifika algıladığında uyarı görüntülensin">
+"Gözlemci tarayıcı tarafından yakalanamayan geçersiz bir sertifika algıladığında uyarı görüntülesin">
 
 <!ENTITY ssl-observatory.prefs.show_cert_warning_tooltip
-"Bu özellik, gönderilen sertifikaları bilinen Sertifika İptal Listeleri ile denetler. Malesef iptal edilmiş her sertifikayı işaretlemiş olduğumuzu söyleyemeyiz. Ancak bir uyarı görüyorsanız, bir şeyler yanlış demektir.">
+"Bu özellik, gönderilen sertifikaları bilinen Sertifika İptal Listeleri ile denetler. Maalesef iptal edilmiş her sertifikayı işaretlemiş olduğumuzu söyleyemeyiz. Ancak bir uyarı görüyorsanız, birşeyler yanlış demektir.">
 
 <!ENTITY ssl-observatory.prefs.done "Tamamlandı">
 
@@ -85,13 +85,13 @@ Ayrıntılı bilgiler için fareyi seçeneklerin üzerinde dolaştırın:">
 
 <!ENTITY ssl-observatory.prefs.show "Gelişmiş ayarları görüntüle">
 
-<!ENTITY ssl-observatory.prefs.title "SSL Gözlemci Ayarları">
+<!ENTITY ssl-observatory.prefs.title "SSL Gözlemcisi Ayarları">
 
-<!ENTITY ssl-observatory.prefs.use "Gözlemci kullanılsın">
-<!ENTITY ssl-observatory.warning.title " EFF SSL Gözlemcisinden UYARI">
+<!ENTITY ssl-observatory.prefs.use "Gözlemci kullanılsın mı?">
+<!ENTITY ssl-observatory.warning.title "EFF SSL GÖZLEMCİSİNDEN UYARI">
 <!ENTITY ssl-observatory.warning.showcert "Sertifika zincirini görüntüle">
 <!ENTITY ssl-observatory.warning.okay "Anladım">
-<!ENTITY ssl-observatory.warning.text "EFF SSL Gözlemcisi bu sitenin HTTPS serfikası(ları) ile ilgili bir uyarı veriyor:">
+<!ENTITY ssl-observatory.warning.text "EFF SSL Gözlemcisi bu sitenin HTTPS sertifikası(ları) ile ilgili bir uyarı veriyor:">
 <!ENTITY ssl-observatory.warning.defense "Bu sitede oturum açtıysanız, güvenli bir bağlantı kurduktan sonra parolanızı değiştirmeniz önerilebilir (Bu uyarılar HTTPS Everywhere ayarları bölümündeki &quot;SSL Gözlemcisi&quot; sekmesinden devre dışı bırakılabilir).">
 
 <!ENTITY ssl-observatory.prefs.self_signed

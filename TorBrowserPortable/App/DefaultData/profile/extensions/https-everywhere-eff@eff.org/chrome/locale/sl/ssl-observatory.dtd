@@ -48,7 +48,7 @@ vsiljivo poslovno omrežje:">
 "Pokaži opozorilo ko Observatorij zazna preklicane certifikate, ki jih vaš brskalnik ni našel.">
 
 <!ENTITY ssl-observatory.prefs.show_cert_warning_tooltip
-"This will check submitted certificates against known Certificate Revocation Lists. Unfortunately we cannot guarantee that we will flag every revoked certificate, but if you do see a warning there's a good chance something is wrong.">
+"To bo preverilo predložene certifikate s seznamom preklicanih potrdil. Žal vam ne moremo zagotoviti, da bomo označili vsako preklicano potrdilo, če pa vidite opozorilo je možno, da je nekaj narobe.">
 
 <!ENTITY ssl-observatory.prefs.done "Končano">
 

@@ -27,14 +27,14 @@
 <!ENTITY https-everywhere.prefs.site "Webseite">
 <!ENTITY https-everywhere.prefs.notes "Notizen">
 <!ENTITY https-everywhere.prefs.list_caption "Welche HTTPS-Weiterleitungsregeln sollen gelten?">
-<!ENTITY https-everywhere.prefs.enabled "Gestartet">
+<!ENTITY https-everywhere.prefs.enabled "Aktiviert">
 <!ENTITY https-everywhere.prefs.ruleset_howto "Sie können lernen, wie Sie Ihren eigenen Regelsatz schreiben (Regeln für andere Webseiten hinzufügen)">
 <!ENTITY https-everywhere.prefs.here_link "hier">
 <!ENTITY https-everywhere.prefs.toggle "Umschalten">
 <!ENTITY https-everywhere.prefs.reset_default "Auf Standardeinstellung zurücksetzen">
 <!ENTITY https-everywhere.prefs.view_xml_source "XML-Quelltext ansehen">
 
-<!ENTITY https-everywhere.source.downloading "Herunterladevorgang">
+<!ENTITY https-everywhere.source.downloading "Lade herunter">
 <!ENTITY https-everywhere.source.filename "Dateiname">
 <!ENTITY https-everywhere.source.unable_to_download "Quelle konnte nicht heruntergeladen werden.">
 
@@ -42,7 +42,7 @@
 <!ENTITY https-everywhere.popup.paragraph1 "Huch. Sie haben die stabile Version von HTTPS Everywhere benutzt, aber wir haben Sie möglicherweise in unserer letzten Aktualisierung auf eine Entwicklerversion aktualisiert.">
 <!ENTITY https-everywhere.popup.paragraph2 "Möchten Sie zurück zur stabilen Version?">
 <!ENTITY https-everywhere.popup.paragraph3 "Wir würden uns freuen, wenn Sie weiterhin die Entwicklerversion benutzen würden, um uns zu helfen, HTTPS Everywhere zu verbessern! Es könnte sein, dass Sie hier und da einige Fehler finden, welche Sie an https-everywhere@eff.org melden können. Entschuldigen Sie die Unannehmlichkeit und danke, dass Sie HTTPS Everywhere benutzen.">
-<!ENTITY https-everywhere.popup.keep "Entwicklerversion beibehalten">
+<!ENTITY https-everywhere.popup.keep "Bei der Entwicklerversion bleiben">
 <!ENTITY https-everywhere.popup.revert "Die letzte stabile Version herunterladen">
 
 <!ENTITY https-everywhere.ruleset-tests.status_title "HTTPS-Everywhere-Regelsatztests">

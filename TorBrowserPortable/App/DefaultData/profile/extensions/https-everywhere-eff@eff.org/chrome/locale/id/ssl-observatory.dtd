@@ -21,10 +21,10 @@ to turn it on?">-->
 
 <!ENTITY ssl-observatory.prefs.adv_priv_opts1
 "Aman untuk memfungsikan ini, kecuali Anda menggunakan
-jaringan korporat yang sangat ketat:">
+jaringan perusahaan yang sangat ketat:">
 
 <!ENTITY ssl-observatory.prefs.adv_priv_opts2
-"Aman, kecuali Anda menggunakan jaringan korporat dengan nama server intranet rahasia:">
+"Aman, kecuali Anda menggunakan jaringan perusahaan dengan nama server intranet rahasia:">
 
 <!ENTITY ssl-observatory.prefs.alt_roots 
 "Kirim dan periksa sertifikat yang ditanda tangani oleh root CA non-standar">

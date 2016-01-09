@@ -1,7 +1,7 @@
 <!-- Observatory popup window -->
 <!ENTITY ssl-observatory.popup.details "Details and Privacy Information">
 <!ENTITY ssl-observatory.popup.later "Ask Me Later">
-<!ENTITY ssl-observatory.popup.no "No">
+<!ENTITY ssl-observatory.popup.no "కాదు ">
 
 <!ENTITY ssl-observatory.popup.text "HTTPS Everywhere can detect attacks
 against your browser by sending the certificates you receive to the

@@ -13,42 +13,42 @@ and auditing the certificates being presented to your browser. Would you like
 to turn it on?">-->
 
 <!ENTITY ssl-observatory.popup.title 
-"Should HTTPS Everywhere use the SSL Observatory?">
+"HTTPS Everywhere có nên dùng SSL Observatory?">
 
 <!ENTITY ssl-observatory.popup.yes "Có">
 
 <!-- Observatory preferences dialog -->
 
 <!ENTITY ssl-observatory.prefs.adv_priv_opts1
-"It is safe to enable this, unless you use a very
-intrusive corporate network:">
+"Việc kích hoạt điều này là an toàn, trừ khi bạn dùng một
+mạng công ty dễ bị xâm nhập:">
 
 <!ENTITY ssl-observatory.prefs.adv_priv_opts2
-"Safe, unless you use a corporate network with secret intranet server names:">
+"An toàn, trừ khi bạn dùng một mạng công ty với những tên máy chủ intranet bí mật:">
 
 <!ENTITY ssl-observatory.prefs.alt_roots 
-"Submit and check certificates signed by non-standard root CAs">
+"Gửi và kiểm tra chứng thực được ký bởi CA gốc không chuẩn">
 
 <!ENTITY ssl-observatory.prefs.alt_roots_tooltip 
 "Thật an toàn (và là ý tưởng hay) để cho phép tùy chọn này, trừ khi bạn dùng mạng lưới xâm nhập công ty hoặc phần mềm diệt virus Kasspersky để theo dõi trình duyệt của bạn với TLS Proxy và root Certificate Authority riêng. Nếu bạn cho phép những mạng lưới như vậy, tùy chọn này có thể công khai bằng chứng của những tên miền https:// đang được bạn ghé thăm thông qua proxy đó, bởi vì những chứng chỉ duy nhất mà nó sẽ sinh ra. Vì vậy chúng ta nên để mặc định cho nó tắt.">
 
-<!ENTITY ssl-observatory.prefs.anonymous "Check certificates using Tor for anonymity">
+<!ENTITY ssl-observatory.prefs.anonymous "Kiểm tra chứng thực bằng Tor để ẩn danh">
 <!ENTITY ssl-observatory.prefs.anonymous_unavailable 
-"Check certificates using Tor for anonymity (requires Tor)">
+"Kiểm tra chứng thực bằng Tor để ẩn danh (yêu cầu Tor)">
 <!ENTITY ssl-observatory.prefs.anonymous_tooltip 
-"This option requires Tor to be installed and running">
+"Tuỳ chọn này yêu cầu Tor phải được cài đặt và đang chạy">
 
 <!ENTITY ssl-observatory.prefs.asn 
-"When you see a new certificate, tell the Observatory which ISP you are connected to">
+"Khi bạn thấy chứng thực mới, cho Observatory biết ISP nào bạn đang kết nối vào">
 
 <!ENTITY ssl-observatory.prefs.asn_tooltip
-"This will fetch and send the &quot;Autonomous System number&quot; of your network.  This will help us locate attacks against HTTPS, and to determine whether we have observations from networks in places like Iran and Syria where attacks are comparatively common.">
+"Việc này sẽ tải và gửi &quot;Số Hệ thống Tự quản&quot; mạng của bạn. Việc này sẽ giúp chúng tôi định vị tấn công chống lại HTTPS và xác định xem chúng tôi có quan sát từ mạng trong những nơi như Iran và Syria hay không, đây là những nơi có tấn công tương đối phổ biến.">
 
 <!ENTITY ssl-observatory.prefs.show_cert_warning
-"Show a warning when the Observatory detects a revoked certificate not caught by your browser">
+"Hiện cảnh báo khi Observatory phát hiện một chứng thực bị thu hồi không được trình duyệt phát hiện">
 
 <!ENTITY ssl-observatory.prefs.show_cert_warning_tooltip
-"This will check submitted certificates against known Certificate Revocation Lists. Unfortunately we cannot guarantee that we will flag every revoked certificate, but if you do see a warning there's a good chance something is wrong.">
+"Việc này sẽ kiểm tra chứng thực đã gửi trước những Danh sách Thu hồi Chứng thực được xác định. Thật không may, chúng tôi không thể đảm bảo rằng chúng tôi sẽ đánh dấu mỗi chứng thực bị thu hồi, nhưng nếu bạn thấy cảnh báo thì có thể có gì đó không đúng.">
 
 <!ENTITY ssl-observatory.prefs.done "Hoàn thành">
 
@@ -70,27 +70,27 @@ received by the Observatory will indicate that somebody visited
 www.something.com, but not who visited the site, or what specific page they
 looked at.  Mouseover the options for further details:">
 
-<!ENTITY ssl-observatory.prefs.hide "Hide advanced options">
+<!ENTITY ssl-observatory.prefs.hide "Ẩn tuỳ chọn nâng cao">
 
 <!ENTITY ssl-observatory.prefs.nonanon 
-"Check certificates even if Tor is not available">
+"Kiểm tra chứng thực kể cả khi Tor không khả dụng">
 
 <!ENTITY ssl-observatory.prefs.nonanon_tooltip
-"We will still try to keep the data anonymous, but this option is less secure">
+"Chúng tôi vẫn sẽ cố giữ dữ liệu ẩn danh, nhưng tuỳ chọn này ít an toàn hơn">
 
 <!ENTITY ssl-observatory.prefs.priv_dns 
-"Submit and check certificates for non-public DNS names">
+"Gửi và kiểm tra chứng thực cho những tên DNS không công khai">
 
 <!ENTITY ssl-observatory.prefs.priv_dns_tooltip
 "Unless this option is checked, the Observatory will not record certificates for names that it cannot resolve through the DNS system.">
 
 <!ENTITY ssl-observatory.prefs.show "Show advanced options">
 
-<!ENTITY ssl-observatory.prefs.title "SSL Observatory Preferences">
+<!ENTITY ssl-observatory.prefs.title "Tuỳ chọn quan sát SSL">
 
 <!ENTITY ssl-observatory.prefs.use "Use the Observatory?">
 <!ENTITY ssl-observatory.warning.title "WARNING from EFF's SSL Observatory">
-<!ENTITY ssl-observatory.warning.showcert "Show the certificate chain">
+<!ENTITY ssl-observatory.warning.showcert "Hiện chuỗi chứng thực">
 <!ENTITY ssl-observatory.warning.okay "Tôi hiểu">
 <!ENTITY ssl-observatory.warning.text "EFF's SSL Observatory has issued a warning about the HTTPS certificiate(s) for this site:">
 <!ENTITY ssl-observatory.warning.defense "If you are logged in to this site, it may be advisable to change your password once you have a safe connection. (These warnings can be disabled in the &quot;SSL Observatory&quot; tab of the HTTPS Everywhere preferences dialog.)">

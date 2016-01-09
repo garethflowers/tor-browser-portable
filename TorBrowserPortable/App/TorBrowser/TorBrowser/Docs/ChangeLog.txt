@@ -1,6 +1,12 @@
+Tor Browser 5.0.7 -- January 7 2016
+ * All Platforms
+   * Update NoScript to 2.9
+   * Update HTTPS Everywhere to 5.1.2
+   * Bug 17931: Tor Browser crashes in LogMessageToConsole()
+   * Bug 17875: Discourage editing of torrc-defaults
+
 Tor Browser 5.0.6 -- December 18 2015
  * All Platforms
-   * Bug 16441: Suppress "Reset Tor Browser" prompt
    * Bug 17877: Tor Browser 5.0.5 is using the wrong Mozilla build tag
 
 Tor Browser 5.0.5 -- December 15 2015
