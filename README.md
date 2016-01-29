@@ -4,7 +4,7 @@ Tor Browser Portable is the Tor Browser packaged with a PortableApps.com launche
 
 ## System Requirements
 
-* Microsoft Windows 8, 7, Vista or XP.
+* Microsoft Windows 10, 8, 7, Vista or XP.
 * [PortableApps.com Platform](http://portableapps.com/download) (Optional)
 
 ## Credits
