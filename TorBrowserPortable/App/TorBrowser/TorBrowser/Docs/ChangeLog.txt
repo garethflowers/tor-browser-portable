@@ -1,3 +1,67 @@
+Tor Browser 5.5 -- January 26 2016
+ * All Platforms
+   * Update Firefox to 38.6.0esr
+   * Update libevent to 2.0.22-stable
+   * Update NoScript to 2.9.0.2
+   * Update Torbutton to 1.9.4.3
+     * Bug 16990: Show circuit display for connections using multi-party channels
+     * Bug 18019: Avoid empty prompt shown after non-en-US update
+     * Bug 18004: Remove Tor fundraising donation banner
+     * Bug 16940: After update, load local change notes
+     * Bug 17108: Polish about:tor appearance
+     * Bug 17568: Clean up tor-control-port.js
+     * Bug 16620: Move window.name handling into a Firefox patch
+     * Bug 17351: Code cleanup
+     * Translation updates
+   * Update Tor Launcher to 0.2.7.8
+     * Bug 18113: Randomly permutate available default bridges of chosen type
+   * Bug 13313: Bundle a fixed set of fonts to defend against fingerprinting
+   * Bug 10140: Add new Tor Browser locale (Japanese)
+   * Bug 17428: Remove Flashproxy
+   * Bug 13512: Load a static tab with change notes after an update
+   * Bug 9659: Avoid loop due to optimistic data SOCKS code (fix of #3875)
+   * Bug 15564: Isolate SharedWorkers by first-party domain
+   * Bug 16940: After update, load local change notes
+   * Bug 17759: Apply whitelist to local fonts in @font-face (fix of #13313)
+   * Bug 17009: Shift and Alt keys leak physical keyboard layout (fix of #15646)
+   * Bug 17369: Disable RC4 fallback
+   * Bug 17442: Remove custom updater certificate pinning
+   * Bug 16620: Move window.name handling into a Firefox patch
+   * Bug 17220: Support math symbols in font whitelist
+   * Bug 10599+17305: Include updater and build patches needed for hardened builds
+   * Bug 18115+18102+18071+18091: Update/add new obfs4 bridge
+   * Bug 18072: Change recommended pluggable transport type to obfs4
+   * Bug 18008: Create a new MAR Signing key and bake it into Tor Browser
+   * Bug 16322: Use onion address for DuckDuckGo search engine
+   * Bug 17917: Changelog after update is empty if JS is disabled
+ * Windows
+   * Bug 17250: Add localized font names to font whitelist
+   * Bug 16707: Allow more system fonts to get used on Windows
+   * Bug 13819: Ship expert bundles with console enabled
+   * Bug 17250: Fix broken Japanese fonts
+   * Bug 17870: Add intermediate certificate for authenticode signing
+ * OS X
+   * Bug 17122: Rename Japanese OS X bundle
+   * Bug 16707: Allow more system fonts to get used on OS X
+   * Bug 17661: Whitelist font .Helvetica Neue DeskInterface
+ * Linux
+   * Bug 16672: Don't use font whitelisting for Linux users
+
+Tor Browser 5.5a6-hardened -- January 7 2016
+ * All Platforms
+   * Update NoScript to 2.9
+   * Update HTTPS Everywhere to 5.1.2
+   * Bug 17931: Tor Browser crashes in LogMessageToConsole()
+   * Bug 17875: Discourage editing of torrc-defaults
+
+Tor Browser 5.5a6 -- January 7 2016
+ * All Platforms
+   * Update NoScript to 2.9
+   * Update HTTPS Everywhere to 5.1.2
+   * Bug 17931: Tor Browser crashes in LogMessageToConsole()
+   * Bug 17875: Discourage editing of torrc-defaults
+   * Bug 17870: Add intermediate certificate for authenticode signing
+
 Tor Browser 5.0.7 -- January 7 2016
  * All Platforms
    * Update NoScript to 2.9
@@ -5,9 +69,75 @@ Tor Browser 5.0.7 -- January 7 2016
    * Bug 17931: Tor Browser crashes in LogMessageToConsole()
    * Bug 17875: Discourage editing of torrc-defaults
 
-Tor Browser 5.0.6 -- December 18 2015
+Tor Browser 5.5a5-hardened -- December 18 2015
  * All Platforms
-   * Bug 17877: Tor Browser 5.0.5 is using the wrong Mozilla build tag
+   * Update Firefox to 38.5.0esr
+   * Update Tor to 0.2.7.6
+   * Update OpenSSL to 1.0.1q
+   * Update NoScript to 2.7
+   * Update Torbutton to 1.9.4.2
+     * Bug 16940: After update, load local change notes
+     * Bug 16990: Avoid matching '250 ' to the end of node name
+     * Bug 17565: Tor fundraising campaign donation banner
+     * Bug 17770: Fix alignments on donation banner
+     * Bug 17792: Include donation banner in some non en-US Tor Browsers
+     * Bug 17108: Polish about:tor appearance
+     * Bug 17568: Clean up tor-control-port.js
+     * Translation updates
+   * Update Tor Launcher to 0.2.8.1
+     * Bug 17344: Enumerate available language packs for language prompt
+     * Code clean-up
+     * Translation updates
+   * Bug 12516: Compile Tor Browser with -fwrapv
+   * Bug 9659: Avoid loop due to optimistic data SOCKS code (fix of #3875)
+   * Bug 15564: Isolate SharedWorkers by first-party domain
+   * Bug 16940: After update, load local change notes
+   * Bug 17759: Apply whitelist to local fonts in @font-face (fix of #13313)
+   * Bug 17747: Add ndnop3 as new default obfs4 bridge
+   * Bug 17009: Shift and Alt keys leak physical keyboard layout (fix of #15646)
+   * Bug 17369: Disable RC4 fallback
+   * Bug 17442: Remove custom updater certificate pinning
+   * Bug 16863: Avoid confusing error when loop.enabled is false
+   * Bug 17502: Add a preference for hiding "Open with" on download dialog
+   * Bug 17446: Prevent canvas extraction by third parties (fixup of #6253)
+   * Bug 16441: Suppress "Reset Tor Browser" prompt
+
+Tor Browser 5.5a5 -- December 18 2015
+ * All Platforms
+   * Update Firefox to 38.5.0esr
+   * Update Tor to 0.2.7.6
+   * Update OpenSSL to 1.0.1q
+   * Update NoScript to 2.7
+   * Update Torbutton to 1.9.4.2
+     * Bug 16940: After update, load local change notes
+     * Bug 16990: Avoid matching '250 ' to the end of node name
+     * Bug 17565: Tor fundraising campaign donation banner
+     * Bug 17770: Fix alignments on donation banner
+     * Bug 17792: Include donation banner in some non en-US Tor Browsers
+     * Bug 17108: Polish about:tor appearance
+     * Bug 17568: Clean up tor-control-port.js
+     * Translation updates
+   * Bug 9659: Avoid loop due to optimistic data SOCKS code (fix of #3875)
+   * Bug 15564: Isolate SharedWorkers by first-party domain
+   * Bug 16940: After update, load local change notes
+   * Bug 17759: Apply whitelist to local fonts in @font-face (fix of #13313)
+   * Bug 17747: Add ndnop3 as new default obfs4 bridge
+   * Bug 17009: Shift and Alt keys leak physical keyboard layout (fix of #15646)
+   * Bug 17369: Disable RC4 fallback
+   * Bug 17442: Remove custom updater certificate pinning
+   * Bug 16863: Avoid confusing error when loop.enabled is false
+   * Bug 17502: Add a preference for hiding "Open with" on download dialog
+   * Bug 17446: Prevent canvas extraction by third parties (fixup of #6253)
+   * Bug 16441: Suppress "Reset Tor Browser" prompt
+ * Windows
+   * Bug 13819: Ship expert bundles with console enabled
+   * Bug 17250: Fix broken Japanese fonts
+ * OS X
+   * Bug 17661: Whitelist font .Helvetica Neue DeskInterface
+
+Tor Browser 5.0.6 -- December 18 2015
+  * All Platforms
+    * Bug 17877: Tor Browser 5.0.5 is using the wrong Mozilla build tag
 
 Tor Browser 5.0.5 -- December 15 2015
  * All Platforms
@@ -30,6 +160,33 @@ Tor Browser 5.0.5 -- December 15 2015
    * Bug 16441: Suppress "Reset Tor Browser" prompt
    * Bug 17747: Add ndnop3 as new default obfs4 bridge
 
+Tor Browser 5.5a4 -- November 3 2015
+ * All Platforms
+   * Update Firefox to 38.4.0esr
+   * Update Tor to 0.2.7.4-rc
+   * Update NoScript to 2.6.9.39
+   * Update HTTPS-Everywhere to 5.1.1
+   * Update Torbutton to 1.9.4.1
+     * Bug 9623: Spoof Referer when leaving a .onion domain
+     * Bug 16620: Remove old window.name handling code
+     * Bug 17164: Don't show text-select cursor on circuit display
+     * Bug 17351: Remove unused code
+     * Translation updates
+   * Bug 17207: Hide MIME types and plugins from websites
+   * Bug 16909+17383: Adapt to HTTPS-Everywhere build changes
+   * Bug 16620: Move window.name handling into a Firefox patch
+   * Bug 17220: Support math symbols in font whitelist
+   * Bug 10599+17305: Include updater and build patches needed for hardened builds
+   * Bug 17318: Remove dead ScrambleSuit bridge
+   * Bug 17428: Remove default Flashproxy bridges
+   * Bug 17473: Update meek-amazon fingerprint
+ * Windows
+   * Bug 17250: Add localized font names to font whitelist
+ * OS X
+   * Bug 17122: Rename Japanese OS X bundle
+ * Linux
+   * Bug 17329: Ensure that non-ASCII characters can be typed (fixup of #5926)
+
 Tor Browser 5.0.4 -- November 3 2015
  * All Platforms
    * Update Firefox to 38.4.0esr
@@ -50,6 +207,44 @@ Tor Browser 5.0.4 -- November 3 2015
    * Bug 16906: Don't depend on Windows crypto DLLs
  * Linux:
    * Bug 17329: Ensure that non-ASCII characters can be typed (fixup of #5926)
+
+Tor Browser 5.5a3 -- September 22 2015
+ * All Platforms
+   * Update Firefox to 38.3.0esr
+   * Update libevent to 2.0.22-stable
+   * Update Torbutton to 1.9.4
+     * Bug 16937: Don't translate the homepage/spellchecker dictionary string
+     * Bug 16735: about:tor should accommodate different fonts/font sizes
+     * Bug 16887: Update intl.accept_languages value
+     * Bug 15493: Update circuit display on new circuit info
+     * Bug 16797: brandShorterName is missing from brand.properties
+     * Translation updates
+   * Bug 10140: Add new Tor Browser locale (Japanese)
+   * Bug 17102: Don't crash while opening a second Tor Browser
+   * Bug 16983: Isolate favicon requests caused by the tab list dropdown
+   * Bug 13512: Load a static tab with change notes after an update
+   * Bug 16937: Remove the en-US dictionary from non en-US Tor Browser bundles
+   * Bug 7446: Tor Browser should not "fix up" .onion domains (or any domains)
+   * Bug 16837: Disable Firefox Hotfix updates
+   * Bug 16855: Allow blobs to be downloaded on first-party pages (fixes mega.nz)
+   * Bug 16781: Allow saving pdf files in built-in pdf viewer
+   * Bug 16842: Restore Media tab on Page information dialog
+   * Bug 16727: Disable about:healthreport page
+   * Bug 16783: Normalize NoScript default whitelist
+   * Bug 16775: Fix preferences dialog with security slider set to "High"
+   * Bug 13579: Update download progress bar automatically
+   * Bug 15646: Reduce keyboard layout fingerprinting in KeyboardEvent
+   * Bug 17046: Event.timeStamp should not reveal startup time
+   * Bug 16872: Fix warnings when opening about:downloads
+   * Bug 17097: Fix intermittent crashes when using the print dialog
+ * Windows
+  * Bug 16906: Fix Mingw-w64 compilation/Don't depend on Windows crypto DLLs
+  * Bug 16707: Allow more system fonts to get used on Windows
+ * OS X
+  * Bug 16910: Update copyright year in OS X bundles
+  * Bug 16707: Allow more system fonts to get used on OS X
+ * Linux
+  * Bug 16672: Don't use font whitelisting for Linux users
 
 Tor Browser 5.0.3 -- September 22 2015
  * All Platforms
@@ -77,6 +272,14 @@ Tor Browser 5.0.3 -- September 22 2015
   * Bug 16906: Fix Mingw-w64 compilation breakage
  * OS X
   * Bug 16910: Update copyright year in OS X bundles
+
+Tor Browser 5.5a2 -- August 28 2015
+ * All Platforms:
+   * Update Firefox to 38.2.1esr
+   * Update NoScript to 2.6.9.36
+   * Bug 16771: Fix crash on some websites due to blob URIs
+ * Linux
+   * Bug 16860: Avoid duplicate desktop icons on Gnome and Unity
 
 Tor Browser 5.0.2 -- August 27 2015
  * All Platforms
@@ -107,6 +310,7 @@ Tor Browser 5.5a1 -- August 11 2015
    * Bug 16572: Verify cache isolation for XMLHttpRequests in Web Workers
    * Bug 16311: Fix navigation timing in ESR 38
    * Bug 15646: Prevent keyboard layout fingerprinting in KeyboardEvent (fixup)
+   * Bug 16672: Change font whitelists and configs for rendering issues (partial)
 
 Tor Browser 5.0 -- August 11 2015
  * All Platforms
@@ -847,7 +1051,7 @@ Tor Browser Bundle 3.6-beta-2 -- Apr 8 2014
  * All Platforms
    * Update OpenSSL to 1.0.1g
    * Bug 9010: Add Turkish language support.
-   * Bug 9387 testing: Disable JS JIT, type inference, asmjs, and ion. 
+   * Bug 9387 testing: Disable JS JIT, type inference, asmjs, and ion.
    * Update fte transport to 0.2.12
    * Update NoScript to 2.6.8.19
    * Update Torbutton to 1.6.8.1
@@ -906,7 +1110,7 @@ Tor Browser Bundle 3.6-beta-1 -- Mar 17 2014
      * Bug 5018: Don't launch Pluggable Transport helpers if not in use
      * Bug 9229: Eliminate 60 second stall during bootstrap with some PTs
      * Bug 11069: Detect and report Pluggable Transport bootstrap failures
-     * Bug 11156: Prevent spurious warning about missing pluggable transports 
+     * Bug 11156: Prevent spurious warning about missing pluggable transports
    * Bug 10237: Disable the media cache to prevent disk leaks for videos
    * Bug 10703: Force the default charset to avoid locale fingerprinting
    * Bug 10104: Update gitian to fix LXC build issues (for non-KVM/VT builders)
@@ -997,7 +1201,7 @@ Tor Browser Bundle 3.0rc1 -- Nov 21 2013
  * All Platforms:
    * Update Firefox to 17.0.11esr
    * Update Tor to 0.2.4.18-rc
-   * Remove unsupported PDF.JS addon from the bundle 
+   * Remove unsupported PDF.JS addon from the bundle
    * Bug #7277: TBB's Tor client will now omit its timestamp in the TLS handshake.
    * Update Torbutton to 1.6.4.1
      * Bug #10002: Make the TBB3.0 blog tag our update download URL for now
@@ -1018,7 +1222,7 @@ Tor Browser Bundle 3.0beta1 -- Oct 31 2013
    * Bug #9173: Patch Tor Browser to auto-detect profile directory if
                 launched without the wrapper script.
    * Bug #9012: Hide Tor Browser infobar for missing plugins.
-   * Bug #8364: Change the default entry page for the addons tab to the 
+   * Bug #8364: Change the default entry page for the addons tab to the
                 installed addons page.
    * Bug #9867: Make flash objects really be click-to-play if flash is enabled.
    * Bug #8292: Make getFirstPartyURI log+handle errors internally to simplify
@@ -1048,7 +1252,7 @@ Tor Browser Bundle 3.0alpha4 -- Sep 24 2013
    * Update Tor to 0.2.4.17-rc
    * Update NoScript to 2.6.7.1
    * Update Tor-Launcher to 0.2.2-alpha
-     * Bug #9675: Provide feedback mechanism for clock-skew and other early 
+     * Bug #9675: Provide feedback mechanism for clock-skew and other early
                   startup issues
      * Bug #9445: Allow user to enter bridges with or without 'bridge' keyword
      * Bug #9593: Use UTF16 for Tor process launch to handle unicode paths.
