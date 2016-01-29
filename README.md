@@ -2,6 +2,13 @@
 
 Tor Browser Portable is the Tor Browser packaged with a PortableApps.com launcher as a portable app, so you can browse in privacy on your iPod, USB flash drive, portable hard drive, etc. It has all the same features as Tor Browser, plus, it leaves no personal information behind on the machine you run it on, so you can take it with you wherever you go.
 
+## Features
+* Runs a full copy of the TorBrowser.
+* Completely portable - runs off a USB, SD or hard drive.
+* Does not require administrator privileges, works for any user.
+* No need for any external software - simply download extract and run!
+* Packaged in PortableApps.com format for easy integration.
+
 ## System Requirements
 
 * Microsoft Windows 10, 8, 7, Vista or XP.
