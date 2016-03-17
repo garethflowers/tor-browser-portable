@@ -1,3 +1,19 @@
+Tor Browser 5.5.2 -- February 12 2016
+ * All Platforms
+   * Update Firefox to 38.6.1esr
+   * Update NoScript to 2.9.0.3
+
+Tor Browser 5.5.1 -- February 4 2016
+ * All Platforms
+   * Bug 18168: Don't clear an iframe's window.name (fix of #16620)
+   * Bug 18137: Add two new obfs4 default bridges
+ * Windows
+   * Bug 18169: Whitelist zh-CN UI font
+ * OS X
+   * Bug 18172: Add Emoji support
+ * Linux
+   * Bug 18172: Add Emoji support
+
 Tor Browser 5.5 -- January 26 2016
  * All Platforms
    * Update Firefox to 38.6.0esr
@@ -24,12 +40,13 @@ Tor Browser 5.5 -- January 26 2016
    * Bug 16940: After update, load local change notes
    * Bug 17759: Apply whitelist to local fonts in @font-face (fix of #13313)
    * Bug 17009: Shift and Alt keys leak physical keyboard layout (fix of #15646)
+   * Bug 17790: Map the proper SHIFT characters to the digit keys (fix of #15646)
    * Bug 17369: Disable RC4 fallback
    * Bug 17442: Remove custom updater certificate pinning
    * Bug 16620: Move window.name handling into a Firefox patch
    * Bug 17220: Support math symbols in font whitelist
    * Bug 10599+17305: Include updater and build patches needed for hardened builds
-   * Bug 18115+18102+18071+18091: Update/add new obfs4 bridge
+   * Bug 18115+18104+18071+18091: Update/add new obfs4 bridge
    * Bug 18072: Change recommended pluggable transport type to obfs4
    * Bug 18008: Create a new MAR Signing key and bake it into Tor Browser
    * Bug 16322: Use onion address for DuckDuckGo search engine
