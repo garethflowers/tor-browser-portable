@@ -1,0 +1,98 @@
+<!-- Observatory popup window -->
+<!ENTITY ssl-observatory.popup.details "Detailer an Dateschutzinformatiounen">
+<!ENTITY ssl-observatory.popup.later "Fro mech méi spéit">
+<!ENTITY ssl-observatory.popup.no "Nee">
+
+<!ENTITY ssl-observatory.popup.text "HTTPS Everywhere kann Attacken
+géint äre Browser detektéieren andeems en Zertifikater déi dir kritt
+un EFF SSL-Observatory schéckt. Des Funktioun aktivéieren?">
+
+<!--<!ENTITY ssl-observatory.popup.text 
+"EFF's SSL Observatory can detect attacks against HTTPS websites by collecting
+and auditing the certificates being presented to your browser. Would you like
+to turn it on?">-->
+
+<!ENTITY ssl-observatory.popup.title 
+"Soll HTTPS Everywhere d'EFF SSL-Observatory benotzen?">
+
+<!ENTITY ssl-observatory.popup.yes "Jo">
+
+<!-- Observatory preferences dialog -->
+
+<!ENTITY ssl-observatory.prefs.adv_priv_opts1
+"Et ass sécher dat ze aktivéieren, ausser dir sidd an engem
+ganz restriktivem Firmenetzwierk:">
+
+<!ENTITY ssl-observatory.prefs.adv_priv_opts2
+"Sécher, ausser dir benotzt e Firmenetzwierk mat geheimen Intranet Servernimm:">
+
+<!ENTITY ssl-observatory.prefs.alt_roots 
+"Schéckt an iwwerpréift Zertifikater wei eng vu Net-Standard root CAs kommen">
+
+<!ENTITY ssl-observatory.prefs.alt_roots_tooltip 
+"Et ass sécher (an eng gutt Iddi) fir des Optioun ze aktivéieren, ausser dir benotzt een restriktiv Firmenetzwierk oder Kaspersky Antivirus Software wat är Internetaktivitéiten mat engem TLS Proxy beobacht an eng eegen privat root Zertifikat-Autoritéit stellt. Wann des Funktioun an esou engem Netzwierk aktivéiert ass, kann et Spuren hannerloossen wei eng https:// Domains dir besicht hutt. Dowéinst loossen mer déi Funktioun standardméisseg aus.">
+
+<!ENTITY ssl-observatory.prefs.anonymous "Zertifikater via Tor iwwerpréiwen fir Anonym ze bleiwen">
+<!ENTITY ssl-observatory.prefs.anonymous_unavailable 
+"Zertifikater via Tor iwwerpréiwen fir Anonym ze bleiwen (Dofir muss Tor installéiert sinn)">
+<!ENTITY ssl-observatory.prefs.anonymous_tooltip 
+"Des Optioun verlaangt, datt Tor installéiert ass an och leeft">
+
+<!ENTITY ssl-observatory.prefs.asn 
+"Wann dir e neit Zertifikat gesitt, dann sot dem SSL-Observatory wei een ISP dir benotzt">
+
+<!ENTITY ssl-observatory.prefs.asn_tooltip
+"Des Funktioun benotzt är &quot;Autonom Systemzuel&quot; vun ärem Netzwierk. Dëst hëlleft eis Attacke géint HTTPS ze lokaliséieren an erauszefannen op déi Attacken aus Länner wéi dem Iran oder Syrien kommen, wou sou Attacke méi dacks virkommen.">
+
+<!ENTITY ssl-observatory.prefs.show_cert_warning
+"Weist eng Warnung un, wann d'SSL-Observatory een revidéiert Zertifikat fënnt wat vun ärem Browser nach net fonnt ginn ass.">
+
+<!ENTITY ssl-observatory.prefs.show_cert_warning_tooltip
+"Des Funktioun wärt Zertifikater bei kënnegen Blacklists iwwerpréiwen. Leider kënne mer net garantéieren, datt mir all revidéiert Zertifikat markéieren kennen mä wann dir eng Warnung gesitt, ass dat een gutt Indiz, datt eppes net stemmt.">
+
+<!ENTITY ssl-observatory.prefs.done "Fäerdeg">
+
+<!ENTITY ssl-observatory.prefs.explanation 
+"HTTPS Everywhere kann d'EFF SSL-Observatory benotzen. Dat erméiglecht eis zwou Saachen: (1)
+D'Erkennung vun &quot;Man-in-the-Middle&quot; Attacken an domadder eng verbessert Internetsécherheet, doduerch, datt Kopië vun den HTTPS Zertifikater un d'SSL-Observatory geschéckt ginn; an zweetens (2) kenne mer iech bei onséchere Verbindungen an Attacken op äre Browser warnen.">
+
+<!--<!ENTITY ssl-observatory.prefs.explanation2
+"When you visit https://www.example.com, the Observatory will learn that
+somebody visited that site, but will not know who or what page they looked at.
+Mouseover the options for further details:">-->
+
+<!ENTITY ssl-observatory.prefs.explanation2
+
+"Beispillsweis, wann dir  https://www.something.com besicht, da wärt dat vum
+SSL-Observatory empfaangent Zertifikat feststellen, datt een www.something.com besicht huet mä net wien oder wei eng genee Säit en gekuckt huet. Fir méi Informatiounen,
+einfach mat der Maus iwwert des Optioun fueren:">
+
+<!ENTITY ssl-observatory.prefs.hide "Erweidert Optiounen ausblennen">
+
+<!ENTITY ssl-observatory.prefs.nonanon 
+"Zertifikater iwwerpréiwen och wann Tor net zur Verfügung steet">
+
+<!ENTITY ssl-observatory.prefs.nonanon_tooltip
+"Mir wäerte probéieren är Daten anonym ze halen, mä des Optioun ass net sou sécher">
+
+<!ENTITY ssl-observatory.prefs.priv_dns 
+"Schéckt an iwwerpréift Zertifikater fir net-ëffentlech DNS Nimm">
+
+<!ENTITY ssl-observatory.prefs.priv_dns_tooltip
+"Wann des Optioun net aktivéiert ass, da wäert SSL-Observatory keng Zertifikater fir Domainnimm ophuelen, déi et net iwwert den DNS System kann opléisen.">
+
+<!ENTITY ssl-observatory.prefs.show "Erweidert Optiounen uweisen">
+
+<!ENTITY ssl-observatory.prefs.title "SSL Observatory Astellungen">
+
+<!ENTITY ssl-observatory.prefs.use "SSL-Observatory benotzen?">
+<!ENTITY ssl-observatory.warning.title "Eng WARNUNG vum EFF SSL-Observatory">
+<!ENTITY ssl-observatory.warning.showcert "Zertifikatsketten uweisen">
+<!ENTITY ssl-observatory.warning.okay "Ech verstinn">
+<!ENTITY ssl-observatory.warning.text "D'EFF SSL Observatory huet eng Warnung fir dës(t) HTTPS Zertifikat(er) erausginn:">
+<!ENTITY ssl-observatory.warning.defense "If you are logged in to this site, it may be advisable to change your password once you have a safe connection. (These warnings can be disabled in the &quot;SSL Observatory&quot; tab of the HTTPS Everywhere preferences dialog.)">
+
+<!ENTITY ssl-observatory.prefs.self_signed
+"Een selwer-signéiert Zertifikat schécken an iwwerpréiwen">
+<!ENTITY ssl-observatory.prefs.self_signed_tooltip
+"Dëst ass recommandéiert. Kryptographesch Problemer si bei selwer-signéiert Zertifikater an integréierte Geräter, heefeg">

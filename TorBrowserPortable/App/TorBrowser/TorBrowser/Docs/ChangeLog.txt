@@ -1,3 +1,20 @@
+Tor Browser 5.5.3 -- March 8 2016
+ * All Platforms
+   * Update Firefox to 38.7.0esr
+   * Update OpenSSL to 1.0.1s
+   * Update NoScript to 2.9.0.4
+   * Update HTTPS Everywhere to 5.1.4
+   * Update Torbutton to 1.9.4.4
+     * Bug 16990: Don't mishandle multiline commands
+     * Bug 18144: about:tor update arrow position is wrong
+     * Bug 16725: Allow resizing with non-default homepage
+     * Translation updates
+   * Bug 18030: Isolate favicon requests on Page Info dialog
+   * Bug 18297: Use separate Noto JP,KR,SC,TC fonts
+   * Bug 18170: Make sure the homepage is shown after an update as well
+ * Windows
+   * Bug 18292: Disable staged updates on Windows
+
 Tor Browser 5.5.2 -- February 12 2016
  * All Platforms
    * Update Firefox to 38.6.1esr

@@ -1,0 +1,101 @@
+<!-- Observatory popup window -->
+<!ENTITY ssl-observatory.popup.details "Detail dan Informasi Privasi">
+<!ENTITY ssl-observatory.popup.later "Tanya Saya Nanti">
+<!ENTITY ssl-observatory.popup.no "Tidak">
+
+<!ENTITY ssl-observatory.popup.text "HTTPS Everywhere dapat mendeteksi serangan
+terhadap peramban Anda dengan mengirimkan sertifikat yang Anda terima ke
+Observatori. Aktifkan?">
+
+<!--<!ENTITY ssl-observatory.popup.text 
+"EFF's SSL Observatory can detect attacks against HTTPS websites by collecting
+and auditing the certificates being presented to your browser. Would you like
+to turn it on?">-->
+
+<!ENTITY ssl-observatory.popup.title 
+"Apakah HTTPS Everywhere harus menggunakan SSL Observatory?">
+
+<!ENTITY ssl-observatory.popup.yes "Ya">
+
+<!-- Observatory preferences dialog -->
+
+<!ENTITY ssl-observatory.prefs.adv_priv_opts1
+"Aman untuk memfungsikan ini, kecuali Anda menggunakan
+jaringan perusahaan yang sangat ketat:">
+
+<!ENTITY ssl-observatory.prefs.adv_priv_opts2
+"Aman, kecuali Anda menggunakan jaringan perusahaan dengan nama server intranet rahasia:">
+
+<!ENTITY ssl-observatory.prefs.alt_roots 
+"Kirim dan periksa sertifikat yang ditanda tangani oleh root CA non-standar">
+
+<!ENTITY ssl-observatory.prefs.alt_roots_tooltip 
+"Aman (dan ide yang bagus) untuk mengaktifkan opsi ini, kecuali jika Anda menggunakan jaringan perusahaan yang ketat atau perangkat lunak antivirus Kaspersky yang memonitor penjelajahan Anda dengan proksi TLS dan Otoritas Sertifikasi root privat. Jika diaktifkan pada jaringan tersebut, opsi ini mungkin memberi bukti bahwa domain https:// sedang dikunjungi melalui proksi tersebut, karena sertifikat unik yang dihasilkannya. Jadi kami matikan secara bawaan.">
+
+<!ENTITY ssl-observatory.prefs.anonymous "Periksa sertifikat menggunakan Tor untuk anonimitas">
+<!ENTITY ssl-observatory.prefs.anonymous_unavailable 
+"Periksa sertifikat menggunakan Tor untuk anonimitas (membutuhkan Tor)">
+<!ENTITY ssl-observatory.prefs.anonymous_tooltip 
+"Opsi ini membutuhkan Tor terpasang dan berjalan">
+
+<!ENTITY ssl-observatory.prefs.asn 
+"Saat Anda menemukan sertifikat baru, beri tahu Observatory nama ISP Anda yang terhubung">
+
+<!ENTITY ssl-observatory.prefs.asn_tooltip
+"Ini akan mengambil dan mengirim &quot;Autonomous System number&quot; jaringan Anda. Ini akan membantu kami menemukan serangan terhadap HTTPS, dan untuk menentukan apakah kami memiliki observasi dari jaringan di tempat seperti Iran dan Suriah, tempat serangan sering terjadi.">
+
+<!ENTITY ssl-observatory.prefs.show_cert_warning
+"Tampilkan peringatan ketika Observatory mendeteksi sertifikat yang dicabut yang tidak tertangkap oleh peramban Anda">
+
+<!ENTITY ssl-observatory.prefs.show_cert_warning_tooltip
+"Ini akan membandingkan sertifikat yang dikirimkan dengan Certificate Revocation Lists yang ada. Sayangnya, kami tidak bisa memastikan apakah kami akan menandai setiap sertifikat yang dicabut, tetapi jika Anda benar-benar melihat peringatan, ada kemungkinan sesuatu yang salah terjadi.">
+
+<!ENTITY ssl-observatory.prefs.done "Selesai">
+
+<!ENTITY ssl-observatory.prefs.explanation 
+"HTTPS Everywhere bisa menggunakan SSL Observatory EFF. Ini melakukan dua hal: (1)
+mengirim salinan sertifikat HTTPS ke Observatory, untuk membantu kami
+mendeteksi serangan 'orang ditengah' dan meningkatkan keamanan Web; dan (2)
+mengizinkan kami memperingatkan Anda tentang sambungan tidak aman atau serangan ke peramban Anda.">
+
+<!--<!ENTITY ssl-observatory.prefs.explanation2
+"When you visit https://www.example.com, the Observatory will learn that
+somebody visited that site, but will not know who or what page they looked at.
+Mouseover the options for further details:">-->
+
+<!ENTITY ssl-observatory.prefs.explanation2
+
+"Sebagai contoh, ketika Anda mengunjungi https://www.something.com, sertifikat
+diterima oleh Observatory akan mengindikasikan bahwa seseorang mengunjungi
+www.something.com, tetapi bukan siapa yang mengunjungi situs tersebut, atau
+halaman yang mereka lihat. Gerakkan tetikus ke atas opsi untuk perincian lebih lanjut:">
+
+<!ENTITY ssl-observatory.prefs.hide "Sembunyikan opsi lanjutan">
+
+<!ENTITY ssl-observatory.prefs.nonanon 
+"Periksa sertifikat bahkan jika Tor tidak tersedia">
+
+<!ENTITY ssl-observatory.prefs.nonanon_tooltip
+"Kami akan terus mencoba untuk menjaga data tetap anonim, tetapi opsi ini kurang aman">
+
+<!ENTITY ssl-observatory.prefs.priv_dns 
+"Kirim dan periksa sertifikat untuk nama DNS non-publik">
+
+<!ENTITY ssl-observatory.prefs.priv_dns_tooltip
+"Kecuali jika opsi ini di centang, Observatory tidak akan merekam sertifikat untuk nama yang tidak bisa ditemukan melalui sistem DNS.">
+
+<!ENTITY ssl-observatory.prefs.show "Tampilkan opsi lanjutan">
+
+<!ENTITY ssl-observatory.prefs.title "Preferensi SSL Observatory">
+
+<!ENTITY ssl-observatory.prefs.use "Gunakan Observatory?">
+<!ENTITY ssl-observatory.warning.title "PERINGATAN dari SSL Observatory EFF">
+<!ENTITY ssl-observatory.warning.showcert "Tampilkan rantai sertifikat">
+<!ENTITY ssl-observatory.warning.okay "Saya mengerti">
+<!ENTITY ssl-observatory.warning.text "SSL Observatory EFF telah mengeluarkan peringatan mengenai sertifikat HTTPS untuk situs ini:">
+<!ENTITY ssl-observatory.warning.defense "Jika Anda masuk ke situs ini, sangat dianjurkan untuk merubah kata sandi Anda segera setelah Anda memiliki sambungan yang aman. (Peringatan ini bisa dinonfungsikan pada tab &quot;SSL Observatory&quot; di dalam jendela preferensi HTTPS Everywhere.)">
+
+<!ENTITY ssl-observatory.prefs.self_signed
+"Kirim dan periksa sertifikat yang ditanda tangani sendiri">
+<!ENTITY ssl-observatory.prefs.self_signed_tooltip
+"Ini di anjurkan; masalah kriptogafi adalah hal yang umum pada perangkat terbenam yang ditanda tangani sendiri">

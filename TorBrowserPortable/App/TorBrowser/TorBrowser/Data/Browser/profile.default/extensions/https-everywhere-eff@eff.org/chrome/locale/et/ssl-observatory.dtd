@@ -1,0 +1,101 @@
+<!-- Observatory popup window -->
+<!ENTITY ssl-observatory.popup.details "Detailid ja privaatsuse informatsioon">
+<!ENTITY ssl-observatory.popup.later "Küsi minult hiljem">
+<!ENTITY ssl-observatory.popup.no "Ei">
+
+<!ENTITY ssl-observatory.popup.text "HTTPS Everywhere suudab tuvastada brauseri vastu
+suunatud ründeid saates sertifikaadid, mida saadetakse
+SSL Observatory serverisse.  Kas lülitada see sisse?">
+
+<!--<!ENTITY ssl-observatory.popup.text 
+"EFF's SSL Observatory can detect attacks against HTTPS websites by collecting
+and auditing the certificates being presented to your browser. Would you like
+to turn it on?">-->
+
+<!ENTITY ssl-observatory.popup.title 
+"Kas HTTPS Everywhere peaks kasutama SSL Observatory teenust?">
+
+<!ENTITY ssl-observatory.popup.yes "Jah">
+
+<!-- Observatory preferences dialog -->
+
+<!ENTITY ssl-observatory.prefs.adv_priv_opts1
+"Selle lubamine on turvaline, välja arvatud siis
+kui kasutad sissetungivat korporatiivvõrku:">
+
+<!ENTITY ssl-observatory.prefs.adv_priv_opts2
+"Turvaline, välja arvatud siis, kui kasutad korporatiivvõrku salajaste sisevõrgu serverite nimedega:">
+
+<!ENTITY ssl-observatory.prefs.alt_roots 
+"Saada ja kontrolli ebaharilike juursertifitseerijate allkirjastatud sertifikaate">
+
+<!ENTITY ssl-observatory.prefs.alt_roots_tooltip 
+"Selle lubamine on turvaline (ja hea mõte), välja arvatud siis, kui sa kasutad sissetungivat korporatiivvõrku või Kaspersky antiviiruse tarkvara, mis monitoorib su veebilehtisemist TLS proksi ja privaatse juursertifitseerija abil. Kui see on lubatud sellises võrgus, siis see säte võib avaldada jälgi, milliseid https:// domeene selle proksi kaudu külastati, sest proksi loob unikaalseid sertifikaate. Seetõttu on see säte vaikimisi välja lülitatud.">
+
+<!ENTITY ssl-observatory.prefs.anonymous "Kontrolli sertifikaate anonüümsuse säilitamiseks Tor'i kaudu.">
+<!ENTITY ssl-observatory.prefs.anonymous_unavailable 
+"Sertifikaatide kontroll toimub läbi Tor võrgu, et tagada anonüümsus (nõutav Tor)">
+<!ENTITY ssl-observatory.prefs.anonymous_tooltip 
+"See säte nõuab, et Tor on paigaldatud ja töötab">
+
+<!ENTITY ssl-observatory.prefs.asn 
+"Kui te näete uut sertifikaati, öelge observatooriumile mis ISPsse te olete ühendatud">
+
+<!ENTITY ssl-observatory.prefs.asn_tooltip
+"This will fetch and send the &quot;Autonomous System number&quot; of your network.  This will help us locate attacks against HTTPS, and to determine whether we have observations from networks in places like Iran and Syria where attacks are comparatively common.">
+
+<!ENTITY ssl-observatory.prefs.show_cert_warning
+"Näita hoiatust kui observatoorium leiab tühistatud sertifikaadi, mida teie brauser ei märganud">
+
+<!ENTITY ssl-observatory.prefs.show_cert_warning_tooltip
+"This will check submitted certificates against known Certificate Revocation Lists. Unfortunately we cannot guarantee that we will flag every revoked certificate, but if you do see a warning there's a good chance something is wrong.">
+
+<!ENTITY ssl-observatory.prefs.done "Valmis">
+
+<!ENTITY ssl-observatory.prefs.explanation 
+"HTTPS Everywhere can use EFF's SSL Observatory.  This does two things: (1)
+sends copies of HTTPS certificates to the Observatory, to help us
+detect 'man in the middle' attacks and improve the Web's security; and (2)
+lets us warn you about insecure connections or attacks on your browser.">
+
+<!--<!ENTITY ssl-observatory.prefs.explanation2
+"When you visit https://www.example.com, the Observatory will learn that
+somebody visited that site, but will not know who or what page they looked at.
+Mouseover the options for further details:">-->
+
+<!ENTITY ssl-observatory.prefs.explanation2
+
+"For example, when you visit https://www.something.com, the certificate
+received by the Observatory will indicate that somebody visited
+www.something.com, but not who visited the site, or what specific page they
+looked at.  Mouseover the options for further details:">
+
+<!ENTITY ssl-observatory.prefs.hide "Peida täiendavad sätted">
+
+<!ENTITY ssl-observatory.prefs.nonanon 
+"Kontrolli sertifikaate kui Tor ei ole saadaval">
+
+<!ENTITY ssl-observatory.prefs.nonanon_tooltip
+"Me üritame hoida andmeid anonnüümsena, aga see seade on vähem turvaline">
+
+<!ENTITY ssl-observatory.prefs.priv_dns 
+"Saada ja kontrolli sertifikaate mitte-publik DNS nimedele">
+
+<!ENTITY ssl-observatory.prefs.priv_dns_tooltip
+"Väljaarvatud kui see seade on sees, observatoorium ei talleta sertifikaate nimedele, mida see ei suuda lahendada läbi DNS süsteemi.">
+
+<!ENTITY ssl-observatory.prefs.show "Kuva täiendavad sätted">
+
+<!ENTITY ssl-observatory.prefs.title "SSL Jälgija Eelistused">
+
+<!ENTITY ssl-observatory.prefs.use "Kas kasutada observatooriumit?">
+<!ENTITY ssl-observatory.warning.title "HOIATUS EFF'i SSL Observatory'st">
+<!ENTITY ssl-observatory.warning.showcert "Kuva sertifikaatide ahel">
+<!ENTITY ssl-observatory.warning.okay "Sain aru">
+<!ENTITY ssl-observatory.warning.text "EFFi SSL Observatoorium on välja andnud hoiatuse selle veebilehekülje HTTPS sertifikaatide kohta: ">
+<!ENTITY ssl-observatory.warning.defense "Kui sa oled sisse logitud sellesse veebilehekülge, on soovitav vahetada salasõna, siis kui olete saavutanud turvalise ühenduse. (Need hoiatused on võimalik keelata &quot;SSL observatoorium&quot; vahelehel HTTPS Igalpool eelistuste dialoogis.)">
+
+<!ENTITY ssl-observatory.prefs.self_signed
+"Saada ja kontrolli enda allkirjastatud sertifikaate">
+<!ENTITY ssl-observatory.prefs.self_signed_tooltip
+"See on soovitatav; krüptoprobleemid on eriti tavalised enda allkirjastatud sertifikaatidega, mis asuvad sardsüsteemides">

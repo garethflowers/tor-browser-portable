@@ -1,0 +1,95 @@
+<!-- Observatory popup window -->
+<!ENTITY ssl-observatory.popup.details "פרטים ומידע אישי">
+<!ENTITY ssl-observatory.popup.later "שאל אותי אחר כך">
+<!ENTITY ssl-observatory.popup.no "לא">
+
+<!ENTITY ssl-observatory.popup.text "&quot;HTTPS בכל מקום&quot; יכול לאתר התקפות
+נגד הדפדפן שלך ע&quot;י חיפוש אישורי אבטחה המתקבלים מאתרים בתוך
+ מאגר האישורים המקוון. להפעיל?">
+
+<!--<!ENTITY ssl-observatory.popup.text 
+"EFF's SSL Observatory can detect attacks against HTTPS websites by collecting
+and auditing the certificates being presented to your browser. Would you like
+to turn it on?">-->
+
+<!ENTITY ssl-observatory.popup.title 
+"האם ברצונך ש-&quot;HTTPS בכל מקום&quot; יסתייע במאגר האישורים המקוון?">
+
+<!ENTITY ssl-observatory.popup.yes "כן">
+
+<!-- Observatory preferences dialog -->
+
+<!ENTITY ssl-observatory.prefs.adv_priv_opts1
+"אפשרות זו בטוחה לשימוש, אלא אם כן אתה משתמש ברשת תאגידית פולשנית מאוד:">
+
+<!ENTITY ssl-observatory.prefs.adv_priv_opts2
+"אין חשש, אלא אם כן אתה משתמש ברשת תאגידית סגורה ששמות שרתים סודיים:">
+
+<!ENTITY ssl-observatory.prefs.alt_roots 
+"שלח לבדיקה כל אישור שנחתם על ידי רשות אישורים עליונה לא תקנית">
+
+<!ENTITY ssl-observatory.prefs.alt_roots_tooltip 
+"בטיחותי (ואף מומלץ) להפעיל תכונה זאת, אלא אם כן אתה גולש דרך רשת תאגידית פולשנית או משתמש בתוכנת אבטחה המנטרת את תעבורת הרשת שלך באמצעות שרת פרוקסי TLS מקומי ורשות אישורים עליונה מקומית. במקרה שכזה, תכונה זאת עלולה להביא לפרסום ראיות המזהות את כתובות ה-https שאליהן גלשת דרך שרת זה, בשל התעודה המיוחדת בה הוא עושה שימוש. לאור זאת, אנו נמנעים מהפעלת תכונה זו כברירת מחדל.">
+
+<!ENTITY ssl-observatory.prefs.anonymous "בצע את הליך אימות האישורים דרך הרשת של Tor על מנת לשמור על האנונימיות שלך.">
+<!ENTITY ssl-observatory.prefs.anonymous_unavailable 
+"בצע את הליך אימות האישורים דרך הרשת של Tor על מנת לשמור על האנונימיות שלך (מחייב שימוש ב-Tor).">
+<!ENTITY ssl-observatory.prefs.anonymous_tooltip 
+"אפשרות זאת תפעל רק במקרה ש-Tor כבר מותקן ומופעל.">
+
+<!ENTITY ssl-observatory.prefs.asn 
+"כשתראה אישור חדש, עדכן את מאגר האישורים המקוון בזהות ספק האינטרנט שלך">
+
+<!ENTITY ssl-observatory.prefs.asn_tooltip
+"זה יאחזר וישלח את &quot;מספר המערכת האוטונומי&quot; של הרשת שלך. דבר זה יעזור לנו למקם מתקפות על HTTPS ויקבע האם נקבל דיווחים מרשתות במקומות כמו איראן וסוריה שבהם מתקפות שכאלה שכיחות יחסית.">
+
+<!ENTITY ssl-observatory.prefs.show_cert_warning
+"הצג התרעה כאשר מאגר האישורים מזהה אישור שאיננו תקף מבלי שהדפדפן גילה זאת.">
+
+<!ENTITY ssl-observatory.prefs.show_cert_warning_tooltip
+"זה יבדוק את האישורים שיישלחו אל מול רשימת האישורים המבוטלים. לצערנו הרב איננו יכולים להתחייב שנאתר כל אישור שתוקפו פג, אך אם בכל זאת תוצג התרעה ישנו סיכוי סביר שמשהו השתבש.">
+
+<!ENTITY ssl-observatory.prefs.done "הושלם">
+
+<!ENTITY ssl-observatory.prefs.explanation 
+"&quot;HTTPS בכל מקום&quot; יכול להשתמש במאגר האישורים המקוון של EFF. אם תפעיל אפשרות זו היא תביא לתוצאות הבאות: 
+(1) יישלחו עותקים מאישורי HTTPS למאגר, כדי לעזור לנו ליירט התקפות &quot;אדם באמצע&quot; ולשפר את אבטחת הרשת;  ו-(2) נוכל להתריע בפניך על חיבורים לא מאובטחים ועל מתקפות על הדפדפן שלך.">
+
+<!--<!ENTITY ssl-observatory.prefs.explanation2
+"When you visit https://www.example.com, the Observatory will learn that
+somebody visited that site, but will not know who or what page they looked at.
+Mouseover the options for further details:">-->
+
+<!ENTITY ssl-observatory.prefs.explanation2
+
+"לדוגמא, כאשר אתה מבקר ב-  https://www.something.com, האישור שיתקבל אצלנו במאגר יעיד על כך שמישהו ביקר ב- www.something.com, אך ללא פרטים על זהות המבקר או על העמודים הספציפיים אליהם גלש. עבור עם סמן העכבר על האפשרויות לקבלת פרטים נוספים:">
+
+<!ENTITY ssl-observatory.prefs.hide "הסתר אפשרויות מתקדמות">
+
+<!ENTITY ssl-observatory.prefs.nonanon 
+"בדוק אישורים גם כשאינך מחובר לרשת Tor">
+
+<!ENTITY ssl-observatory.prefs.nonanon_tooltip
+"אמנם נשתדל לשמור על פרטיות הנתונים, אבל אפשרות זאת בטוחה פחות">
+
+<!ENTITY ssl-observatory.prefs.priv_dns 
+"שלח לבדיקה אישורים עבור שמות מתחם שאינם נחלת הכלל">
+
+<!ENTITY ssl-observatory.prefs.priv_dns_tooltip
+"אלא אם אפשרות זאת סומנה, המאגר לא ישמור אישורים עבור שמות מתחם שאינם מופיעים במאגרי שמות המתחם הציבוריים">
+
+<!ENTITY ssl-observatory.prefs.show "הצג אפשרויות מתקדמות">
+
+<!ENTITY ssl-observatory.prefs.title "העדפות מאגר האישורים המקוון">
+
+<!ENTITY ssl-observatory.prefs.use "האם להשתמש במאגר?">
+<!ENTITY ssl-observatory.warning.title "אזהרה ממאגר אישורי האבטחה של EFF">
+<!ENTITY ssl-observatory.warning.showcert "הצג את שרשרת האישורים">
+<!ENTITY ssl-observatory.warning.okay "הבנתי">
+<!ENTITY ssl-observatory.warning.text "מאגר אישורי האבטחה של EFF פרסם אזהרה לגבי אישורי האבטחה של אתר זה:">
+<!ENTITY ssl-observatory.warning.defense "אם הינך מחובר לאתר זה, מומלץ שתחליף את סיסמתך מתוך חיבור מאובטח. (ניתן לבטל התרעות אלה בטאב &quot;מאגר האישורים&quot; בחלונית הדו-שיח של &quot;HTTPS בכל מקום&quot;.)">
+
+<!ENTITY ssl-observatory.prefs.self_signed
+"שלח לבדיקה אישורים חתומים עצמית">
+<!ENTITY ssl-observatory.prefs.self_signed_tooltip
+"אפשרות זו מומלצת; בעיות הצפנה נפוצות במיוחד בקרב מערכות משובצות מחשב המשתמשות באישורי אבטחה חתומים עצמית">
