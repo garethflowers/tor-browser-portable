@@ -10,15 +10,15 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>{972ce4c6-7e08-4474-a285-3208198ce6fd}</em:id>
-    <em:version>38.7.0</em:version>
+    <em:version>38.7.1</em:version>
 
     <!-- Target Application this theme can install into, 
         with minimum and maximum supported versions. --> 
     <em:targetApplication>
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-        <em:minVersion>38.7.0</em:minVersion>
-        <em:maxVersion>38.7.0</em:maxVersion>
+        <em:minVersion>38.7.1</em:minVersion>
+        <em:maxVersion>38.7.1</em:maxVersion>
       </Description>
     </em:targetApplication>
 

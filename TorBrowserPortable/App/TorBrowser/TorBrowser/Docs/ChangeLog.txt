@@ -1,3 +1,10 @@
+Tor Browser 5.5.4 -- March 16 2016
+ * All Platforms
+   * Update Firefox to 38.7.1esr
+   * Update Torbutton to 1.9.4.5
+     * Bug 18557: Exempt Graphite from the Security Slider
+   * Bug 18536: Make Mosaddegh and MaBishomarim available on port 80 and 443
+
 Tor Browser 5.5.3 -- March 8 2016
  * All Platforms
    * Update Firefox to 38.7.0esr
